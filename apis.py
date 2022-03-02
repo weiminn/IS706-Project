@@ -33,15 +33,17 @@ for f in files:
         r_split = str(returned_methods).split('\\r\\n')
         _r_split = list(filter(lambda x: ';' in x, r_split))
         _r_split_ = [x.strip(' ') for x in _r_split]
+        _r_split2 = [x[:-1] for x in _r_split_]
 
         a = []
 
         path = _c.split('/')
-        # path.pop(len(path)-1)
         path = '.'.join(path) + '.'
 
-        for m in _r_split_:
+        for m in _r_split2:
             m_split = m.split(' ')
+            if 'throws' in m:
+                m_split = m_split[0: m_split.index('throws')]
             if 'abstract' not in m:
                 if '(' not in m_split[1]: #not a constructor
                     if '(' in m: # is a method
@@ -55,14 +57,10 @@ for f in files:
                         else:
                             a.append([m_split[0], path + ' '.join(m_split[1:])])
                 else:
-                    ret = m_split[1].split('(')[0]
-                    m_split.pop(0)
-                    a.append([ret, ' '.join(m_split[1:])])
+                    a.append([m_split[1].split('(')[0], ' '.join(m_split[1:])])
             
         apis[f].extend(a)
         print(cnt, "/", len(_classes) , ": Extracted ", len(a), " methods")
-        if len(a) == 0:
-            print("Nothing extracted!") #pause
 
         cnt = cnt + 1
 
