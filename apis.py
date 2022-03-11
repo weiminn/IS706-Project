@@ -1,27 +1,20 @@
 import os
 import subprocess
 import json
-import time
 import datetime
 
-from numpy import append
-from pandas import concat
+os.chdir('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\extracted')
+extracted = os.listdir()
 
-os.chdir('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\_libs')
-# try:
-#     os.remove("apis.json")
-# except:
-#     print("Files not found")
-
-
+os.chdir('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\libs')
 files = os.listdir()
 
-fcnt = 0
-filt = list(filter(lambda x: '.jar' in x and '.json' not in x, files)) #filter all none-jar and json files
-filt = list(filter(lambda x: x + '.json' not in files, filt)) #filter all already-extracted jars
+filt = list(filter(lambda x: '.jar' == x[-4:], files)) #select only jar files
+filt = list(filter(lambda x: x + '.json' not in extracted, filt)) #filter all already-extracted jars
+
 start = datetime.datetime.now()
 print("Start time:", start)
-
+fcnt = 0
 for f in filt:
 
     fcnt = fcnt + 1
@@ -79,6 +72,9 @@ for f in filt:
                                 #     a.append([' '.join(m_split[a_pos:b_pos]), path + ' '.join(m_split[b_pos:])])
                                 # else: #if angle brackets are only in return type
                                     a.append([' '.join(m_split[a_pos:b_pos]), path + ' '.join(m_split[b_pos:])])
+
+                                    #todo: handle generics before return type
+
                             else: #if the angle brackets are in parameter only
                                 m_split.pop(0)
                                 if 'static' in m and 'final' in m: #is final static
@@ -118,6 +114,9 @@ for f in filt:
         f_object.write(apis)
 
         f_object.close()
+
+    os.rename('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\libs\\' + f + '.json', 'G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\extracted\\' + f + '.json')
+
 end = datetime.datetime.now()
 print("Start time:", start)
 print("End time:", end)
