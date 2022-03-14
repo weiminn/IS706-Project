@@ -4,6 +4,24 @@ import datetime
 import csv
 from csv import writer
 import random
+import numpy
+
+try:
+    os.remove("G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\raw\\positive.csv")
+except:
+    print("File not found")
+try:
+    os.remove("G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\raw\\negative.csv")
+except:
+    print("File not found")
+try:
+    os.remove("G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\cleaned\\yes.csv")
+except:
+    print("File not found")
+try:
+    os.remove("G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\cleaned\\no.csv")
+except:
+    print("File not found")
 
 os.chdir('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project')
 with open('pairs.csv', newline='') as csvfile:
@@ -82,7 +100,7 @@ for p in filt:
     if found:
         negative_pair_to_append.pop(positive_position)
     
-    sample = random.sample(negative_pair_to_append, int(len(negative_pair_to_append)/10))
+    sample = random.sample(negative_pair_to_append, int(len(negative_pair_to_append)/2000))
 
     neg_pairs.extend(sample)
     
@@ -93,25 +111,35 @@ for p in filt:
 
     pcnt = pcnt + 1
 
-with open('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\positive.txt', 'a', newline='') as f_object: 
+pos_sample = numpy.random.choice(pos_pairs, 2000)
+
+with open('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\raw\\positive.txt', 'a', newline='') as f_object: 
         
     writer_object = writer(f_object)
         
-    for pair in pos_pairs:
+    for pair in pos_sample:
 
-        writer_object.writerow([pair]) 
+        writer_object.writerow([pair.replace('"', '')]) 
 
     f_object.close()
 
-with open('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\negative.txt', 'a', newline='') as f_object: 
+with open('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\raw\\negative.txt', 'a', newline='') as f_object: 
         
     writer_object = writer(f_object)
 
     for pair in neg_pairs:
 
-        writer_object.writerow([pair]) 
+        writer_object.writerow([pair.replace('"', '')]) 
 
     f_object.close()
+
+with open('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\raw\\positive.txt', 'r') as f, open('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\cleaned\\yes.txt', 'w') as fo:
+    for line in f:
+        fo.write(line.replace('"', '').replace("'", ""))
+
+with open('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\raw\\negative.txt', 'r') as f, open('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset\\cleaned\\no.txt', 'w') as fo:
+    for line in f:
+        fo.write(line.replace('"', '').replace("'", ""))
 
 end = datetime.datetime.now()
 print("Start time:", start)

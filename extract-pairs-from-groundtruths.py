@@ -37,7 +37,7 @@ with open('pairs.csv', 'a', newline='') as f_object:
 
             for miss in data[lib][ver]:
 
-                if data[lib][ver][miss]["n_to_n"] == '1 to 1':
+                if data[lib][ver][miss]["n_to_n"] == '1 to 1' and data[lib][ver][miss]["source"] != "External Library":
 
                     split = miss.split("__XX__")
 
