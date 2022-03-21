@@ -5,6 +5,7 @@ import csv
 from csv import writer
 import random
 import numpy
+from Levenshtein import *
 
 try:
     os.remove("G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset-cnn\\raw\\training.csv")
@@ -46,8 +47,7 @@ for p in filt:
 
     print(pcnt, '/', len(raw_pos_pairs), "Processing:", name)
     print("Searching:", p[6])
-    posPair = p[5] + "__XX__" + p[6]
-    pos_pairs.append(posPair)
+    # posPair = p[5] + "__XX__" + p[6]
     
     f = open(namepath)
     loaded = json.load(f)
@@ -92,22 +92,31 @@ for p in filt:
             if not found:
                 positive_position = positive_position + 1
             
-            can_pair = p[6] + "__XX__" +  can[1][: can[1].index('(') + 1] + ','.join(e_cargList) + ')'
+            can_pair = [p[6], can[1][: can[1].index('(') + 1] + ','.join(e_cargList) + ')']
             negative_pair_to_append.append(can_pair)
+
 
 
     #random sample of 
     if found:
         negative_pair_to_append.pop(positive_position)
-    
-    sample = random.sample(negative_pair_to_append, int(len(negative_pair_to_append)/7000))
 
-    neg_pairs.extend(sample)
     
-    f.close()
-
     if not found:
         print("Found no positive datapoint!")
+    else:
+        posPair = [p[5], p[6]]
+        pos_pairs.append('__XX__'.join(posPair))
+
+        #rank negative pairs by levenshtein distance
+        dist = []
+        for np in negative_pair_to_append:
+            dist.append([np[1], distance(np[1], posPair[1])])
+
+        sortedDist = sorted(dist, key=lambda npd: npd[1])
+
+        for i in range(max(int(len(sortedDist)/3000), 1)):
+            neg_pairs.append(posPair[0] + "__XX__" + sortedDist[i][0])
 
     pcnt = pcnt + 1
 
@@ -119,13 +128,13 @@ validation_negatives = []
 
 divide = 1/10
 
-for i in range(0, int(len(pos_pairs)*divide)):
-    validation_positives.append(pos_pairs.pop(random.randrange(0, len(pos_pairs))))
-training_positives = numpy.random.choice(pos_pairs, 600)
-
 for i in range(0, int(len(neg_pairs)*divide)):
     validation_negatives.append(neg_pairs.pop(random.randrange(0, len(neg_pairs))))
 training_negatives = neg_pairs
+
+for i in range(0, int(len(pos_pairs)*divide)):
+    validation_positives.append(pos_pairs.pop(random.randrange(0, len(pos_pairs))))
+training_positives = numpy.random.choice(pos_pairs, len(training_negatives))
 
 with open('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\\dataset-cnn\\raw\\training.csv', 'a', newline='') as f_object: 
         
