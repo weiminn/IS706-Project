@@ -1,0 +1,82 @@
+new,jackson-core,,2.13.2,,"com.fasterxml.jackson.core.JsonFactory.configure(Feature, boolean)","com.fasterxml.jackson.core.TSFBuilder.configure(Feature,boolean)",1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.createJsonGenerator(OutputStream),com.fasterxml.jackson.core.JsonFactory.createGenerator(OutputStream),1
+new,jackson-core,,2.13.2,,"com.fasterxml.jackson.core.JsonFactory.createJsonGenerator(OutputStream, JsonEncoding)","com.fasterxml.jackson.core.JsonFactory.createGenerator(OutputStream,JsonEncoding)",1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.createJsonGenerator(Writer),com.fasterxml.jackson.core.JsonFactory.createGenerator(Writer),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.createJsonParser(byte[]),com.fasterxml.jackson.core.JsonFactory.createParser(byte[]),1
+new,jackson-core,,2.13.2,,"com.fasterxml.jackson.core.JsonFactory.createJsonParser(byte[], int, int)","com.fasterxml.jackson.core.JsonFactory.createParser(byte[],int,int)",1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.createJsonParser(File),com.fasterxml.jackson.core.JsonFactory.createParser(File),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.createJsonParser(InputStream),com.fasterxml.jackson.core.JsonFactory.createParser(InputStream),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.createJsonParser(Reader),com.fasterxml.jackson.core.JsonFactory.createParser(Reader),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.disable(Feature),"com.fasterxml.jackson.core.TSFBuilder.configure(Feature,boolean)",1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.enable(Feature),"com.fasterxml.jackson.core.TSFBuilder.configure(Feature,boolean)",1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonParser.getCurrentTokenId(),com.fasterxml.jackson.core.JsonParser.currentTokenId(),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonLocation.getSourceRef(),com.fasterxml.jackson.core.JsonLocation.contentReference(),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.io.IOContext.getSourceReference(),com.fasterxml.jackson.core.io.IOContext.contentReference(),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonStreamContext.getStartLocation(Object),com.fasterxml.jackson.core.JsonStreamContext.startLocation(ContentReference),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonStreamContext.getTypeDesc(),com.fasterxml.jackson.core.JsonStreamContext.typeDesc(),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.Version.isUknownVersion(),com.fasterxml.jackson.core.Version.isUnknownVersion(),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonParser.setFeatureMask(int),"com.fasterxml.jackson.core.JsonParser.overrideStdFeatures(int,int)",1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonGenerator.setFeatureMask(int),"com.fasterxml.jackson.core.JsonGenerator.overrideStdFeatures(int,int)",1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.setInputDecorator(InputDecorator),com.fasterxml.jackson.core.TSFBuilder.inputDecorator(InputDecorator),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonFactory.setOutputDecorator(OutputDecorator),com.fasterxml.jackson.core.TSFBuilder.outputDecorator(OutputDecorator),1
+new,jackson-core,,2.13.2,,com.fasterxml.jackson.core.JsonGenerator.writeStartArray(int),"com.fasterxml.jackson.core.JsonGenerator.writeStartArray(Object,int)",1
+new,gson,,2.9.0,,com.google.gson.JsonParser.parse​(String),com.google.gson.JsonParser.parseString(String),1
+new,spring-beans,,5.3.18,,org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineRequiredStatus(AnnotationAttributes),org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineRequiredStatus(MergedAnnotation),1
+new,spring-beans,,5.3.18,,"org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(Class<?>, Map<String, Object>)","org.springframework.beans.factory.config.DependencyDescriptor.resolveNotUnique(ResolvableType, Map)",1
+new,spring-beans,,5.3.18,,"org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor.postProcessPropertyValues(PropertyValues, PropertyDescriptor[], Object, String)","org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor.postProcessProperties(PropertyValues,Object,String)",1
+new,spring-beans,,5.3.18,,org.springframework.beans.factory.support.AbstractBeanDefinitionReader.getBeanFactory(),org.springframework.beans.factory.support.AbstractBeanDefinitionReader.getRegistry(),1
+new,spring-beans,,5.3.18,,"org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(String, RootBeanDefinition)","org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(String,RootBeanDefinition,boolean)",1
+new,spring-context,,5.3.18,,org.springframework.context.support.AbstractApplicationContext.destroy(),org.springframework.context.support.AbstractApplicationContext.close(),1
+new,spring-context,,5.3.18,,org.springframework.context.support.AbstractResourceBasedMessageSource.isFallbackToSystemLocale(),org.springframework.context.support.AbstractResourceBasedMessageSource.getDefaultLocale(),1
+new,spring-core,,5.3.18,,org.springframework.core.codec.StringDecoder.allMimeTypes(boolean),org.springframework.core.codec.StringDecoder.allMimeTypes(),1
+new,spring-core,,5.3.18,,org.springframework.core.codec.StringDecoder.textPlainOnly(boolean),org.springframework.core.codec.StringDecoder.textPlainOnly(),1
+new,spring-core,,5.3.18,,org.springframework.core.env.Environment.acceptsProfiles(String...),org.springframework.core.env.Environment.acceptsProfiles(Profiles),1
+new,spring-core,,5.3.18,,org.springframework.core.MethodParameter.decreaseNestingLevel(),org.springframework.core.MethodParameter.nested(Integer),1
+new,spring-core,,5.3.18,,"org.springframework.core.MethodParameter.forMethodOrConstructor(Object, int)","org.springframework.core.MethodParameter.forExecutable(java.lang.reflect.Executable,int)",1
+new,spring-core,,5.3.18,,org.springframework.core.MethodParameter.increaseNestingLevel(),org.springframework.core.MethodParameter.nested(Integer),1
+new,spring-core,,5.3.18,,org.springframework.core.MethodParameter.setTypeIndexForCurrentLevel(int),org.springframework.core.MethodParameter.withTypeIndex(int),1
+new,spring-web,,5.3.18,,org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactory.getHttpAsyncClient(),org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactory.getAsyncClient(),1
+new,spring-web,,5.3.18,,org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactory.setHttpAsyncClient(CloseableHttpAsyncClient),org.springframework.http.client.HttpComponentsAsyncClientHttpRequestFactory.setAsyncClient(HttpAsyncClient),1
+new,spring-web,,5.3.18,,org.springframework.http.HttpStatus.Series.valueOf(HttpStatus),org.springframework.http.HttpStatus.series(),1
+new,spring-web,,5.3.18,,org.springframework.http.server.reactive.AbstractServerHttpResponse.getStatusCodeValue(),org.springframework.http.server.reactive.ServerHttpResponse.getRawStatusCode(),1
+new,spring-web,,5.3.18,,org.springframework.http.server.reactive.AbstractServerHttpResponse.setStatusCodeValue(Integer),org.springframework.http.server.reactive.ServerHttpResponse.setRawStatusCode(Integer),1
+new,spring-jdbc,,5.3.18,,"org.springframework.jdbc.core.metadata.TableMetaDataContext.getSimulationQueryForGetGeneratedKey(String, String)","org.springframework.jdbc.core.metadata.TableMetaDataContext.getSimpleQueryForGetGeneratedKey(String,String)",1
+new,spring-jdbc,,5.3.18,,"org.springframework.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction(Connection, Integer)","org.springframework.jdbc.datasource.DataSourceUtils.resetConnectionAfterTransaction(Connection,Integer,boolean)",1
+new,spring-messaging,,5.3.18,,org.springframework.messaging.rsocket.RSocketRequester.Builder.connect(ClientTransport),org.springframework.messaging.rsocket.RSocketRequester.Builder.transport(ClientTransport),1
+new,spring-messaging,,5.3.18,,"org.springframework.messaging.rsocket.RSocketRequester.Builder.connectTcp(String, int)","org.springframework.messaging.rsocket.RSocketRequester.Builder.tcp(String, int)",1
+new,spring-messaging,,5.3.18,,org.springframework.messaging.rsocket.RSocketRequester.Builder.connectWebSocket(URI),org.springframework.messaging.rsocket.RSocketRequester.Builder.websocket(URI),1
+new,spring-messaging,,5.3.18,,org.springframework.messaging.simp.user.DefaultUserDestinationResolver.setPathMatcher(PathMatcher),org.springframework.messaging.simp.user.DefaultUserDestinationResolver.setRemoveLeadingSlash(boolean),1
+new,spring-context,,5.3.18,,org.springframework.scheduling.config.ScheduledTaskRegistrar.scheduleFixedDelayTask(IntervalTask),org.springframework.scheduling.config.ScheduledTaskRegistrar.scheduleFixedDelayTask(FixedDelayTask),1
+new,spring-context,,5.3.18,,org.springframework.scheduling.config.ScheduledTaskRegistrar.scheduleFixedRateTask(IntervalTask),org.springframework.scheduling.config.ScheduledTaskRegistrar.scheduleFixedRateTask(FixedRateTask),1
+new,spring-test,,5.3.18,,org.springframework.test.web.client.AbstractRequestExpectationManager.validateRequestInternal(ClientHttpRequest),org.springframework.test.web.client.AbstractRequestExpectationManager.matchRequest(ClientHttpRequest),1
+new,spring-test,,5.3.18,,org.springframework.test.web.reactive.server.WebTestClient.Builder.exchangeStrategies(Consumer<ExchangeStrategies.Builder>),org.springframework.test.web.reactive.server.WebTestClient.Builder.codecs(Consumer),1
+new,spring-test,,5.3.18,,org.springframework.test.web.servlet.request.MockMvcRequestBuilders.fileUpload(URI),org.springframework.test.web.servlet.request.MockMvcRequestBuilders.multipart(URI),1
+new,spring-core,,5.3.18,,"org.springframework.util.Assert.doesNotContain(String, String)","org.springframework.util.Assert.doesNotContain(String, String, String)",1
+new,spring-core,,5.3.18,,org.springframework.util.Assert.hasLength(String),"org.springframework.util.Assert.hasLength(String, String)",1
+new,spring-core,,5.3.18,,org.springframework.util.Assert.hasText(String),"org.springframework.util.Assert.hasText(String, String)",1
+new,spring-core,,5.3.18,,org.springframework.util.Assert.isNull(Object),"org.springframework.util.Assert.isNull(Object, String)",1
+new,spring-core,,5.3.18,,org.springframework.util.Assert.isTrue(boolean),"org.springframework.util.Assert.isTrue(boolean, String)",1
+new,spring-core,,5.3.18,,org.springframework.util.Assert.state(boolean),"org.springframework.util.Assert.state(boolean, String)",1
+new,spring-core,,5.3.18,,org.springframework.util.StringUtils.isEmpty(Object),org.springframework.util.StringUtils.hasLength(String),1
+new,spring-web,,5.3.18,,org.springframework.web.accept.ContentNegotiationManagerFactoryBean.setUseJaf(boolean),org.springframework.web.accept.ContentNegotiationManagerFactoryBean.setUseRegisteredExtensionsOnly(boolean),1
+new,spring-web,,5.3.18,,org.springframework.web.accept.PathExtensionContentNegotiationStrategy.setUseJaf(boolean),org.springframework.web.accept.AbstractMappingContentNegotiationStrategy.setUseRegisteredExtensionsOnly(boolean),1
+new,spring-web,,5.3.18,,"org.springframework.web.bind.support.WebBindingInitializer.initBinder(WebDataBinder, WebRequest)",org.springframework.web.bind.support.WebBindingInitializer.initBinder(WebDataBinder),1
+new,spring-web,,5.3.18,,org.springframework.web.client.DefaultResponseErrorHandler.getHttpStatusCode(ClientHttpResponse),"org.springframework.web.client.DefaultResponseErrorHandler.handleError(ClientHttpResponse, HttpStatus)",1
+new,spring-web,,5.3.18,,org.springframework.web.cors.reactive.CorsUtils.isSameOrigin(ServerHttpRequest),org.springframework.web.cors.reactive.CorsUtils.isCorsRequest(ServerHttpRequest),1
+new,spring-web,,5.3.18,,org.springframework.web.cors.UrlBasedCorsConfigurationSource.setAlwaysUseFullPath(boolean),org.springframework.web.cors.UrlBasedCorsConfigurationSource.setUrlPathHelper(UrlPathHelper),1
+new,spring-web,,5.3.18,,org.springframework.web.cors.UrlBasedCorsConfigurationSource.setRemoveSemicolonContent(boolean),org.springframework.web.cors.UrlBasedCorsConfigurationSource.setUrlPathHelper(UrlPathHelper),1
+new,spring-web,,5.3.18,,org.springframework.web.cors.UrlBasedCorsConfigurationSource.setUrlDecode(boolean),org.springframework.web.cors.UrlBasedCorsConfigurationSource.setUrlPathHelper(UrlPathHelper),1
+new,spring-webflux,,5.3.18,,org.springframework.web.reactive.socket.client.ReactorNettyWebSocketClient.getHandlePing(),org.springframework.web.reactive.socket.client.ReactorNettyWebSocketClient.getWebsocketClientSpec(),1
+new,spring-webflux,,5.3.18,,org.springframework.web.reactive.socket.client.ReactorNettyWebSocketClient.getMaxFramePayloadLength(),org.springframework.web.reactive.socket.client.ReactorNettyWebSocketClient.getWebsocketClientSpec(),1
+new,spring-webflux,,5.3.18,,"org.springframework.web.reactive.socket.server.RequestUpgradeStrategy.upgrade(ServerWebExchange, WebSocketHandler, String)","org.springframework.web.reactive.socket.server.RequestUpgradeStrategy.upgrade(ServerWebExchange, WebSocketHandler, String, Supplier)",1
+new,spring-webflux,,5.3.18,,org.springframework.web.reactive.socket.server.upgrade.ReactorNettyRequestUpgradeStrategy.getHandlePing(),org.springframework.web.reactive.socket.server.upgrade.ReactorNettyRequestUpgradeStrategy.getWebsocketServerSpec(),1
+new,spring-webflux,,5.3.18,,org.springframework.web.reactive.socket.server.upgrade.ReactorNettyRequestUpgradeStrategy.getMaxFramePayloadLength(),org.springframework.web.reactive.socket.server.upgrade.ReactorNettyRequestUpgradeStrategy.getWebsocketServerSpec(),1
+new,spring-webmvc,,5.3.18,,"org.springframework.web.servlet.handler.MappedInterceptor.matches(String, PathMatcher)",org.springframework.web.servlet.handler.MappedInterceptor.matches(HttpServletRequest),1
+new,spring-webmvc,,5.3.18,,org.springframework.web.servlet.resource.ResourceHttpRequestHandler.setContentNegotiationManager(ContentNegotiationManager),org.springframework.web.servlet.resource.ResourceHttpRequestHandler.setMediaTypes(Map),1
+new,spring-webmvc,,5.3.18,,org.springframework.web.servlet.support.WebContentGenerator.isAlwaysMustRevalidate(),org.springframework.web.servlet.support.WebContentGenerator.getCacheControl(),1
+new,spring-webmvc,,5.3.18,,org.springframework.web.servlet.support.WebContentGenerator.isUseCacheControlHeader(),org.springframework.web.servlet.support.WebContentGenerator.getCacheControl(),1
+new,spring-webmvc,,5.3.18,,org.springframework.web.servlet.support.WebContentGenerator.isUseCacheControlNoStore(),org.springframework.web.servlet.support.WebContentGenerator.getCacheControl(),1
+new,spring-webmvc,,5.3.18,,org.springframework.web.servlet.support.WebContentGenerator.isUseExpiresHeader(),org.springframework.web.servlet.support.WebContentGenerator.getCacheControl(),1
+new,spring-webmvc,,5.3.18,,org.springframework.web.servlet.support.WebContentGenerator.setAlwaysMustRevalidate(boolean),org.springframework.web.servlet.support.WebContentGenerator.setCacheControl(CacheControl),1
+new,spring-webmvc,,5.3.18,,org.springframework.web.servlet.support.WebContentGenerator.setUseCacheControlNoStore(boolean),org.springframework.web.servlet.support.WebContentGenerator.setCacheControl(CacheControl),1
+new,spring-webmvc,,5.3.18,,org.springframework.web.socket.WebSocketHttpHeaders.readOnlyWebSocketHttpHeaders(WebSocketHttpHeaders),org.springframework.web.socket.WebSocketHttpHeaders(HttpHeaders),1

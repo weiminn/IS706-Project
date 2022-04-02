@@ -1,0 +1,3494 @@
+{
+    "gson-2.9.0.jar": [
+        [
+            "java.lang.String",
+            "com.google.gson.FieldNamingPolicy$5.translateName(java.lang.reflect.Field)",
+            "public java.lang.String translateName(java.lang.reflect.Field)"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$5.write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicLongArray)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicLongArray) throws java.io.IOException"
+        ],
+        [
+            "java.util.concurrent.atomic.AtomicLongArray",
+            "com.google.gson.Gson$5.read(com.google.gson.stream.JsonReader)",
+            "public java.util.concurrent.atomic.AtomicLongArray read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.Gson$5.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$5.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.JsonStreamParser",
+            "com.google.gson.JsonStreamParser(java.lang.String)",
+            "public com.google.gson.JsonStreamParser(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonStreamParser",
+            "com.google.gson.JsonStreamParser(java.io.Reader)",
+            "public com.google.gson.JsonStreamParser(java.io.Reader)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonStreamParser.next()",
+            "public com.google.gson.JsonElement next() throws com.google.gson.JsonParseException"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonStreamParser.hasNext()",
+            "public boolean hasNext()"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonStreamParser.remove()",
+            "public void remove()"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.JsonStreamParser.next()",
+            "public java.lang.Object next()"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$FutureTypeAdapter.setDelegate(com.google.gson.TypeAdapter<T>)",
+            "public void setDelegate(com.google.gson.TypeAdapter<T>)"
+        ],
+        [
+            "T",
+            "com.google.gson.Gson$FutureTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public T read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$FutureTypeAdapter.write(com.google.gson.stream.JsonWriter, T)",
+            "public void write(com.google.gson.stream.JsonWriter, T) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.Gson",
+            "com.google.gson.Gson()",
+            "public com.google.gson.Gson()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.Gson.newBuilder()",
+            "public com.google.gson.GsonBuilder newBuilder()"
+        ],
+        [
+            "com.google.gson.internal.Excluder",
+            "com.google.gson.Gson.excluder()",
+            "public com.google.gson.internal.Excluder excluder()"
+        ],
+        [
+            "com.google.gson.FieldNamingStrategy",
+            "com.google.gson.Gson.fieldNamingStrategy()",
+            "public com.google.gson.FieldNamingStrategy fieldNamingStrategy()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.Gson.serializeNulls()",
+            "public boolean serializeNulls()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.Gson.htmlSafe()",
+            "public boolean htmlSafe()"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.Gson.getAdapter(com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> getAdapter(com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.Gson.getDelegateAdapter(com.google.gson.TypeAdapterFactory, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> getDelegateAdapter(com.google.gson.TypeAdapterFactory, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.Gson.getAdapter(java.lang.Class<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> getAdapter(java.lang.Class<T>)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.Gson.toJsonTree(java.lang.Object)",
+            "public com.google.gson.JsonElement toJsonTree(java.lang.Object)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.Gson.toJsonTree(java.lang.Object, java.lang.reflect.Type)",
+            "public com.google.gson.JsonElement toJsonTree(java.lang.Object, java.lang.reflect.Type)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.Gson.toJson(java.lang.Object)",
+            "public java.lang.String toJson(java.lang.Object)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.Gson.toJson(java.lang.Object, java.lang.reflect.Type)",
+            "public java.lang.String toJson(java.lang.Object, java.lang.reflect.Type)"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson.toJson(java.lang.Object, java.lang.Appendable)",
+            "public void toJson(java.lang.Object, java.lang.Appendable) throws com.google.gson.JsonIOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson.toJson(java.lang.Object, java.lang.reflect.Type, java.lang.Appendable)",
+            "public void toJson(java.lang.Object, java.lang.reflect.Type, java.lang.Appendable) throws com.google.gson.JsonIOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson.toJson(java.lang.Object, java.lang.reflect.Type, com.google.gson.stream.JsonWriter)",
+            "public void toJson(java.lang.Object, java.lang.reflect.Type, com.google.gson.stream.JsonWriter) throws com.google.gson.JsonIOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.Gson.toJson(com.google.gson.JsonElement)",
+            "public java.lang.String toJson(com.google.gson.JsonElement)"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson.toJson(com.google.gson.JsonElement, java.lang.Appendable)",
+            "public void toJson(com.google.gson.JsonElement, java.lang.Appendable) throws com.google.gson.JsonIOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.Gson.newJsonWriter(java.io.Writer)",
+            "public com.google.gson.stream.JsonWriter newJsonWriter(java.io.Writer) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonReader",
+            "com.google.gson.Gson.newJsonReader(java.io.Reader)",
+            "public com.google.gson.stream.JsonReader newJsonReader(java.io.Reader)"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson.toJson(com.google.gson.JsonElement, com.google.gson.stream.JsonWriter)",
+            "public void toJson(com.google.gson.JsonElement, com.google.gson.stream.JsonWriter) throws com.google.gson.JsonIOException"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.Gson.fromJson(java.lang.String, java.lang.Class<T>)",
+            "public <T> T fromJson(java.lang.String, java.lang.Class<T>) throws com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.Gson.fromJson(java.lang.String, java.lang.reflect.Type)",
+            "public <T> T fromJson(java.lang.String, java.lang.reflect.Type) throws com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.Gson.fromJson(java.io.Reader, java.lang.Class<T>)",
+            "public <T> T fromJson(java.io.Reader, java.lang.Class<T>) throws com.google.gson.JsonSyntaxException, com.google.gson.JsonIOException"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.Gson.fromJson(java.io.Reader, java.lang.reflect.Type)",
+            "public <T> T fromJson(java.io.Reader, java.lang.reflect.Type) throws com.google.gson.JsonIOException, com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.Gson.fromJson(com.google.gson.stream.JsonReader, java.lang.reflect.Type)",
+            "public <T> T fromJson(com.google.gson.stream.JsonReader, java.lang.reflect.Type) throws com.google.gson.JsonIOException, com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.Gson.fromJson(com.google.gson.JsonElement, java.lang.Class<T>)",
+            "public <T> T fromJson(com.google.gson.JsonElement, java.lang.Class<T>) throws com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.Gson.fromJson(com.google.gson.JsonElement, java.lang.reflect.Type)",
+            "public <T> T fromJson(com.google.gson.JsonElement, java.lang.reflect.Type) throws com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.Gson.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.FieldNamingPolicy$7.translateName(java.lang.reflect.Field)",
+            "public java.lang.String translateName(java.lang.reflect.Field)"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.Gson$3.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$3.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.Gson$3.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$3.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.FieldNamingPolicy$3.translateName(java.lang.reflect.Field)",
+            "public java.lang.String translateName(java.lang.reflect.Field)"
+        ],
+        [
+            "com.google.gson.JsonNull",
+            "com.google.gson.JsonNull()",
+            "public com.google.gson.JsonNull()"
+        ],
+        [
+            "com.google.gson.JsonNull",
+            "com.google.gson.JsonNull.deepCopy()",
+            "public com.google.gson.JsonNull deepCopy()"
+        ],
+        [
+            "int",
+            "com.google.gson.JsonNull.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonNull.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonNull.deepCopy()",
+            "public com.google.gson.JsonElement deepCopy()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.FieldNamingPolicy$1.translateName(java.lang.reflect.Field)",
+            "public java.lang.String translateName(java.lang.reflect.Field)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonElement()",
+            "public com.google.gson.JsonElement()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonElement.isJsonArray()",
+            "public boolean isJsonArray()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonElement.isJsonObject()",
+            "public boolean isJsonObject()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonElement.isJsonPrimitive()",
+            "public boolean isJsonPrimitive()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonElement.isJsonNull()",
+            "public boolean isJsonNull()"
+        ],
+        [
+            "com.google.gson.JsonObject",
+            "com.google.gson.JsonElement.getAsJsonObject()",
+            "public com.google.gson.JsonObject getAsJsonObject()"
+        ],
+        [
+            "com.google.gson.JsonArray",
+            "com.google.gson.JsonElement.getAsJsonArray()",
+            "public com.google.gson.JsonArray getAsJsonArray()"
+        ],
+        [
+            "com.google.gson.JsonPrimitive",
+            "com.google.gson.JsonElement.getAsJsonPrimitive()",
+            "public com.google.gson.JsonPrimitive getAsJsonPrimitive()"
+        ],
+        [
+            "com.google.gson.JsonNull",
+            "com.google.gson.JsonElement.getAsJsonNull()",
+            "public com.google.gson.JsonNull getAsJsonNull()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonElement.getAsBoolean()",
+            "public boolean getAsBoolean()"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.JsonElement.getAsNumber()",
+            "public java.lang.Number getAsNumber()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.JsonElement.getAsString()",
+            "public java.lang.String getAsString()"
+        ],
+        [
+            "double",
+            "com.google.gson.JsonElement.getAsDouble()",
+            "public double getAsDouble()"
+        ],
+        [
+            "float",
+            "com.google.gson.JsonElement.getAsFloat()",
+            "public float getAsFloat()"
+        ],
+        [
+            "long",
+            "com.google.gson.JsonElement.getAsLong()",
+            "public long getAsLong()"
+        ],
+        [
+            "int",
+            "com.google.gson.JsonElement.getAsInt()",
+            "public int getAsInt()"
+        ],
+        [
+            "byte",
+            "com.google.gson.JsonElement.getAsByte()",
+            "public byte getAsByte()"
+        ],
+        [
+            "char",
+            "com.google.gson.JsonElement.getAsCharacter()",
+            "public char getAsCharacter()"
+        ],
+        [
+            "java.math.BigDecimal",
+            "com.google.gson.JsonElement.getAsBigDecimal()",
+            "public java.math.BigDecimal getAsBigDecimal()"
+        ],
+        [
+            "java.math.BigInteger",
+            "com.google.gson.JsonElement.getAsBigInteger()",
+            "public java.math.BigInteger getAsBigInteger()"
+        ],
+        [
+            "short",
+            "com.google.gson.JsonElement.getAsShort()",
+            "public short getAsShort()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.JsonElement.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "java.lang.Double",
+            "com.google.gson.Gson$1.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Double read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$1.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.Gson$1.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$1.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.FieldNamingPolicy$6.translateName(java.lang.reflect.Field)",
+            "public java.lang.String translateName(java.lang.reflect.Field)"
+        ],
+        [
+            "void",
+            "com.google.gson.TypeAdapter$1.write(com.google.gson.stream.JsonWriter, T)",
+            "public void write(com.google.gson.stream.JsonWriter, T) throws java.io.IOException"
+        ],
+        [
+            "T",
+            "com.google.gson.TypeAdapter$1.read(com.google.gson.stream.JsonReader)",
+            "public T read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$4.write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicLong)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicLong) throws java.io.IOException"
+        ],
+        [
+            "java.util.concurrent.atomic.AtomicLong",
+            "com.google.gson.Gson$4.read(com.google.gson.stream.JsonReader)",
+            "public java.util.concurrent.atomic.AtomicLong read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.Gson$4.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$4.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonReader$1.promoteNameToValue(com.google.gson.stream.JsonReader)",
+            "public void promoteNameToValue(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonReader",
+            "com.google.gson.stream.JsonReader(java.io.Reader)",
+            "public com.google.gson.stream.JsonReader(java.io.Reader)"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonReader.setLenient(boolean)",
+            "public final void setLenient(boolean)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.stream.JsonReader.isLenient()",
+            "public final boolean isLenient()"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonReader.beginArray()",
+            "public void beginArray() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonReader.endArray()",
+            "public void endArray() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonReader.beginObject()",
+            "public void beginObject() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonReader.endObject()",
+            "public void endObject() throws java.io.IOException"
+        ],
+        [
+            "boolean",
+            "com.google.gson.stream.JsonReader.hasNext()",
+            "public boolean hasNext() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonToken",
+            "com.google.gson.stream.JsonReader.peek()",
+            "public com.google.gson.stream.JsonToken peek() throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.stream.JsonReader.nextName()",
+            "public java.lang.String nextName() throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.stream.JsonReader.nextString()",
+            "public java.lang.String nextString() throws java.io.IOException"
+        ],
+        [
+            "boolean",
+            "com.google.gson.stream.JsonReader.nextBoolean()",
+            "public boolean nextBoolean() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonReader.nextNull()",
+            "public void nextNull() throws java.io.IOException"
+        ],
+        [
+            "double",
+            "com.google.gson.stream.JsonReader.nextDouble()",
+            "public double nextDouble() throws java.io.IOException"
+        ],
+        [
+            "long",
+            "com.google.gson.stream.JsonReader.nextLong()",
+            "public long nextLong() throws java.io.IOException"
+        ],
+        [
+            "int",
+            "com.google.gson.stream.JsonReader.nextInt()",
+            "public int nextInt() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonReader.close()",
+            "public void close() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonReader.skipValue()",
+            "public void skipValue() throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.stream.JsonReader.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.stream.JsonReader.getPreviousPath()",
+            "public java.lang.String getPreviousPath()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.stream.JsonReader.getPath()",
+            "public java.lang.String getPath()"
+        ],
+        [
+            "com.google.gson.stream.JsonToken[]",
+            "com.google.gson.stream.JsonToken.values()",
+            "public static com.google.gson.stream.JsonToken[] values()"
+        ],
+        [
+            "com.google.gson.stream.JsonToken",
+            "com.google.gson.stream.JsonToken.valueOf(java.lang.String)",
+            "public static com.google.gson.stream.JsonToken valueOf(java.lang.String)"
+        ],
+        [
+            "com.google.gson.stream.MalformedJsonException",
+            "com.google.gson.stream.MalformedJsonException(java.lang.String)",
+            "public com.google.gson.stream.MalformedJsonException(java.lang.String)"
+        ],
+        [
+            "com.google.gson.stream.MalformedJsonException",
+            "com.google.gson.stream.MalformedJsonException(java.lang.String, java.lang.Throwable)",
+            "public com.google.gson.stream.MalformedJsonException(java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "com.google.gson.stream.MalformedJsonException",
+            "com.google.gson.stream.MalformedJsonException(java.lang.Throwable)",
+            "public com.google.gson.stream.MalformedJsonException(java.lang.Throwable)"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter(java.io.Writer)",
+            "public com.google.gson.stream.JsonWriter(java.io.Writer)"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonWriter.setIndent(java.lang.String)",
+            "public final void setIndent(java.lang.String)"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonWriter.setLenient(boolean)",
+            "public final void setLenient(boolean)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.stream.JsonWriter.isLenient()",
+            "public boolean isLenient()"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonWriter.setHtmlSafe(boolean)",
+            "public final void setHtmlSafe(boolean)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.stream.JsonWriter.isHtmlSafe()",
+            "public final boolean isHtmlSafe()"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonWriter.setSerializeNulls(boolean)",
+            "public final void setSerializeNulls(boolean)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.stream.JsonWriter.getSerializeNulls()",
+            "public final boolean getSerializeNulls()"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.beginArray()",
+            "public com.google.gson.stream.JsonWriter beginArray() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.endArray()",
+            "public com.google.gson.stream.JsonWriter endArray() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.beginObject()",
+            "public com.google.gson.stream.JsonWriter beginObject() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.endObject()",
+            "public com.google.gson.stream.JsonWriter endObject() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.name(java.lang.String)",
+            "public com.google.gson.stream.JsonWriter name(java.lang.String) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.value(java.lang.String)",
+            "public com.google.gson.stream.JsonWriter value(java.lang.String) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.jsonValue(java.lang.String)",
+            "public com.google.gson.stream.JsonWriter jsonValue(java.lang.String) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.nullValue()",
+            "public com.google.gson.stream.JsonWriter nullValue() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.value(boolean)",
+            "public com.google.gson.stream.JsonWriter value(boolean) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.value(java.lang.Boolean)",
+            "public com.google.gson.stream.JsonWriter value(java.lang.Boolean) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.value(double)",
+            "public com.google.gson.stream.JsonWriter value(double) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.value(long)",
+            "public com.google.gson.stream.JsonWriter value(long) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.stream.JsonWriter.value(java.lang.Number)",
+            "public com.google.gson.stream.JsonWriter value(java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonWriter.flush()",
+            "public void flush() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.stream.JsonWriter.close()",
+            "public void close() throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.FieldNamingPolicy$4.translateName(java.lang.reflect.Field)",
+            "public java.lang.String translateName(java.lang.reflect.Field)"
+        ],
+        [
+            "com.google.gson.JsonIOException",
+            "com.google.gson.JsonIOException(java.lang.String)",
+            "public com.google.gson.JsonIOException(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonIOException",
+            "com.google.gson.JsonIOException(java.lang.String, java.lang.Throwable)",
+            "public com.google.gson.JsonIOException(java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "com.google.gson.JsonIOException",
+            "com.google.gson.JsonIOException(java.lang.Throwable)",
+            "public com.google.gson.JsonIOException(java.lang.Throwable)"
+        ],
+        [
+            "java.lang.Class<? super T>",
+            "com.google.gson.reflect.TypeToken.getRawType()",
+            "public final java.lang.Class<? super T> getRawType()"
+        ],
+        [
+            "java.lang.reflect.Type",
+            "com.google.gson.reflect.TypeToken.getType()",
+            "public final java.lang.reflect.Type getType()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.reflect.TypeToken.isAssignableFrom(java.lang.Class<?>)",
+            "public boolean isAssignableFrom(java.lang.Class<?>)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.reflect.TypeToken.isAssignableFrom(java.lang.reflect.Type)",
+            "public boolean isAssignableFrom(java.lang.reflect.Type)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.reflect.TypeToken.isAssignableFrom(com.google.gson.reflect.TypeToken<?>)",
+            "public boolean isAssignableFrom(com.google.gson.reflect.TypeToken<?>)"
+        ],
+        [
+            "int",
+            "com.google.gson.reflect.TypeToken.hashCode()",
+            "public final int hashCode()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.reflect.TypeToken.equals(java.lang.Object)",
+            "public final boolean equals(java.lang.Object)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.reflect.TypeToken.toString()",
+            "public final java.lang.String toString()"
+        ],
+        [
+            "com.google.gson.reflect.TypeToken<?>",
+            "com.google.gson.reflect.TypeToken.get(java.lang.reflect.Type)",
+            "public static com.google.gson.reflect.TypeToken<?> get(java.lang.reflect.Type)"
+        ],
+        [
+            "<T> com.google.gson.reflect.TypeToken<T>",
+            "com.google.gson.reflect.TypeToken.get(java.lang.Class<T>)",
+            "public static <T> com.google.gson.reflect.TypeToken<T> get(java.lang.Class<T>)"
+        ],
+        [
+            "com.google.gson.reflect.TypeToken<?>",
+            "com.google.gson.reflect.TypeToken.getParameterized(java.lang.reflect.Type, java.lang.reflect.Type...)",
+            "public static com.google.gson.reflect.TypeToken<?> getParameterized(java.lang.reflect.Type, java.lang.reflect.Type...)"
+        ],
+        [
+            "com.google.gson.reflect.TypeToken<?>",
+            "com.google.gson.reflect.TypeToken.getArray(java.lang.reflect.Type)",
+            "public static com.google.gson.reflect.TypeToken<?> getArray(java.lang.reflect.Type)"
+        ],
+        [
+            "com.google.gson.TypeAdapter",
+            "com.google.gson.TypeAdapter()",
+            "public com.google.gson.TypeAdapter()"
+        ],
+        [
+            "void",
+            "com.google.gson.TypeAdapter.toJson(java.io.Writer, T)",
+            "public final void toJson(java.io.Writer, T) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.TypeAdapter<T>",
+            "com.google.gson.TypeAdapter.nullSafe()",
+            "public final com.google.gson.TypeAdapter<T> nullSafe()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.TypeAdapter.toJson(T)",
+            "public final java.lang.String toJson(T)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.TypeAdapter.toJsonTree(T)",
+            "public final com.google.gson.JsonElement toJsonTree(T)"
+        ],
+        [
+            "T",
+            "com.google.gson.TypeAdapter.fromJson(java.io.Reader)",
+            "public final T fromJson(java.io.Reader) throws java.io.IOException"
+        ],
+        [
+            "T",
+            "com.google.gson.TypeAdapter.fromJson(java.lang.String)",
+            "public final T fromJson(java.lang.String) throws java.io.IOException"
+        ],
+        [
+            "T",
+            "com.google.gson.TypeAdapter.fromJsonTree(com.google.gson.JsonElement)",
+            "public final T fromJsonTree(com.google.gson.JsonElement)"
+        ],
+        [
+            "com.google.gson.JsonPrimitive",
+            "com.google.gson.JsonPrimitive(java.lang.Boolean)",
+            "public com.google.gson.JsonPrimitive(java.lang.Boolean)"
+        ],
+        [
+            "com.google.gson.JsonPrimitive",
+            "com.google.gson.JsonPrimitive(java.lang.Number)",
+            "public com.google.gson.JsonPrimitive(java.lang.Number)"
+        ],
+        [
+            "com.google.gson.JsonPrimitive",
+            "com.google.gson.JsonPrimitive(java.lang.String)",
+            "public com.google.gson.JsonPrimitive(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonPrimitive",
+            "com.google.gson.JsonPrimitive(java.lang.Character)",
+            "public com.google.gson.JsonPrimitive(java.lang.Character)"
+        ],
+        [
+            "com.google.gson.JsonPrimitive",
+            "com.google.gson.JsonPrimitive.deepCopy()",
+            "public com.google.gson.JsonPrimitive deepCopy()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonPrimitive.isBoolean()",
+            "public boolean isBoolean()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonPrimitive.getAsBoolean()",
+            "public boolean getAsBoolean()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonPrimitive.isNumber()",
+            "public boolean isNumber()"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.JsonPrimitive.getAsNumber()",
+            "public java.lang.Number getAsNumber()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonPrimitive.isString()",
+            "public boolean isString()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.JsonPrimitive.getAsString()",
+            "public java.lang.String getAsString()"
+        ],
+        [
+            "double",
+            "com.google.gson.JsonPrimitive.getAsDouble()",
+            "public double getAsDouble()"
+        ],
+        [
+            "java.math.BigDecimal",
+            "com.google.gson.JsonPrimitive.getAsBigDecimal()",
+            "public java.math.BigDecimal getAsBigDecimal()"
+        ],
+        [
+            "java.math.BigInteger",
+            "com.google.gson.JsonPrimitive.getAsBigInteger()",
+            "public java.math.BigInteger getAsBigInteger()"
+        ],
+        [
+            "float",
+            "com.google.gson.JsonPrimitive.getAsFloat()",
+            "public float getAsFloat()"
+        ],
+        [
+            "long",
+            "com.google.gson.JsonPrimitive.getAsLong()",
+            "public long getAsLong()"
+        ],
+        [
+            "short",
+            "com.google.gson.JsonPrimitive.getAsShort()",
+            "public short getAsShort()"
+        ],
+        [
+            "int",
+            "com.google.gson.JsonPrimitive.getAsInt()",
+            "public int getAsInt()"
+        ],
+        [
+            "byte",
+            "com.google.gson.JsonPrimitive.getAsByte()",
+            "public byte getAsByte()"
+        ],
+        [
+            "char",
+            "com.google.gson.JsonPrimitive.getAsCharacter()",
+            "public char getAsCharacter()"
+        ],
+        [
+            "int",
+            "com.google.gson.JsonPrimitive.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonPrimitive.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonPrimitive.deepCopy()",
+            "public com.google.gson.JsonElement deepCopy()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$1.construct()",
+            "public T construct()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$3.construct()",
+            "public T construct()"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.Streams$AppendableWriter$CurrentWrite.length()",
+            "public int length()"
+        ],
+        [
+            "char",
+            "com.google.gson.internal.Streams$AppendableWriter$CurrentWrite.charAt(int)",
+            "public char charAt(int)"
+        ],
+        [
+            "java.lang.CharSequence",
+            "com.google.gson.internal.Streams$AppendableWriter$CurrentWrite.subSequence(int, int)",
+            "public java.lang.CharSequence subSequence(int, int)"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$7.construct()",
+            "public T construct()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.Excluder$1.read(com.google.gson.stream.JsonReader)",
+            "public T read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.Excluder$1.write(com.google.gson.stream.JsonWriter, T)",
+            "public void write(com.google.gson.stream.JsonWriter, T) throws java.io.IOException"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$5.construct()",
+            "public T construct()"
+        ],
+        [
+            "java.lang.reflect.ParameterizedType",
+            "com.google.gson.internal.$Gson$Types.newParameterizedTypeWithOwner(java.lang.reflect.Type, java.lang.reflect.Type, java.lang.reflect.Type...)",
+            "public static java.lang.reflect.ParameterizedType newParameterizedTypeWithOwner(java.lang.reflect.Type, java.lang.reflect.Type, java.lang.reflect.Type...)"
+        ],
+        [
+            "java.lang.reflect.GenericArrayType",
+            "com.google.gson.internal.$Gson$Types.arrayOf(java.lang.reflect.Type)",
+            "public static java.lang.reflect.GenericArrayType arrayOf(java.lang.reflect.Type)"
+        ],
+        [
+            "java.lang.reflect.WildcardType",
+            "com.google.gson.internal.$Gson$Types.subtypeOf(java.lang.reflect.Type)",
+            "public static java.lang.reflect.WildcardType subtypeOf(java.lang.reflect.Type)"
+        ],
+        [
+            "java.lang.reflect.WildcardType",
+            "com.google.gson.internal.$Gson$Types.supertypeOf(java.lang.reflect.Type)",
+            "public static java.lang.reflect.WildcardType supertypeOf(java.lang.reflect.Type)"
+        ],
+        [
+            "java.lang.reflect.Type",
+            "com.google.gson.internal.$Gson$Types.canonicalize(java.lang.reflect.Type)",
+            "public static java.lang.reflect.Type canonicalize(java.lang.reflect.Type)"
+        ],
+        [
+            "java.lang.Class<?>",
+            "com.google.gson.internal.$Gson$Types.getRawType(java.lang.reflect.Type)",
+            "public static java.lang.Class<?> getRawType(java.lang.reflect.Type)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.$Gson$Types.equals(java.lang.reflect.Type, java.lang.reflect.Type)",
+            "public static boolean equals(java.lang.reflect.Type, java.lang.reflect.Type)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.$Gson$Types.typeToString(java.lang.reflect.Type)",
+            "public static java.lang.String typeToString(java.lang.reflect.Type)"
+        ],
+        [
+            "java.lang.reflect.Type",
+            "com.google.gson.internal.$Gson$Types.getArrayComponentType(java.lang.reflect.Type)",
+            "public static java.lang.reflect.Type getArrayComponentType(java.lang.reflect.Type)"
+        ],
+        [
+            "java.lang.reflect.Type",
+            "com.google.gson.internal.$Gson$Types.getCollectionElementType(java.lang.reflect.Type, java.lang.Class<?>)",
+            "public static java.lang.reflect.Type getCollectionElementType(java.lang.reflect.Type, java.lang.Class<?>)"
+        ],
+        [
+            "java.lang.reflect.Type[]",
+            "com.google.gson.internal.$Gson$Types.getMapKeyAndValueTypes(java.lang.reflect.Type, java.lang.Class<?>)",
+            "public static java.lang.reflect.Type[] getMapKeyAndValueTypes(java.lang.reflect.Type, java.lang.Class<?>)"
+        ],
+        [
+            "java.lang.reflect.Type",
+            "com.google.gson.internal.$Gson$Types.resolve(java.lang.reflect.Type, java.lang.Class<?>, java.lang.reflect.Type)",
+            "public static java.lang.reflect.Type resolve(java.lang.reflect.Type, java.lang.Class<?>, java.lang.reflect.Type)"
+        ],
+        [
+            "com.google.gson.internal.ConstructorConstructor",
+            "com.google.gson.internal.ConstructorConstructor(java.util.Map<java.lang.reflect.Type, com.google.gson.InstanceCreator<?>>, boolean)",
+            "public com.google.gson.internal.ConstructorConstructor(java.util.Map<java.lang.reflect.Type, com.google.gson.InstanceCreator<?>>, boolean)"
+        ],
+        [
+            "<T> com.google.gson.internal.ObjectConstructor<T>",
+            "com.google.gson.internal.ConstructorConstructor.get(com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.internal.ObjectConstructor<T> get(com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.ConstructorConstructor.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$2.construct()",
+            "public T construct()"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.LinkedTreeMap$KeySet.size()",
+            "public int size()"
+        ],
+        [
+            "java.util.Iterator<K>",
+            "com.google.gson.internal.LinkedTreeMap$KeySet.iterator()",
+            "public java.util.Iterator<K> iterator()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.LinkedTreeMap$KeySet.contains(java.lang.Object)",
+            "public boolean contains(java.lang.Object)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.LinkedTreeMap$KeySet.remove(java.lang.Object)",
+            "public boolean remove(java.lang.Object)"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.LinkedTreeMap$KeySet.clear()",
+            "public void clear()"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.LinkedTreeMap$1.compare(java.lang.Comparable, java.lang.Comparable)",
+            "public int compare(java.lang.Comparable, java.lang.Comparable)"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.LinkedTreeMap$1.compare(java.lang.Object, java.lang.Object)",
+            "public int compare(java.lang.Object, java.lang.Object)"
+        ],
+        [
+            "com.google.gson.internal.LazilyParsedNumber",
+            "com.google.gson.internal.LazilyParsedNumber(java.lang.String)",
+            "public com.google.gson.internal.LazilyParsedNumber(java.lang.String)"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.LazilyParsedNumber.intValue()",
+            "public int intValue()"
+        ],
+        [
+            "long",
+            "com.google.gson.internal.LazilyParsedNumber.longValue()",
+            "public long longValue()"
+        ],
+        [
+            "float",
+            "com.google.gson.internal.LazilyParsedNumber.floatValue()",
+            "public float floatValue()"
+        ],
+        [
+            "double",
+            "com.google.gson.internal.LazilyParsedNumber.doubleValue()",
+            "public double doubleValue()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.LazilyParsedNumber.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.LazilyParsedNumber.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.LazilyParsedNumber.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "com.google.gson.internal.JsonReaderInternalAccess",
+            "com.google.gson.internal.JsonReaderInternalAccess()",
+            "public com.google.gson.internal.JsonReaderInternalAccess()"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.reflect.ReflectionHelper.makeAccessible(java.lang.reflect.Field)",
+            "public static void makeAccessible(java.lang.reflect.Field) throws com.google.gson.JsonIOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.reflect.ReflectionHelper.tryMakeAccessible(java.lang.reflect.Constructor<?>)",
+            "public static java.lang.String tryMakeAccessible(java.lang.reflect.Constructor<?>)"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.LinkedTreeMap$EntrySet.size()",
+            "public int size()"
+        ],
+        [
+            "java.util.Iterator<java.util.Map$Entry<K, V>>",
+            "com.google.gson.internal.LinkedTreeMap$EntrySet.iterator()",
+            "public java.util.Iterator<java.util.Map$Entry<K, V>> iterator()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.LinkedTreeMap$EntrySet.contains(java.lang.Object)",
+            "public boolean contains(java.lang.Object)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.LinkedTreeMap$EntrySet.remove(java.lang.Object)",
+            "public boolean remove(java.lang.Object)"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.LinkedTreeMap$EntrySet.clear()",
+            "public void clear()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$4.construct()",
+            "public T construct()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator.hasNext()",
+            "public final boolean hasNext()"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator.remove()",
+            "public final void remove()"
+        ],
+        [
+            "com.google.gson.internal.PreJava9DateFormatProvider",
+            "com.google.gson.internal.PreJava9DateFormatProvider()",
+            "public com.google.gson.internal.PreJava9DateFormatProvider()"
+        ],
+        [
+            "java.text.DateFormat",
+            "com.google.gson.internal.PreJava9DateFormatProvider.getUSDateFormat(int)",
+            "public static java.text.DateFormat getUSDateFormat(int)"
+        ],
+        [
+            "java.text.DateFormat",
+            "com.google.gson.internal.PreJava9DateFormatProvider.getUSDateTimeFormat(int, int)",
+            "public static java.text.DateFormat getUSDateTimeFormat(int, int)"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.internal.$Gson$Preconditions.checkNotNull(T)",
+            "public static <T> T checkNotNull(T)"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.$Gson$Preconditions.checkArgument(boolean)",
+            "public static void checkArgument(boolean)"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$6.construct()",
+            "public T construct()"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.internal.Streams.parse(com.google.gson.stream.JsonReader)",
+            "public static com.google.gson.JsonElement parse(com.google.gson.stream.JsonReader) throws com.google.gson.JsonParseException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.Streams.write(com.google.gson.JsonElement, com.google.gson.stream.JsonWriter)",
+            "public static void write(com.google.gson.JsonElement, com.google.gson.stream.JsonWriter) throws java.io.IOException"
+        ],
+        [
+            "java.io.Writer",
+            "com.google.gson.internal.Streams.writerForAppendable(java.lang.Appendable)",
+            "public static java.io.Writer writerForAppendable(java.lang.Appendable)"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$12.construct()",
+            "public T construct()"
+        ],
+        [
+            "com.google.gson.internal.UnsafeAllocator",
+            "com.google.gson.internal.UnsafeAllocator()",
+            "public com.google.gson.internal.UnsafeAllocator()"
+        ],
+        [
+            "com.google.gson.internal.UnsafeAllocator",
+            "com.google.gson.internal.UnsafeAllocator.create()",
+            "public static com.google.gson.internal.UnsafeAllocator create()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$10.construct()",
+            "public T construct()"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.internal.UnsafeAllocator$4.newInstance(java.lang.Class<T>)",
+            "public <T> T newInstance(java.lang.Class<T>)"
+        ],
+        [
+            "com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl",
+            "com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl(java.lang.reflect.Type, java.lang.reflect.Type, java.lang.reflect.Type...)",
+            "public com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl(java.lang.reflect.Type, java.lang.reflect.Type, java.lang.reflect.Type...)"
+        ],
+        [
+            "java.lang.reflect.Type[]",
+            "com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl.getActualTypeArguments()",
+            "public java.lang.reflect.Type[] getActualTypeArguments()"
+        ],
+        [
+            "java.lang.reflect.Type",
+            "com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl.getRawType()",
+            "public java.lang.reflect.Type getRawType()"
+        ],
+        [
+            "java.lang.reflect.Type",
+            "com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl.getOwnerType()",
+            "public java.lang.reflect.Type getOwnerType()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$8.construct()",
+            "public T construct()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$14.construct()",
+            "public T construct()"
+        ],
+        [
+            "com.google.gson.internal.LinkedTreeMap",
+            "com.google.gson.internal.LinkedTreeMap()",
+            "public com.google.gson.internal.LinkedTreeMap()"
+        ],
+        [
+            "com.google.gson.internal.LinkedTreeMap",
+            "com.google.gson.internal.LinkedTreeMap(java.util.Comparator<? super K>)",
+            "public com.google.gson.internal.LinkedTreeMap(java.util.Comparator<? super K>)"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.LinkedTreeMap.size()",
+            "public int size()"
+        ],
+        [
+            "V",
+            "com.google.gson.internal.LinkedTreeMap.get(java.lang.Object)",
+            "public V get(java.lang.Object)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.LinkedTreeMap.containsKey(java.lang.Object)",
+            "public boolean containsKey(java.lang.Object)"
+        ],
+        [
+            "V",
+            "com.google.gson.internal.LinkedTreeMap.put(K, V)",
+            "public V put(K, V)"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.LinkedTreeMap.clear()",
+            "public void clear()"
+        ],
+        [
+            "V",
+            "com.google.gson.internal.LinkedTreeMap.remove(java.lang.Object)",
+            "public V remove(java.lang.Object)"
+        ],
+        [
+            "java.util.Set<java.util.Map$Entry<K, V>>",
+            "com.google.gson.internal.LinkedTreeMap.entrySet()",
+            "public java.util.Set<java.util.Map$Entry<K, V>> entrySet()"
+        ],
+        [
+            "java.util.Set<K>",
+            "com.google.gson.internal.LinkedTreeMap.keySet()",
+            "public java.util.Set<K> keySet()"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.internal.UnsafeAllocator$2.newInstance(java.lang.Class<T>)",
+            "public <T> T newInstance(java.lang.Class<T>) throws java.lang.Exception"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$16.construct()",
+            "public T construct()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.Primitives.isPrimitive(java.lang.reflect.Type)",
+            "public static boolean isPrimitive(java.lang.reflect.Type)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.Primitives.isWrapperType(java.lang.reflect.Type)",
+            "public static boolean isWrapperType(java.lang.reflect.Type)"
+        ],
+        [
+            "<T> java.lang.Class<T>",
+            "com.google.gson.internal.Primitives.wrap(java.lang.Class<T>)",
+            "public static <T> java.lang.Class<T> wrap(java.lang.Class<T>)"
+        ],
+        [
+            "<T> java.lang.Class<T>",
+            "com.google.gson.internal.Primitives.unwrap(java.lang.Class<T>)",
+            "public static <T> java.lang.Class<T> unwrap(java.lang.Class<T>)"
+        ],
+        [
+            "K",
+            "com.google.gson.internal.LinkedTreeMap$KeySet$1.next()",
+            "public K next()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$11.construct()",
+            "public T construct()"
+        ],
+        [
+            "com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl",
+            "com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl(java.lang.reflect.Type)",
+            "public com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl(java.lang.reflect.Type)"
+        ],
+        [
+            "java.lang.reflect.Type",
+            "com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl.getGenericComponentType()",
+            "public java.lang.reflect.Type getGenericComponentType()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$9.construct()",
+            "public T construct()"
+        ],
+        [
+            "com.google.gson.internal.$Gson$Types$WildcardTypeImpl",
+            "com.google.gson.internal.$Gson$Types$WildcardTypeImpl(java.lang.reflect.Type[], java.lang.reflect.Type[])",
+            "public com.google.gson.internal.$Gson$Types$WildcardTypeImpl(java.lang.reflect.Type[], java.lang.reflect.Type[])"
+        ],
+        [
+            "java.lang.reflect.Type[]",
+            "com.google.gson.internal.$Gson$Types$WildcardTypeImpl.getUpperBounds()",
+            "public java.lang.reflect.Type[] getUpperBounds()"
+        ],
+        [
+            "java.lang.reflect.Type[]",
+            "com.google.gson.internal.$Gson$Types$WildcardTypeImpl.getLowerBounds()",
+            "public java.lang.reflect.Type[] getLowerBounds()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.$Gson$Types$WildcardTypeImpl.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.$Gson$Types$WildcardTypeImpl.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.$Gson$Types$WildcardTypeImpl.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$13.construct()",
+            "public T construct()"
+        ],
+        [
+            "com.google.gson.internal.bind.TreeTypeAdapter",
+            "com.google.gson.internal.bind.TreeTypeAdapter(com.google.gson.JsonSerializer<T>, com.google.gson.JsonDeserializer<T>, com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>, com.google.gson.TypeAdapterFactory)",
+            "public com.google.gson.internal.bind.TreeTypeAdapter(com.google.gson.JsonSerializer<T>, com.google.gson.JsonDeserializer<T>, com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>, com.google.gson.TypeAdapterFactory)"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.bind.TreeTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public T read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TreeTypeAdapter.write(com.google.gson.stream.JsonWriter, T)",
+            "public void write(com.google.gson.stream.JsonWriter, T) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.TreeTypeAdapter.newFactory(com.google.gson.reflect.TypeToken<?>, java.lang.Object)",
+            "public static com.google.gson.TypeAdapterFactory newFactory(com.google.gson.reflect.TypeToken<?>, java.lang.Object)"
+        ],
+        [
+            "com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.TreeTypeAdapter.newFactoryWithMatchRawType(com.google.gson.reflect.TypeToken<?>, java.lang.Object)",
+            "public static com.google.gson.TypeAdapterFactory newFactoryWithMatchRawType(com.google.gson.reflect.TypeToken<?>, java.lang.Object)"
+        ],
+        [
+            "com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.TreeTypeAdapter.newTypeHierarchyFactory(java.lang.Class<?>, java.lang.Object)",
+            "public static com.google.gson.TypeAdapterFactory newTypeHierarchyFactory(java.lang.Class<?>, java.lang.Object)"
+        ],
+        [
+            "java.util.concurrent.atomic.AtomicInteger",
+            "com.google.gson.internal.bind.TypeAdapters$8.read(com.google.gson.stream.JsonReader)",
+            "public java.util.concurrent.atomic.AtomicInteger read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$8.write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicInteger)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicInteger) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$8.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$8.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.ObjectTypeAdapter.getFactory(com.google.gson.ToNumberStrategy)",
+            "public static com.google.gson.TypeAdapterFactory getFactory(com.google.gson.ToNumberStrategy)"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.ObjectTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.ObjectTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory",
+            "com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory(com.google.gson.internal.ConstructorConstructor)",
+            "public com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory(com.google.gson.internal.ConstructorConstructor)"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.internal.bind.TypeAdapters$13.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$13.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$13.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$13.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.internal.bind.TypeAdapters$11.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$11.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$11.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$11.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.ObjectTypeAdapter$1.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.writeField(java.lang.Object)",
+            "public boolean writeField(java.lang.Object) throws java.io.IOException, java.lang.IllegalAccessException"
+        ],
+        [
+            "com.google.gson.internal.bind.JsonTreeReader",
+            "com.google.gson.internal.bind.JsonTreeReader(com.google.gson.JsonElement)",
+            "public com.google.gson.internal.bind.JsonTreeReader(com.google.gson.JsonElement)"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeReader.beginArray()",
+            "public void beginArray() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeReader.endArray()",
+            "public void endArray() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeReader.beginObject()",
+            "public void beginObject() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeReader.endObject()",
+            "public void endObject() throws java.io.IOException"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.bind.JsonTreeReader.hasNext()",
+            "public boolean hasNext() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonToken",
+            "com.google.gson.internal.bind.JsonTreeReader.peek()",
+            "public com.google.gson.stream.JsonToken peek() throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.JsonTreeReader.nextName()",
+            "public java.lang.String nextName() throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.JsonTreeReader.nextString()",
+            "public java.lang.String nextString() throws java.io.IOException"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.bind.JsonTreeReader.nextBoolean()",
+            "public boolean nextBoolean() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeReader.nextNull()",
+            "public void nextNull() throws java.io.IOException"
+        ],
+        [
+            "double",
+            "com.google.gson.internal.bind.JsonTreeReader.nextDouble()",
+            "public double nextDouble() throws java.io.IOException"
+        ],
+        [
+            "long",
+            "com.google.gson.internal.bind.JsonTreeReader.nextLong()",
+            "public long nextLong() throws java.io.IOException"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.bind.JsonTreeReader.nextInt()",
+            "public int nextInt() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeReader.close()",
+            "public void close() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeReader.skipValue()",
+            "public void skipValue() throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.JsonTreeReader.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeReader.promoteNameToValue()",
+            "public void promoteNameToValue() throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.JsonTreeReader.getPreviousPath()",
+            "public java.lang.String getPreviousPath()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.JsonTreeReader.getPath()",
+            "public java.lang.String getPath()"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.TypeAdapters$31.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.TypeAdapters$31.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(com.google.gson.stream.JsonReader)",
+            "public T read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.write(com.google.gson.stream.JsonWriter, T)",
+            "public void write(com.google.gson.stream.JsonWriter, T) throws java.io.IOException"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.NumberTypeAdapter$1.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "com.google.gson.internal.bind.DateTypeAdapter",
+            "com.google.gson.internal.bind.DateTypeAdapter()",
+            "public com.google.gson.internal.bind.DateTypeAdapter()"
+        ],
+        [
+            "java.util.Date",
+            "com.google.gson.internal.bind.DateTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.util.Date read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.DateTypeAdapter.write(com.google.gson.stream.JsonWriter, java.util.Date)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.Date) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.DateTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.DateTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.internal.bind.TypeAdapters$28.read(com.google.gson.stream.JsonReader)",
+            "public com.google.gson.JsonElement read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$28.write(com.google.gson.stream.JsonWriter, com.google.gson.JsonElement)",
+            "public void write(com.google.gson.stream.JsonWriter, com.google.gson.JsonElement) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$28.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$28.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.TypeAdapters$15.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.String read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$15.write(com.google.gson.stream.JsonWriter, java.lang.String)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.String) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$15.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$15.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.math.BigInteger",
+            "com.google.gson.internal.bind.TypeAdapters$17.read(com.google.gson.stream.JsonReader)",
+            "public java.math.BigInteger read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$17.write(com.google.gson.stream.JsonWriter, java.math.BigInteger)",
+            "public void write(com.google.gson.stream.JsonWriter, java.math.BigInteger) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$17.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$17.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.NumberTypeAdapter.getFactory(com.google.gson.ToNumberStrategy)",
+            "public static com.google.gson.TypeAdapterFactory getFactory(com.google.gson.ToNumberStrategy)"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.internal.bind.NumberTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.NumberTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.NumberTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.NumberTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.internal.bind.util.ISO8601Utils",
+            "com.google.gson.internal.bind.util.ISO8601Utils()",
+            "public com.google.gson.internal.bind.util.ISO8601Utils()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.util.ISO8601Utils.format(java.util.Date)",
+            "public static java.lang.String format(java.util.Date)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.util.ISO8601Utils.format(java.util.Date, boolean)",
+            "public static java.lang.String format(java.util.Date, boolean)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.util.ISO8601Utils.format(java.util.Date, boolean, java.util.TimeZone)",
+            "public static java.lang.String format(java.util.Date, boolean, java.util.TimeZone)"
+        ],
+        [
+            "java.util.Date",
+            "com.google.gson.internal.bind.util.ISO8601Utils.parse(java.lang.String, java.text.ParsePosition)",
+            "public static java.util.Date parse(java.lang.String, java.text.ParsePosition) throws java.text.ParseException"
+        ],
+        [
+            "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter",
+            "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter(java.lang.Class<T>)",
+            "public com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter(java.lang.Class<T>)"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public T read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter.write(com.google.gson.stream.JsonWriter, T)",
+            "public void write(com.google.gson.stream.JsonWriter, T) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(com.google.gson.stream.JsonReader)",
+            "public T read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.write(com.google.gson.stream.JsonWriter, T)",
+            "public void write(com.google.gson.stream.JsonWriter, T) throws java.io.IOException"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.TypeAdapters$33.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.TypeAdapters$33.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$34$1.write(com.google.gson.stream.JsonWriter, T1)",
+            "public void write(com.google.gson.stream.JsonWriter, T1) throws java.io.IOException"
+        ],
+        [
+            "T1",
+            "com.google.gson.internal.bind.TypeAdapters$34$1.read(com.google.gson.stream.JsonReader)",
+            "public T1 read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "java.util.concurrent.atomic.AtomicIntegerArray",
+            "com.google.gson.internal.bind.TypeAdapters$10.read(com.google.gson.stream.JsonReader)",
+            "public java.util.concurrent.atomic.AtomicIntegerArray read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$10.write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicIntegerArray)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicIntegerArray) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$10.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$10.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.serialize(java.lang.Object)",
+            "public com.google.gson.JsonElement serialize(java.lang.Object)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.serialize(java.lang.Object, java.lang.reflect.Type)",
+            "public com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type)"
+        ],
+        [
+            "<R> R",
+            "com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(com.google.gson.JsonElement, java.lang.reflect.Type)",
+            "public <R> R deserialize(com.google.gson.JsonElement, java.lang.reflect.Type) throws com.google.gson.JsonParseException"
+        ],
+        [
+            "<T2> com.google.gson.TypeAdapter<T2>",
+            "com.google.gson.internal.bind.TypeAdapters$34.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T2>)",
+            "public <T2> com.google.gson.TypeAdapter<T2> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T2>)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.TypeAdapters$34.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.bind.JsonTreeReader$1.read(char[], int, int)",
+            "public int read(char[], int, int) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeReader$1.close()",
+            "public void close() throws java.io.IOException"
+        ],
+        [
+            "java.util.concurrent.atomic.AtomicBoolean",
+            "com.google.gson.internal.bind.TypeAdapters$9.read(com.google.gson.stream.JsonReader)",
+            "public java.util.concurrent.atomic.AtomicBoolean read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$9.write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicBoolean)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.concurrent.atomic.AtomicBoolean) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$9.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$9.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.TreeTypeAdapter$SingleTypeFactory.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.internal.bind.TypeAdapters$12.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$12.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$12.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$12.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.math.BigDecimal",
+            "com.google.gson.internal.bind.TypeAdapters$16.read(com.google.gson.stream.JsonReader)",
+            "public java.math.BigDecimal read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$16.write(com.google.gson.stream.JsonWriter, java.math.BigDecimal)",
+            "public void write(com.google.gson.stream.JsonWriter, java.math.BigDecimal) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$16.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$16.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.DateTypeAdapter$1.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.TypeAdapters$32.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.TypeAdapters$32.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.TypeAdapters$30.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.lang.Character",
+            "com.google.gson.internal.bind.TypeAdapters$14.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Character read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$14.write(com.google.gson.stream.JsonWriter, java.lang.Character)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Character) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$14.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$14.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.TypeAdapters$29.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.util.Currency",
+            "com.google.gson.internal.bind.TypeAdapters$25.read(com.google.gson.stream.JsonReader)",
+            "public java.util.Currency read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$25.write(com.google.gson.stream.JsonWriter, java.util.Currency)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.Currency) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$25.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$25.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory",
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory(com.google.gson.internal.ConstructorConstructor, com.google.gson.FieldNamingStrategy, com.google.gson.internal.Excluder, com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory)",
+            "public com.google.gson.internal.bind.ReflectiveTypeAdapterFactory(com.google.gson.internal.ConstructorConstructor, com.google.gson.FieldNamingStrategy, com.google.gson.internal.Excluder, com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.excludeField(java.lang.reflect.Field, boolean)",
+            "public boolean excludeField(java.lang.reflect.Field, boolean)"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.ReflectiveTypeAdapterFactory.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "com.google.gson.internal.LazilyParsedNumber",
+            "com.google.gson.internal.bind.TypeAdapters$18.read(com.google.gson.stream.JsonReader)",
+            "public com.google.gson.internal.LazilyParsedNumber read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$18.write(com.google.gson.stream.JsonWriter, com.google.gson.internal.LazilyParsedNumber)",
+            "public void write(com.google.gson.stream.JsonWriter, com.google.gson.internal.LazilyParsedNumber) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$18.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$18.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Boolean",
+            "com.google.gson.internal.bind.TypeAdapters$3.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Boolean read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$3.write(com.google.gson.stream.JsonWriter, java.lang.Boolean)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Boolean) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$3.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$3.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$1.write(com.google.gson.stream.JsonWriter, java.lang.Class)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Class) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Class",
+            "com.google.gson.internal.bind.TypeAdapters$1.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Class read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$1.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$1.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter",
+            "com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter(com.google.gson.Gson, java.lang.reflect.Type, com.google.gson.TypeAdapter<K>, java.lang.reflect.Type, com.google.gson.TypeAdapter<V>, com.google.gson.internal.ObjectConstructor<? extends java.util.Map<K, V>>)",
+            "public com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter(com.google.gson.Gson, java.lang.reflect.Type, com.google.gson.TypeAdapter<K>, java.lang.reflect.Type, com.google.gson.TypeAdapter<V>, com.google.gson.internal.ObjectConstructor<? extends java.util.Map<K, V>>)"
+        ],
+        [
+            "java.util.Map<K, V>",
+            "com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(com.google.gson.stream.JsonReader)",
+            "public java.util.Map<K, V> read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.write(com.google.gson.stream.JsonWriter, java.util.Map<K, V>)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.Map<K, V>) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.util.Locale",
+            "com.google.gson.internal.bind.TypeAdapters$27.read(com.google.gson.stream.JsonReader)",
+            "public java.util.Locale read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$27.write(com.google.gson.stream.JsonWriter, java.util.Locale)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.Locale) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$27.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$27.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.net.InetAddress",
+            "com.google.gson.internal.bind.TypeAdapters$23.read(com.google.gson.stream.JsonReader)",
+            "public java.net.InetAddress read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$23.write(com.google.gson.stream.JsonWriter, java.net.InetAddress)",
+            "public void write(com.google.gson.stream.JsonWriter, java.net.InetAddress) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$23.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$23.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.internal.bind.TypeAdapters$5.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$5.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$5.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$5.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.DefaultDateTypeAdapter.write(com.google.gson.stream.JsonWriter, java.util.Date)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.Date) throws java.io.IOException"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.bind.DefaultDateTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public T read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.bind.DefaultDateTypeAdapter.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.DefaultDateTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.DefaultDateTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.ArrayTypeAdapter$1.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.internal.bind.TypeAdapters$7.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$7.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$7.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$7.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.internal.bind.CollectionTypeAdapterFactory",
+            "com.google.gson.internal.bind.CollectionTypeAdapterFactory(com.google.gson.internal.ConstructorConstructor)",
+            "public com.google.gson.internal.bind.CollectionTypeAdapterFactory(com.google.gson.internal.ConstructorConstructor)"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.CollectionTypeAdapterFactory.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.net.URL",
+            "com.google.gson.internal.bind.TypeAdapters$21.read(com.google.gson.stream.JsonReader)",
+            "public java.net.URL read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$21.write(com.google.gson.stream.JsonWriter, java.net.URL)",
+            "public void write(com.google.gson.stream.JsonWriter, java.net.URL) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$21.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$21.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.internal.bind.MapTypeAdapterFactory",
+            "com.google.gson.internal.bind.MapTypeAdapterFactory(com.google.gson.internal.ConstructorConstructor, boolean)",
+            "public com.google.gson.internal.bind.MapTypeAdapterFactory(com.google.gson.internal.ConstructorConstructor, boolean)"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.bind.MapTypeAdapterFactory.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.lang.reflect.Field[]",
+            "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter$1.run()",
+            "public java.lang.reflect.Field[] run()"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter$1.run()",
+            "public java.lang.Object run()"
+        ],
+        [
+            "<TT> com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.TypeAdapters.newFactory(com.google.gson.reflect.TypeToken<TT>, com.google.gson.TypeAdapter<TT>)",
+            "public static <TT> com.google.gson.TypeAdapterFactory newFactory(com.google.gson.reflect.TypeToken<TT>, com.google.gson.TypeAdapter<TT>)"
+        ],
+        [
+            "<TT> com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.TypeAdapters.newFactory(java.lang.Class<TT>, com.google.gson.TypeAdapter<TT>)",
+            "public static <TT> com.google.gson.TypeAdapterFactory newFactory(java.lang.Class<TT>, com.google.gson.TypeAdapter<TT>)"
+        ],
+        [
+            "<TT> com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.TypeAdapters.newFactory(java.lang.Class<TT>, java.lang.Class<TT>, com.google.gson.TypeAdapter<? super TT>)",
+            "public static <TT> com.google.gson.TypeAdapterFactory newFactory(java.lang.Class<TT>, java.lang.Class<TT>, com.google.gson.TypeAdapter<? super TT>)"
+        ],
+        [
+            "<TT> com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.TypeAdapters.newFactoryForMultipleTypes(java.lang.Class<TT>, java.lang.Class<? extends TT>, com.google.gson.TypeAdapter<? super TT>)",
+            "public static <TT> com.google.gson.TypeAdapterFactory newFactoryForMultipleTypes(java.lang.Class<TT>, java.lang.Class<? extends TT>, com.google.gson.TypeAdapter<? super TT>)"
+        ],
+        [
+            "<T1> com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.TypeAdapters.newTypeHierarchyFactory(java.lang.Class<T1>, com.google.gson.TypeAdapter<T1>)",
+            "public static <T1> com.google.gson.TypeAdapterFactory newTypeHierarchyFactory(java.lang.Class<T1>, com.google.gson.TypeAdapter<T1>)"
+        ],
+        [
+            "java.util.Calendar",
+            "com.google.gson.internal.bind.TypeAdapters$26.read(com.google.gson.stream.JsonReader)",
+            "public java.util.Calendar read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$26.write(com.google.gson.stream.JsonWriter, java.util.Calendar)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.Calendar) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$26.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$26.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.internal.bind.JsonTreeWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter()",
+            "public com.google.gson.internal.bind.JsonTreeWriter()"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.internal.bind.JsonTreeWriter.get()",
+            "public com.google.gson.JsonElement get()"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.beginArray()",
+            "public com.google.gson.stream.JsonWriter beginArray() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.endArray()",
+            "public com.google.gson.stream.JsonWriter endArray() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.beginObject()",
+            "public com.google.gson.stream.JsonWriter beginObject() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.endObject()",
+            "public com.google.gson.stream.JsonWriter endObject() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.name(java.lang.String)",
+            "public com.google.gson.stream.JsonWriter name(java.lang.String) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.value(java.lang.String)",
+            "public com.google.gson.stream.JsonWriter value(java.lang.String) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.nullValue()",
+            "public com.google.gson.stream.JsonWriter nullValue() throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.value(boolean)",
+            "public com.google.gson.stream.JsonWriter value(boolean) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.value(java.lang.Boolean)",
+            "public com.google.gson.stream.JsonWriter value(java.lang.Boolean) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.value(double)",
+            "public com.google.gson.stream.JsonWriter value(double) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.value(long)",
+            "public com.google.gson.stream.JsonWriter value(long) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.stream.JsonWriter",
+            "com.google.gson.internal.bind.JsonTreeWriter.value(java.lang.Number)",
+            "public com.google.gson.stream.JsonWriter value(java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeWriter.flush()",
+            "public void flush() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeWriter.close()",
+            "public void close() throws java.io.IOException"
+        ],
+        [
+            "java.lang.StringBuilder",
+            "com.google.gson.internal.bind.TypeAdapters$19.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.StringBuilder read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$19.write(com.google.gson.stream.JsonWriter, java.lang.StringBuilder)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.StringBuilder) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$19.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$19.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter",
+            "com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter(com.google.gson.Gson, java.lang.reflect.Type, com.google.gson.TypeAdapter<E>, com.google.gson.internal.ObjectConstructor<? extends java.util.Collection<E>>)",
+            "public com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter(com.google.gson.Gson, java.lang.reflect.Type, com.google.gson.TypeAdapter<E>, com.google.gson.internal.ObjectConstructor<? extends java.util.Collection<E>>)"
+        ],
+        [
+            "java.util.Collection<E>",
+            "com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(com.google.gson.stream.JsonReader)",
+            "public java.util.Collection<E> read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(com.google.gson.stream.JsonWriter, java.util.Collection<E>)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.Collection<E>) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.util.UUID",
+            "com.google.gson.internal.bind.TypeAdapters$24.read(com.google.gson.stream.JsonReader)",
+            "public java.util.UUID read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$24.write(com.google.gson.stream.JsonWriter, java.util.UUID)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.UUID) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$24.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$24.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeWriter$1.write(char[], int, int)",
+            "public void write(char[], int, int)"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeWriter$1.flush()",
+            "public void flush() throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.JsonTreeWriter$1.close()",
+            "public void close() throws java.io.IOException"
+        ],
+        [
+            "java.util.BitSet",
+            "com.google.gson.internal.bind.TypeAdapters$2.read(com.google.gson.stream.JsonReader)",
+            "public java.util.BitSet read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$2.write(com.google.gson.stream.JsonWriter, java.util.BitSet)",
+            "public void write(com.google.gson.stream.JsonWriter, java.util.BitSet) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$2.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$2.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType.createAdapterFactory(java.lang.String)",
+            "public final com.google.gson.TypeAdapterFactory createAdapterFactory(java.lang.String)"
+        ],
+        [
+            "com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType.createAdapterFactory(int)",
+            "public final com.google.gson.TypeAdapterFactory createAdapterFactory(int)"
+        ],
+        [
+            "com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType.createAdapterFactory(int, int)",
+            "public final com.google.gson.TypeAdapterFactory createAdapterFactory(int, int)"
+        ],
+        [
+            "com.google.gson.TypeAdapterFactory",
+            "com.google.gson.internal.bind.DefaultDateTypeAdapter$DateType.createDefaultsAdapterFactory()",
+            "public final com.google.gson.TypeAdapterFactory createDefaultsAdapterFactory()"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.internal.bind.TypeAdapters$6.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$6.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$6.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$6.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.lang.StringBuffer",
+            "com.google.gson.internal.bind.TypeAdapters$20.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.StringBuffer read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$20.write(com.google.gson.stream.JsonWriter, java.lang.StringBuffer)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.StringBuffer) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$20.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$20.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.net.URI",
+            "com.google.gson.internal.bind.TypeAdapters$22.read(com.google.gson.stream.JsonReader)",
+            "public java.net.URI read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$22.write(com.google.gson.stream.JsonWriter, java.net.URI)",
+            "public void write(com.google.gson.stream.JsonWriter, java.net.URI) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$22.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$22.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Boolean",
+            "com.google.gson.internal.bind.TypeAdapters$4.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Boolean read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$4.write(com.google.gson.stream.JsonWriter, java.lang.Boolean)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Boolean) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.TypeAdapters$4.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.TypeAdapters$4.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.internal.bind.ArrayTypeAdapter",
+            "com.google.gson.internal.bind.ArrayTypeAdapter(com.google.gson.Gson, com.google.gson.TypeAdapter<E>, java.lang.Class<E>)",
+            "public com.google.gson.internal.bind.ArrayTypeAdapter(com.google.gson.Gson, com.google.gson.TypeAdapter<E>, java.lang.Class<E>)"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.bind.ArrayTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.bind.ArrayTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$17.construct()",
+            "public T construct()"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.internal.UnsafeAllocator$3.newInstance(java.lang.Class<T>)",
+            "public <T> T newInstance(java.lang.Class<T>) throws java.lang.Exception"
+        ],
+        [
+            "java.util.Map$Entry<K, V>",
+            "com.google.gson.internal.LinkedTreeMap$EntrySet$1.next()",
+            "public java.util.Map$Entry<K, V> next()"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.LinkedTreeMap$EntrySet$1.next()",
+            "public java.lang.Object next()"
+        ],
+        [
+            "com.google.gson.internal.Excluder",
+            "com.google.gson.internal.Excluder()",
+            "public com.google.gson.internal.Excluder()"
+        ],
+        [
+            "com.google.gson.internal.Excluder",
+            "com.google.gson.internal.Excluder.withVersion(double)",
+            "public com.google.gson.internal.Excluder withVersion(double)"
+        ],
+        [
+            "com.google.gson.internal.Excluder",
+            "com.google.gson.internal.Excluder.withModifiers(int...)",
+            "public com.google.gson.internal.Excluder withModifiers(int...)"
+        ],
+        [
+            "com.google.gson.internal.Excluder",
+            "com.google.gson.internal.Excluder.disableInnerClassSerialization()",
+            "public com.google.gson.internal.Excluder disableInnerClassSerialization()"
+        ],
+        [
+            "com.google.gson.internal.Excluder",
+            "com.google.gson.internal.Excluder.excludeFieldsWithoutExposeAnnotation()",
+            "public com.google.gson.internal.Excluder excludeFieldsWithoutExposeAnnotation()"
+        ],
+        [
+            "com.google.gson.internal.Excluder",
+            "com.google.gson.internal.Excluder.withExclusionStrategy(com.google.gson.ExclusionStrategy, boolean, boolean)",
+            "public com.google.gson.internal.Excluder withExclusionStrategy(com.google.gson.ExclusionStrategy, boolean, boolean)"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.Excluder.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.Excluder.excludeField(java.lang.reflect.Field, boolean)",
+            "public boolean excludeField(java.lang.reflect.Field, boolean)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.Excluder.excludeClass(java.lang.Class<?>, boolean)",
+            "public boolean excludeClass(java.lang.Class<?>, boolean)"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.Streams$AppendableWriter.write(char[], int, int)",
+            "public void write(char[], int, int) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.Streams$AppendableWriter.write(int)",
+            "public void write(int) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.Streams$AppendableWriter.flush()",
+            "public void flush()"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.Streams$AppendableWriter.close()",
+            "public void close()"
+        ],
+        [
+            "<T> T",
+            "com.google.gson.internal.UnsafeAllocator$1.newInstance(java.lang.Class<T>)",
+            "public <T> T newInstance(java.lang.Class<T>) throws java.lang.Exception"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.JavaVersion.getMajorJavaVersion()",
+            "public static int getMajorJavaVersion()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.JavaVersion.isJava9OrLater()",
+            "public static boolean isJava9OrLater()"
+        ],
+        [
+            "K",
+            "com.google.gson.internal.LinkedTreeMap$Node.getKey()",
+            "public K getKey()"
+        ],
+        [
+            "V",
+            "com.google.gson.internal.LinkedTreeMap$Node.getValue()",
+            "public V getValue()"
+        ],
+        [
+            "V",
+            "com.google.gson.internal.LinkedTreeMap$Node.setValue(V)",
+            "public V setValue(V)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.internal.LinkedTreeMap$Node.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "int",
+            "com.google.gson.internal.LinkedTreeMap$Node.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.internal.LinkedTreeMap$Node.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "com.google.gson.internal.LinkedTreeMap$Node<K, V>",
+            "com.google.gson.internal.LinkedTreeMap$Node.first()",
+            "public com.google.gson.internal.LinkedTreeMap$Node<K, V> first()"
+        ],
+        [
+            "com.google.gson.internal.LinkedTreeMap$Node<K, V>",
+            "com.google.gson.internal.LinkedTreeMap$Node.last()",
+            "public com.google.gson.internal.LinkedTreeMap$Node<K, V> last()"
+        ],
+        [
+            "T",
+            "com.google.gson.internal.ConstructorConstructor$15.construct()",
+            "public T construct()"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.sql.SqlTimestampTypeAdapter$1.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.sql.Timestamp",
+            "com.google.gson.internal.sql.SqlTimestampTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.sql.Timestamp read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.sql.SqlTimestampTypeAdapter.write(com.google.gson.stream.JsonWriter, java.sql.Timestamp)",
+            "public void write(com.google.gson.stream.JsonWriter, java.sql.Timestamp) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.sql.SqlTimestampTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.sql.SqlTimestampTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.sql.SqlDateTypeAdapter$1.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "<T> com.google.gson.TypeAdapter<T>",
+            "com.google.gson.internal.sql.SqlTimeTypeAdapter$1.create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)",
+            "public <T> com.google.gson.TypeAdapter<T> create(com.google.gson.Gson, com.google.gson.reflect.TypeToken<T>)"
+        ],
+        [
+            "java.sql.Date",
+            "com.google.gson.internal.sql.SqlDateTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.sql.Date read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.sql.SqlDateTypeAdapter.write(com.google.gson.stream.JsonWriter, java.sql.Date)",
+            "public void write(com.google.gson.stream.JsonWriter, java.sql.Date) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.sql.SqlDateTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.sql.SqlDateTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.sql.Time",
+            "com.google.gson.internal.sql.SqlTimeTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.sql.Time read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.sql.SqlTimeTypeAdapter.write(com.google.gson.stream.JsonWriter, java.sql.Time)",
+            "public void write(com.google.gson.stream.JsonWriter, java.sql.Time) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.internal.sql.SqlTimeTypeAdapter.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.internal.sql.SqlTimeTypeAdapter.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.FieldNamingPolicy$2.translateName(java.lang.reflect.Field)",
+            "public java.lang.String translateName(java.lang.reflect.Field)"
+        ],
+        [
+            "java.lang.Float",
+            "com.google.gson.Gson$2.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Float read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$2.write(com.google.gson.stream.JsonWriter, java.lang.Number)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Number) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Object",
+            "com.google.gson.Gson$2.read(com.google.gson.stream.JsonReader)",
+            "public java.lang.Object read(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "void",
+            "com.google.gson.Gson$2.write(com.google.gson.stream.JsonWriter, java.lang.Object)",
+            "public void write(com.google.gson.stream.JsonWriter, java.lang.Object) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.ToNumberPolicy[]",
+            "com.google.gson.ToNumberPolicy.values()",
+            "public static com.google.gson.ToNumberPolicy[] values()"
+        ],
+        [
+            "com.google.gson.ToNumberPolicy",
+            "com.google.gson.ToNumberPolicy.valueOf(java.lang.String)",
+            "public static com.google.gson.ToNumberPolicy valueOf(java.lang.String)"
+        ],
+        [
+            "java.math.BigDecimal",
+            "com.google.gson.ToNumberPolicy$4.readNumber(com.google.gson.stream.JsonReader)",
+            "public java.math.BigDecimal readNumber(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.ToNumberPolicy$4.readNumber(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number readNumber(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.LongSerializationPolicy[]",
+            "com.google.gson.LongSerializationPolicy.values()",
+            "public static com.google.gson.LongSerializationPolicy[] values()"
+        ],
+        [
+            "com.google.gson.LongSerializationPolicy",
+            "com.google.gson.LongSerializationPolicy.valueOf(java.lang.String)",
+            "public static com.google.gson.LongSerializationPolicy valueOf(java.lang.String)"
+        ],
+        [
+            "com.google.gson.FieldNamingPolicy[]",
+            "com.google.gson.FieldNamingPolicy.values()",
+            "public static com.google.gson.FieldNamingPolicy[] values()"
+        ],
+        [
+            "com.google.gson.FieldNamingPolicy",
+            "com.google.gson.FieldNamingPolicy.valueOf(java.lang.String)",
+            "public static com.google.gson.FieldNamingPolicy valueOf(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.LongSerializationPolicy$1.serialize(java.lang.Long)",
+            "public com.google.gson.JsonElement serialize(java.lang.Long)"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.ToNumberPolicy$2.readNumber(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number readNumber(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "com.google.gson.JsonSyntaxException",
+            "com.google.gson.JsonSyntaxException(java.lang.String)",
+            "public com.google.gson.JsonSyntaxException(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonSyntaxException",
+            "com.google.gson.JsonSyntaxException(java.lang.String, java.lang.Throwable)",
+            "public com.google.gson.JsonSyntaxException(java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "com.google.gson.JsonSyntaxException",
+            "com.google.gson.JsonSyntaxException(java.lang.Throwable)",
+            "public com.google.gson.JsonSyntaxException(java.lang.Throwable)"
+        ],
+        [
+            "com.google.gson.JsonArray",
+            "com.google.gson.JsonArray()",
+            "public com.google.gson.JsonArray()"
+        ],
+        [
+            "com.google.gson.JsonArray",
+            "com.google.gson.JsonArray(int)",
+            "public com.google.gson.JsonArray(int)"
+        ],
+        [
+            "com.google.gson.JsonArray",
+            "com.google.gson.JsonArray.deepCopy()",
+            "public com.google.gson.JsonArray deepCopy()"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonArray.add(java.lang.Boolean)",
+            "public void add(java.lang.Boolean)"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonArray.add(java.lang.Character)",
+            "public void add(java.lang.Character)"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonArray.add(java.lang.Number)",
+            "public void add(java.lang.Number)"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonArray.add(java.lang.String)",
+            "public void add(java.lang.String)"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonArray.add(com.google.gson.JsonElement)",
+            "public void add(com.google.gson.JsonElement)"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonArray.addAll(com.google.gson.JsonArray)",
+            "public void addAll(com.google.gson.JsonArray)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonArray.set(int, com.google.gson.JsonElement)",
+            "public com.google.gson.JsonElement set(int, com.google.gson.JsonElement)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonArray.remove(com.google.gson.JsonElement)",
+            "public boolean remove(com.google.gson.JsonElement)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonArray.remove(int)",
+            "public com.google.gson.JsonElement remove(int)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonArray.contains(com.google.gson.JsonElement)",
+            "public boolean contains(com.google.gson.JsonElement)"
+        ],
+        [
+            "int",
+            "com.google.gson.JsonArray.size()",
+            "public int size()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonArray.isEmpty()",
+            "public boolean isEmpty()"
+        ],
+        [
+            "java.util.Iterator<com.google.gson.JsonElement>",
+            "com.google.gson.JsonArray.iterator()",
+            "public java.util.Iterator<com.google.gson.JsonElement> iterator()"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonArray.get(int)",
+            "public com.google.gson.JsonElement get(int)"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.JsonArray.getAsNumber()",
+            "public java.lang.Number getAsNumber()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.JsonArray.getAsString()",
+            "public java.lang.String getAsString()"
+        ],
+        [
+            "double",
+            "com.google.gson.JsonArray.getAsDouble()",
+            "public double getAsDouble()"
+        ],
+        [
+            "java.math.BigDecimal",
+            "com.google.gson.JsonArray.getAsBigDecimal()",
+            "public java.math.BigDecimal getAsBigDecimal()"
+        ],
+        [
+            "java.math.BigInteger",
+            "com.google.gson.JsonArray.getAsBigInteger()",
+            "public java.math.BigInteger getAsBigInteger()"
+        ],
+        [
+            "float",
+            "com.google.gson.JsonArray.getAsFloat()",
+            "public float getAsFloat()"
+        ],
+        [
+            "long",
+            "com.google.gson.JsonArray.getAsLong()",
+            "public long getAsLong()"
+        ],
+        [
+            "int",
+            "com.google.gson.JsonArray.getAsInt()",
+            "public int getAsInt()"
+        ],
+        [
+            "byte",
+            "com.google.gson.JsonArray.getAsByte()",
+            "public byte getAsByte()"
+        ],
+        [
+            "char",
+            "com.google.gson.JsonArray.getAsCharacter()",
+            "public char getAsCharacter()"
+        ],
+        [
+            "short",
+            "com.google.gson.JsonArray.getAsShort()",
+            "public short getAsShort()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonArray.getAsBoolean()",
+            "public boolean getAsBoolean()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonArray.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "int",
+            "com.google.gson.JsonArray.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonArray.deepCopy()",
+            "public com.google.gson.JsonElement deepCopy()"
+        ],
+        [
+            "com.google.gson.JsonParseException",
+            "com.google.gson.JsonParseException(java.lang.String)",
+            "public com.google.gson.JsonParseException(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonParseException",
+            "com.google.gson.JsonParseException(java.lang.String, java.lang.Throwable)",
+            "public com.google.gson.JsonParseException(java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "com.google.gson.JsonParseException",
+            "com.google.gson.JsonParseException(java.lang.Throwable)",
+            "public com.google.gson.JsonParseException(java.lang.Throwable)"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.ToNumberPolicy$3.readNumber(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number readNumber(com.google.gson.stream.JsonReader) throws java.io.IOException, com.google.gson.JsonParseException"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.LongSerializationPolicy$2.serialize(java.lang.Long)",
+            "public com.google.gson.JsonElement serialize(java.lang.Long)"
+        ],
+        [
+            "com.google.gson.JsonParser",
+            "com.google.gson.JsonParser()",
+            "public com.google.gson.JsonParser()"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonParser.parseString(java.lang.String)",
+            "public static com.google.gson.JsonElement parseString(java.lang.String) throws com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonParser.parseReader(java.io.Reader)",
+            "public static com.google.gson.JsonElement parseReader(java.io.Reader) throws com.google.gson.JsonIOException, com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonParser.parseReader(com.google.gson.stream.JsonReader)",
+            "public static com.google.gson.JsonElement parseReader(com.google.gson.stream.JsonReader) throws com.google.gson.JsonIOException, com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonParser.parse(java.lang.String)",
+            "public com.google.gson.JsonElement parse(java.lang.String) throws com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonParser.parse(java.io.Reader)",
+            "public com.google.gson.JsonElement parse(java.io.Reader) throws com.google.gson.JsonIOException, com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonParser.parse(com.google.gson.stream.JsonReader)",
+            "public com.google.gson.JsonElement parse(com.google.gson.stream.JsonReader) throws com.google.gson.JsonIOException, com.google.gson.JsonSyntaxException"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder()",
+            "public com.google.gson.GsonBuilder()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setVersion(double)",
+            "public com.google.gson.GsonBuilder setVersion(double)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.excludeFieldsWithModifiers(int...)",
+            "public com.google.gson.GsonBuilder excludeFieldsWithModifiers(int...)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.generateNonExecutableJson()",
+            "public com.google.gson.GsonBuilder generateNonExecutableJson()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.excludeFieldsWithoutExposeAnnotation()",
+            "public com.google.gson.GsonBuilder excludeFieldsWithoutExposeAnnotation()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.serializeNulls()",
+            "public com.google.gson.GsonBuilder serializeNulls()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.enableComplexMapKeySerialization()",
+            "public com.google.gson.GsonBuilder enableComplexMapKeySerialization()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.disableInnerClassSerialization()",
+            "public com.google.gson.GsonBuilder disableInnerClassSerialization()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setLongSerializationPolicy(com.google.gson.LongSerializationPolicy)",
+            "public com.google.gson.GsonBuilder setLongSerializationPolicy(com.google.gson.LongSerializationPolicy)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setFieldNamingPolicy(com.google.gson.FieldNamingPolicy)",
+            "public com.google.gson.GsonBuilder setFieldNamingPolicy(com.google.gson.FieldNamingPolicy)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setFieldNamingStrategy(com.google.gson.FieldNamingStrategy)",
+            "public com.google.gson.GsonBuilder setFieldNamingStrategy(com.google.gson.FieldNamingStrategy)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setObjectToNumberStrategy(com.google.gson.ToNumberStrategy)",
+            "public com.google.gson.GsonBuilder setObjectToNumberStrategy(com.google.gson.ToNumberStrategy)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setNumberToNumberStrategy(com.google.gson.ToNumberStrategy)",
+            "public com.google.gson.GsonBuilder setNumberToNumberStrategy(com.google.gson.ToNumberStrategy)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setExclusionStrategies(com.google.gson.ExclusionStrategy...)",
+            "public com.google.gson.GsonBuilder setExclusionStrategies(com.google.gson.ExclusionStrategy...)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.addSerializationExclusionStrategy(com.google.gson.ExclusionStrategy)",
+            "public com.google.gson.GsonBuilder addSerializationExclusionStrategy(com.google.gson.ExclusionStrategy)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.addDeserializationExclusionStrategy(com.google.gson.ExclusionStrategy)",
+            "public com.google.gson.GsonBuilder addDeserializationExclusionStrategy(com.google.gson.ExclusionStrategy)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setPrettyPrinting()",
+            "public com.google.gson.GsonBuilder setPrettyPrinting()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setLenient()",
+            "public com.google.gson.GsonBuilder setLenient()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.disableHtmlEscaping()",
+            "public com.google.gson.GsonBuilder disableHtmlEscaping()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setDateFormat(java.lang.String)",
+            "public com.google.gson.GsonBuilder setDateFormat(java.lang.String)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setDateFormat(int)",
+            "public com.google.gson.GsonBuilder setDateFormat(int)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.setDateFormat(int, int)",
+            "public com.google.gson.GsonBuilder setDateFormat(int, int)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.registerTypeAdapter(java.lang.reflect.Type, java.lang.Object)",
+            "public com.google.gson.GsonBuilder registerTypeAdapter(java.lang.reflect.Type, java.lang.Object)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.registerTypeAdapterFactory(com.google.gson.TypeAdapterFactory)",
+            "public com.google.gson.GsonBuilder registerTypeAdapterFactory(com.google.gson.TypeAdapterFactory)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.registerTypeHierarchyAdapter(java.lang.Class<?>, java.lang.Object)",
+            "public com.google.gson.GsonBuilder registerTypeHierarchyAdapter(java.lang.Class<?>, java.lang.Object)"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.serializeSpecialFloatingPointValues()",
+            "public com.google.gson.GsonBuilder serializeSpecialFloatingPointValues()"
+        ],
+        [
+            "com.google.gson.GsonBuilder",
+            "com.google.gson.GsonBuilder.disableJdkUnsafe()",
+            "public com.google.gson.GsonBuilder disableJdkUnsafe()"
+        ],
+        [
+            "com.google.gson.Gson",
+            "com.google.gson.GsonBuilder.create()",
+            "public com.google.gson.Gson create()"
+        ],
+        [
+            "com.google.gson.FieldAttributes",
+            "com.google.gson.FieldAttributes(java.lang.reflect.Field)",
+            "public com.google.gson.FieldAttributes(java.lang.reflect.Field)"
+        ],
+        [
+            "java.lang.Class<?>",
+            "com.google.gson.FieldAttributes.getDeclaringClass()",
+            "public java.lang.Class<?> getDeclaringClass()"
+        ],
+        [
+            "java.lang.String",
+            "com.google.gson.FieldAttributes.getName()",
+            "public java.lang.String getName()"
+        ],
+        [
+            "java.lang.reflect.Type",
+            "com.google.gson.FieldAttributes.getDeclaredType()",
+            "public java.lang.reflect.Type getDeclaredType()"
+        ],
+        [
+            "java.lang.Class<?>",
+            "com.google.gson.FieldAttributes.getDeclaredClass()",
+            "public java.lang.Class<?> getDeclaredClass()"
+        ],
+        [
+            "<T extends java.lang.annotation.Annotation> T",
+            "com.google.gson.FieldAttributes.getAnnotation(java.lang.Class<T>)",
+            "public <T extends java.lang.annotation.Annotation> T getAnnotation(java.lang.Class<T>)"
+        ],
+        [
+            "java.util.Collection<java.lang.annotation.Annotation>",
+            "com.google.gson.FieldAttributes.getAnnotations()",
+            "public java.util.Collection<java.lang.annotation.Annotation> getAnnotations()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.FieldAttributes.hasModifier(int)",
+            "public boolean hasModifier(int)"
+        ],
+        [
+            "com.google.gson.JsonObject",
+            "com.google.gson.JsonObject()",
+            "public com.google.gson.JsonObject()"
+        ],
+        [
+            "com.google.gson.JsonObject",
+            "com.google.gson.JsonObject.deepCopy()",
+            "public com.google.gson.JsonObject deepCopy()"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonObject.add(java.lang.String, com.google.gson.JsonElement)",
+            "public void add(java.lang.String, com.google.gson.JsonElement)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonObject.remove(java.lang.String)",
+            "public com.google.gson.JsonElement remove(java.lang.String)"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonObject.addProperty(java.lang.String, java.lang.String)",
+            "public void addProperty(java.lang.String, java.lang.String)"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonObject.addProperty(java.lang.String, java.lang.Number)",
+            "public void addProperty(java.lang.String, java.lang.Number)"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonObject.addProperty(java.lang.String, java.lang.Boolean)",
+            "public void addProperty(java.lang.String, java.lang.Boolean)"
+        ],
+        [
+            "void",
+            "com.google.gson.JsonObject.addProperty(java.lang.String, java.lang.Character)",
+            "public void addProperty(java.lang.String, java.lang.Character)"
+        ],
+        [
+            "java.util.Set<java.util.Map$Entry<java.lang.String, com.google.gson.JsonElement>>",
+            "com.google.gson.JsonObject.entrySet()",
+            "public java.util.Set<java.util.Map$Entry<java.lang.String, com.google.gson.JsonElement>> entrySet()"
+        ],
+        [
+            "java.util.Set<java.lang.String>",
+            "com.google.gson.JsonObject.keySet()",
+            "public java.util.Set<java.lang.String> keySet()"
+        ],
+        [
+            "int",
+            "com.google.gson.JsonObject.size()",
+            "public int size()"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonObject.has(java.lang.String)",
+            "public boolean has(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonObject.get(java.lang.String)",
+            "public com.google.gson.JsonElement get(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonPrimitive",
+            "com.google.gson.JsonObject.getAsJsonPrimitive(java.lang.String)",
+            "public com.google.gson.JsonPrimitive getAsJsonPrimitive(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonArray",
+            "com.google.gson.JsonObject.getAsJsonArray(java.lang.String)",
+            "public com.google.gson.JsonArray getAsJsonArray(java.lang.String)"
+        ],
+        [
+            "com.google.gson.JsonObject",
+            "com.google.gson.JsonObject.getAsJsonObject(java.lang.String)",
+            "public com.google.gson.JsonObject getAsJsonObject(java.lang.String)"
+        ],
+        [
+            "boolean",
+            "com.google.gson.JsonObject.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "int",
+            "com.google.gson.JsonObject.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "com.google.gson.JsonElement",
+            "com.google.gson.JsonObject.deepCopy()",
+            "public com.google.gson.JsonElement deepCopy()"
+        ],
+        [
+            "java.lang.Double",
+            "com.google.gson.ToNumberPolicy$1.readNumber(com.google.gson.stream.JsonReader)",
+            "public java.lang.Double readNumber(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ],
+        [
+            "java.lang.Number",
+            "com.google.gson.ToNumberPolicy$1.readNumber(com.google.gson.stream.JsonReader)",
+            "public java.lang.Number readNumber(com.google.gson.stream.JsonReader) throws java.io.IOException"
+        ]
+    ]
+}

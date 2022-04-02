@@ -3,10 +3,10 @@ import subprocess
 import json
 import datetime
 
-os.chdir('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\_extracted')
+os.chdir('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\extracted')
 extracted = os.listdir()
 
-os.chdir('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\_libs')
+os.chdir('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\libs')
 files = os.listdir()
 
 filt = list(filter(lambda x: '.jar' == x[-4:], files)) #select only jar files
@@ -35,48 +35,61 @@ for f in filt:
     cnt = 1
     for _c in _classes:
         s = "javap -public -cp " + f + " " + _c
+        try:
+            returned_methods = subprocess.check_output(s)
+            r_split = str(returned_methods).split('\\r\\n')
+            _r_split = list(filter(lambda x: ';' in x, r_split)) #get only public methods and attributes
+            _r_split_ = [x.strip(' ') for x in _r_split] #clean white spaces
+            _r_split2 = [x[:-1] for x in _r_split_] #drop semicolon
 
-        returned_methods = subprocess.check_output(s)
-        r_split = str(returned_methods).split('\\r\\n')
-        _r_split = list(filter(lambda x: ';' in x, r_split)) #get only public methods and attributes
-        _r_split_ = [x.strip(' ') for x in _r_split] #clean white spaces
-        _r_split2 = [x[:-1] for x in _r_split_] #drop semicolon
+            a = []
 
-        a = []
+            path = _c.split('/')
+            path = '.'.join(path) + '.'
 
-        path = _c.split('/')
-        path = '.'.join(path) + '.'
+            ecnt = 0
+            for m in _r_split2:
+                m_split = m.split(' ')
 
-        ecnt = 0
-        for m in _r_split2:
-            m_split = m.split(' ')
+                if ' throws ' in m: #remove throw phrase
+                    m_split = m_split[0: m_split.index('throws')]
+                if 'abstract' not in m:
+                    if '(' not in m_split[1]: #not a constructor
+                        if '(' in m: # is a method
+                            if '<' in m: #has angle brackets for generics
+                                a_pos = 0
+                                for i in range(len(m_split)):
+                                    if '<' in m_split[i]:
+                                        break
+                                    a_pos = a_pos + 1
+                                b_pos = 0
+                                for i in range(len(m_split)):
+                                    if '(' in m_split[i]:
+                                        break
+                                    b_pos = b_pos + 1
+                                
+                                if a_pos < b_pos: #if the angle brackets are before method name
+                                    # if b_pos - a_pos > 1: #if the generic defines the return types and arguments
+                                    #     a.append([' '.join(m_split[a_pos:b_pos]), path + ' '.join(m_split[b_pos:])])
 
-            if ' throws ' in m: #remove throw phrase
-                m_split = m_split[0: m_split.index('throws')]
-            if 'abstract' not in m:
-                if '(' not in m_split[1]: #not a constructor
-                    if '(' in m: # is a method
-                        if '<' in m: #has angle brackets for generics
-                            a_pos = 0
-                            for i in range(len(m_split)):
-                                if '<' in m_split[i]:
-                                    break
-                                a_pos = a_pos + 1
-                            b_pos = 0
-                            for i in range(len(m_split)):
-                                if '(' in m_split[i]:
-                                    break
-                                b_pos = b_pos + 1
-                            
-                            if a_pos < b_pos: #if the angle brackets are before method name
-                                # if b_pos - a_pos > 1: #if the generic defines the return types and arguments
-                                #     a.append([' '.join(m_split[a_pos:b_pos]), path + ' '.join(m_split[b_pos:])])
+                                    # else: #if angle brackets are only in return type
+                                    a.append([' '.join(m_split[a_pos:b_pos]), path + ' '.join(m_split[b_pos:]), m])
+                                    ecnt = 1 + ecnt
 
-                                # else: #if angle brackets are only in return type
-                                a.append([' '.join(m_split[a_pos:b_pos]), path + ' '.join(m_split[b_pos:]), m])
-                                ecnt = 1 + ecnt
-
-                            else: #if the angle brackets are in parameter only
+                                else: #if the angle brackets are in parameter only
+                                    m_split.pop(0)
+                                    if ' static ' in m and ' final ' in m: #is final static
+                                        a.append([m_split[2], path + ' '.join(m_split[3:]), m])
+                                    elif ' final ' in m:
+                                        a.append([m_split[1], path + ' '.join(m_split[2:]), m])
+                                    elif ' static ' in m:
+                                        a.append([m_split[1], path + ' '.join(m_split[2:]), m])
+                                    else:
+                                        a.append([m_split[0], path + ' '.join(m_split[1:]), m])
+                                    ecnt = 1 + ecnt
+                                
+                            else:
+                                #just take the first element as return and the others as the method 
                                 m_split.pop(0)
                                 if ' static ' in m and ' final ' in m: #is final static
                                     a.append([m_split[2], path + ' '.join(m_split[3:]), m])
@@ -87,29 +100,20 @@ for f in filt:
                                 else:
                                     a.append([m_split[0], path + ' '.join(m_split[1:]), m])
                                 ecnt = 1 + ecnt
-                            
-                        else:
-                            #just take the first element as return and the others as the method 
-                            m_split.pop(0)
-                            if ' static ' in m and ' final ' in m: #is final static
-                                a.append([m_split[2], path + ' '.join(m_split[3:]), m])
-                            elif ' final ' in m:
-                                a.append([m_split[1], path + ' '.join(m_split[2:]), m])
-                            elif ' static ' in m:
-                                a.append([m_split[1], path + ' '.join(m_split[2:]), m])
-                            else:
-                                a.append([m_split[0], path + ' '.join(m_split[1:]), m])
-                            ecnt = 1 + ecnt
-                else:
-                    a.append([m_split[1].split('(')[0], ' '.join(m_split[1:]), m])
-                    ecnt = 1 + ecnt
+                    else:
+                        a.append([m_split[1].split('(')[0], ' '.join(m_split[1:]), m])
+                        ecnt = 1 + ecnt
 
-                if len(a) is not 0 and '(' in a[len(a)-1][0]:
-                    print("found invalid return")
+                    if len(a) is not 0 and '(' in a[len(a)-1][0]:
+                        print("found invalid return")
 
-            
-        apis[f].extend(a)
-        print(f, ":", fcnt, "/", len(filt) , ":", cnt, "/", len(_classes) , ": Extracted ", ecnt, " methods from ", path)
+                
+            apis[f].extend(a)
+            print(f, ":", fcnt, "/", len(filt) , ":", cnt, "/", len(_classes) , ": Extracted ", ecnt, " methods from ", path)
+        except:
+            print("Error extracting:", _c)
+
+        
 
         cnt = cnt + 1
 
@@ -122,7 +126,7 @@ for f in filt:
 
         f_object.close()
 
-    os.rename('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\_libs\\' + f + '.json', 'G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\_extracted\\' + f + '.json')
+    os.rename('G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\libs\\' + f + '.json', 'G:\My Drive\Term 4.2\IS706 - Software Mining and Analysis\Project\extracted\\' + f + '.json')
 
 end = datetime.datetime.now()
 print("Start time:", start)

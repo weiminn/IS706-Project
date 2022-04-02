@@ -1,0 +1,334 @@
+{
+    "spring-aspects-5.3.18.jar": [
+        [
+            "org.springframework.context.annotation.aspectj.SpringConfiguredConfiguration",
+            "org.springframework.context.annotation.aspectj.SpringConfiguredConfiguration()",
+            "public org.springframework.context.annotation.aspectj.SpringConfiguredConfiguration()"
+        ],
+        [
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect",
+            "org.springframework.context.annotation.aspectj.SpringConfiguredConfiguration.beanConfigurerAspect()",
+            "public org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect beanConfigurerAspect()"
+        ],
+        [
+            "void",
+            "org.springframework.transaction.aspectj.AbstractTransactionAspect$Rethrower.rethrow(java.lang.Throwable)",
+            "public static void rethrow(java.lang.Throwable)"
+        ],
+        [
+            "org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect",
+            "org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect()",
+            "public org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect()"
+        ],
+        [
+            "org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect",
+            "org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect.aspectOf()",
+            "public static org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect aspectOf()"
+        ],
+        [
+            "boolean",
+            "org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect.hasAspect()",
+            "public static boolean hasAspect()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect$1.proceedWithInvocation()",
+            "public java.lang.Object proceedWithInvocation() throws java.lang.Throwable"
+        ],
+        [
+            "org.springframework.transaction.aspectj.AspectJTransactionManagementConfiguration",
+            "org.springframework.transaction.aspectj.AspectJTransactionManagementConfiguration()",
+            "public org.springframework.transaction.aspectj.AspectJTransactionManagementConfiguration()"
+        ],
+        [
+            "org.springframework.transaction.aspectj.AnnotationTransactionAspect",
+            "org.springframework.transaction.aspectj.AspectJTransactionManagementConfiguration.transactionAspect()",
+            "public org.springframework.transaction.aspectj.AnnotationTransactionAspect transactionAspect()"
+        ],
+        [
+            "void",
+            "org.springframework.transaction.aspectj.AbstractTransactionAspect.destroy()",
+            "public void destroy()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.transaction.aspectj.AbstractTransactionAspect.ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(java.lang.Object, org.aspectj.runtime.internal.AroundClosure, org.aspectj.lang.JoinPoint$StaticPart)",
+            "public java.lang.Object ajc$around$org_springframework_transaction_aspectj_AbstractTransactionAspect$1$2a73e96c(java.lang.Object, org.aspectj.runtime.internal.AroundClosure, org.aspectj.lang.JoinPoint$StaticPart)"
+        ],
+        [
+            "org.springframework.transaction.aspectj.AnnotationTransactionAspect",
+            "org.springframework.transaction.aspectj.AnnotationTransactionAspect()",
+            "public org.springframework.transaction.aspectj.AnnotationTransactionAspect()"
+        ],
+        [
+            "org.springframework.transaction.aspectj.AnnotationTransactionAspect",
+            "org.springframework.transaction.aspectj.AnnotationTransactionAspect.aspectOf()",
+            "public static org.springframework.transaction.aspectj.AnnotationTransactionAspect aspectOf()"
+        ],
+        [
+            "boolean",
+            "org.springframework.transaction.aspectj.AnnotationTransactionAspect.hasAspect()",
+            "public static boolean hasAspect()"
+        ],
+        [
+            "org.springframework.transaction.aspectj.AspectJJtaTransactionManagementConfiguration",
+            "org.springframework.transaction.aspectj.AspectJJtaTransactionManagementConfiguration()",
+            "public org.springframework.transaction.aspectj.AspectJJtaTransactionManagementConfiguration()"
+        ],
+        [
+            "org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect",
+            "org.springframework.transaction.aspectj.AspectJJtaTransactionManagementConfiguration.jtaTransactionAspect()",
+            "public org.springframework.transaction.aspectj.JtaAnnotationTransactionAspect jtaTransactionAspect()"
+        ],
+        [
+            "org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect",
+            "org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect()",
+            "public org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect()"
+        ],
+        [
+            "void",
+            "org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect.ajc$pointcut$$asyncMethod$8f9()",
+            "public void ajc$pointcut$$asyncMethod$8f9()"
+        ],
+        [
+            "org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect",
+            "org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect.aspectOf()",
+            "public static org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect aspectOf()"
+        ],
+        [
+            "boolean",
+            "org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect.hasAspect()",
+            "public static boolean hasAspect()"
+        ],
+        [
+            "org.springframework.scheduling.aspectj.AbstractAsyncExecutionAspect",
+            "org.springframework.scheduling.aspectj.AbstractAsyncExecutionAspect()",
+            "public org.springframework.scheduling.aspectj.AbstractAsyncExecutionAspect()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.scheduling.aspectj.AbstractAsyncExecutionAspect.ajc$around$org_springframework_scheduling_aspectj_AbstractAsyncExecutionAspect$1$6c004c3e(org.aspectj.runtime.internal.AroundClosure, org.aspectj.lang.JoinPoint$StaticPart, org.aspectj.lang.JoinPoint)",
+            "public java.lang.Object ajc$around$org_springframework_scheduling_aspectj_AbstractAsyncExecutionAspect$1$6c004c3e(org.aspectj.runtime.internal.AroundClosure, org.aspectj.lang.JoinPoint$StaticPart, org.aspectj.lang.JoinPoint)"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.scheduling.aspectj.AbstractAsyncExecutionAspect$AbstractAsyncExecutionAspect$1.call()",
+            "public java.lang.Object call() throws java.lang.Exception"
+        ],
+        [
+            "org.springframework.scheduling.aspectj.AspectJAsyncConfiguration",
+            "org.springframework.scheduling.aspectj.AspectJAsyncConfiguration()",
+            "public org.springframework.scheduling.aspectj.AspectJAsyncConfiguration()"
+        ],
+        [
+            "org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect",
+            "org.springframework.scheduling.aspectj.AspectJAsyncConfiguration.asyncAdvisor()",
+            "public org.springframework.scheduling.aspectj.AnnotationAsyncExecutionAspect asyncAdvisor()"
+        ],
+        [
+            "org.springframework.cache.aspectj.AspectJCachingConfiguration",
+            "org.springframework.cache.aspectj.AspectJCachingConfiguration()",
+            "public org.springframework.cache.aspectj.AspectJCachingConfiguration()"
+        ],
+        [
+            "org.springframework.cache.aspectj.AnnotationCacheAspect",
+            "org.springframework.cache.aspectj.AspectJCachingConfiguration.cacheAspect()",
+            "public org.springframework.cache.aspectj.AnnotationCacheAspect cacheAspect()"
+        ],
+        [
+            "org.springframework.cache.aspectj.JCacheCacheAspect",
+            "org.springframework.cache.aspectj.JCacheCacheAspect()",
+            "public org.springframework.cache.aspectj.JCacheCacheAspect()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.cache.aspectj.JCacheCacheAspect.ajc$around$org_springframework_cache_aspectj_JCacheCacheAspect$1$2bc714b5(java.lang.Object, org.aspectj.runtime.internal.AroundClosure, org.aspectj.lang.JoinPoint)",
+            "public java.lang.Object ajc$around$org_springframework_cache_aspectj_JCacheCacheAspect$1$2bc714b5(java.lang.Object, org.aspectj.runtime.internal.AroundClosure, org.aspectj.lang.JoinPoint)"
+        ],
+        [
+            "org.springframework.cache.aspectj.JCacheCacheAspect",
+            "org.springframework.cache.aspectj.JCacheCacheAspect.aspectOf()",
+            "public static org.springframework.cache.aspectj.JCacheCacheAspect aspectOf()"
+        ],
+        [
+            "boolean",
+            "org.springframework.cache.aspectj.JCacheCacheAspect.hasAspect()",
+            "public static boolean hasAspect()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.cache.aspectj.AbstractCacheAspect$AbstractCacheAspect$1.invoke()",
+            "public java.lang.Object invoke()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.cache.aspectj.JCacheCacheAspect$JCacheCacheAspect$1.invoke()",
+            "public java.lang.Object invoke()"
+        ],
+        [
+            "org.springframework.cache.aspectj.AnnotationCacheAspect",
+            "org.springframework.cache.aspectj.AnnotationCacheAspect()",
+            "public org.springframework.cache.aspectj.AnnotationCacheAspect()"
+        ],
+        [
+            "org.springframework.cache.aspectj.AnnotationCacheAspect",
+            "org.springframework.cache.aspectj.AnnotationCacheAspect.aspectOf()",
+            "public static org.springframework.cache.aspectj.AnnotationCacheAspect aspectOf()"
+        ],
+        [
+            "boolean",
+            "org.springframework.cache.aspectj.AnnotationCacheAspect.hasAspect()",
+            "public static boolean hasAspect()"
+        ],
+        [
+            "void",
+            "org.springframework.cache.aspectj.AbstractCacheAspect.destroy()",
+            "public void destroy()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.cache.aspectj.AbstractCacheAspect.ajc$around$org_springframework_cache_aspectj_AbstractCacheAspect$1$2bc714b5(java.lang.Object, org.aspectj.runtime.internal.AroundClosure, org.aspectj.lang.JoinPoint)",
+            "public java.lang.Object ajc$around$org_springframework_cache_aspectj_AbstractCacheAspect$1$2bc714b5(java.lang.Object, org.aspectj.runtime.internal.AroundClosure, org.aspectj.lang.JoinPoint)"
+        ],
+        [
+            "org.springframework.cache.aspectj.AspectJJCacheConfiguration",
+            "org.springframework.cache.aspectj.AspectJJCacheConfiguration()",
+            "public org.springframework.cache.aspectj.AspectJJCacheConfiguration()"
+        ],
+        [
+            "org.springframework.cache.aspectj.JCacheCacheAspect",
+            "org.springframework.cache.aspectj.AspectJJCacheConfiguration.cacheAspect(org.springframework.cache.jcache.interceptor.JCacheOperationSource)",
+            "public org.springframework.cache.aspectj.JCacheCacheAspect cacheAspect(org.springframework.cache.jcache.interceptor.JCacheOperationSource)"
+        ],
+        [
+            "org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect",
+            "org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect()",
+            "public org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect.ajc$pointcut$$beanConstruction$e18(java.lang.Object)",
+            "public void ajc$pointcut$$beanConstruction$e18(java.lang.Object)"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect.ajc$pointcut$$beanDeserialization$efb(java.lang.Object)",
+            "public void ajc$pointcut$$beanDeserialization$efb(java.lang.Object)"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect.ajc$pointcut$$leastSpecificSuperTypeConstruction$f86()",
+            "public void ajc$pointcut$$leastSpecificSuperTypeConstruction$f86()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect.ajc$interMethod$org_springframework_beans_factory_aspectj_AbstractInterfaceDrivenDependencyInjectionAspect$org_springframework_beans_factory_aspectj_AbstractInterfaceDrivenDependencyInjectionAspect$ConfigurableDeserializationSupport$readResolve(org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect$ConfigurableDeserializationSupport)",
+            "public static java.lang.Object ajc$interMethod$org_springframework_beans_factory_aspectj_AbstractInterfaceDrivenDependencyInjectionAspect$org_springframework_beans_factory_aspectj_AbstractInterfaceDrivenDependencyInjectionAspect$ConfigurableDeserializationSupport$readResolve(org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect$ConfigurableDeserializationSupport) throws java.io.ObjectStreamException"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect.ajc$interMethodDispatch1$org_springframework_beans_factory_aspectj_AbstractInterfaceDrivenDependencyInjectionAspect$org_springframework_beans_factory_aspectj_AbstractInterfaceDrivenDependencyInjectionAspect$ConfigurableDeserializationSupport$readResolve(org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect$ConfigurableDeserializationSupport)",
+            "public static java.lang.Object ajc$interMethodDispatch1$org_springframework_beans_factory_aspectj_AbstractInterfaceDrivenDependencyInjectionAspect$org_springframework_beans_factory_aspectj_AbstractInterfaceDrivenDependencyInjectionAspect$ConfigurableDeserializationSupport$readResolve(org.springframework.beans.factory.aspectj.AbstractInterfaceDrivenDependencyInjectionAspect$ConfigurableDeserializationSupport) throws java.io.ObjectStreamException"
+        ],
+        [
+            "org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect",
+            "org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect()",
+            "public org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect.ajc$pointcut$$mostSpecificSubTypeConstruction$677()",
+            "public void ajc$pointcut$$mostSpecificSubTypeConstruction$677()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect.ajc$pointcut$$preConstructionConfiguration$7c3()",
+            "public void ajc$pointcut$$preConstructionConfiguration$7c3()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect.ajc$before$org_springframework_beans_factory_aspectj_AbstractDependencyInjectionAspect$1$e854fa65(java.lang.Object)",
+            "public void ajc$before$org_springframework_beans_factory_aspectj_AbstractDependencyInjectionAspect$1$e854fa65(java.lang.Object)"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect.ajc$afterReturning$org_springframework_beans_factory_aspectj_AbstractDependencyInjectionAspect$2$1ea6722c(java.lang.Object)",
+            "public void ajc$afterReturning$org_springframework_beans_factory_aspectj_AbstractDependencyInjectionAspect$2$1ea6722c(java.lang.Object)"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect.ajc$afterReturning$org_springframework_beans_factory_aspectj_AbstractDependencyInjectionAspect$3$6aa27052(java.lang.Object)",
+            "public void ajc$afterReturning$org_springframework_beans_factory_aspectj_AbstractDependencyInjectionAspect$3$6aa27052(java.lang.Object)"
+        ],
+        [
+            "boolean",
+            "org.springframework.beans.factory.aspectj.AbstractDependencyInjectionAspect.ajc$if$6f1(org.aspectj.lang.JoinPoint)",
+            "public static final boolean ajc$if$6f1(org.aspectj.lang.JoinPoint)"
+        ],
+        [
+            "org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect",
+            "org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect()",
+            "public org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect.ajc$pointcut$$inConfigurableBean$6fc()",
+            "public void ajc$pointcut$$inConfigurableBean$6fc()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect.configureBean(java.lang.Object)",
+            "public final void configureBean(java.lang.Object)"
+        ],
+        [
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect()",
+            "public org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.setBeanFactory(org.springframework.beans.factory.BeanFactory)",
+            "public void setBeanFactory(org.springframework.beans.factory.BeanFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.afterPropertiesSet()",
+            "public void afterPropertiesSet()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.configureBean(java.lang.Object)",
+            "public void configureBean(java.lang.Object)"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.destroy()",
+            "public void destroy()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.ajc$pointcut$$inConfigurableBean$a3e()",
+            "public void ajc$pointcut$$inConfigurableBean$a3e()"
+        ],
+        [
+            "void",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.ajc$pointcut$$preConstructionConfiguration$a7c()",
+            "public void ajc$pointcut$$preConstructionConfiguration$a7c()"
+        ],
+        [
+            "boolean",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.ajc$if$bb0(org.springframework.beans.factory.annotation.Configurable)",
+            "public static final boolean ajc$if$bb0(org.springframework.beans.factory.annotation.Configurable)"
+        ],
+        [
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.aspectOf()",
+            "public static org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect aspectOf()"
+        ],
+        [
+            "boolean",
+            "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect.hasAspect()",
+            "public static boolean hasAspect()"
+        ]
+    ]
+}

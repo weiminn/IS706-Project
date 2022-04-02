@@ -1,0 +1,2989 @@
+{
+    "spring-orm-5.3.18.jar": [
+        [
+            "org.springframework.orm.ObjectOptimisticLockingFailureException",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.String, java.lang.Throwable)",
+            "public org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "org.springframework.orm.ObjectOptimisticLockingFailureException",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.Class<?>, java.lang.Object)",
+            "public org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.Class<?>, java.lang.Object)"
+        ],
+        [
+            "org.springframework.orm.ObjectOptimisticLockingFailureException",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.Class<?>, java.lang.Object, java.lang.Throwable)",
+            "public org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.Class<?>, java.lang.Object, java.lang.Throwable)"
+        ],
+        [
+            "org.springframework.orm.ObjectOptimisticLockingFailureException",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.Class<?>, java.lang.Object, java.lang.String, java.lang.Throwable)",
+            "public org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.Class<?>, java.lang.Object, java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "org.springframework.orm.ObjectOptimisticLockingFailureException",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.String, java.lang.Object)",
+            "public org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.String, java.lang.Object)"
+        ],
+        [
+            "org.springframework.orm.ObjectOptimisticLockingFailureException",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.String, java.lang.Object, java.lang.Throwable)",
+            "public org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.String, java.lang.Object, java.lang.Throwable)"
+        ],
+        [
+            "org.springframework.orm.ObjectOptimisticLockingFailureException",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.String, java.lang.Object, java.lang.String, java.lang.Throwable)",
+            "public org.springframework.orm.ObjectOptimisticLockingFailureException(java.lang.String, java.lang.Object, java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "java.lang.Class<?>",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException.getPersistentClass()",
+            "public java.lang.Class<?> getPersistentClass()"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException.getPersistentClassName()",
+            "public java.lang.String getPersistentClassName()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.ObjectOptimisticLockingFailureException.getIdentifier()",
+            "public java.lang.Object getIdentifier()"
+        ],
+        [
+            "org.springframework.orm.jpa.SharedEntityManagerCreator",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator()",
+            "public org.springframework.orm.jpa.SharedEntityManagerCreator()"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory)",
+            "public static javax.persistence.EntityManager createSharedEntityManager(javax.persistence.EntityManagerFactory)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>)",
+            "public static javax.persistence.EntityManager createSharedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean)",
+            "public static javax.persistence.EntityManager createSharedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, java.lang.Class<?>...)",
+            "public static javax.persistence.EntityManager createSharedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, java.lang.Class<?>...)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator.createSharedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean, java.lang.Class<?>...)",
+            "public static javax.persistence.EntityManager createSharedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean, java.lang.Class<?>...)"
+        ],
+        [
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator()",
+            "public org.springframework.orm.jpa.ExtendedEntityManagerCreator()"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator.createApplicationManagedEntityManager(javax.persistence.EntityManager, org.springframework.orm.jpa.EntityManagerFactoryInfo)",
+            "public static javax.persistence.EntityManager createApplicationManagedEntityManager(javax.persistence.EntityManager, org.springframework.orm.jpa.EntityManagerFactoryInfo)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator.createApplicationManagedEntityManager(javax.persistence.EntityManager, org.springframework.orm.jpa.EntityManagerFactoryInfo, boolean)",
+            "public static javax.persistence.EntityManager createApplicationManagedEntityManager(javax.persistence.EntityManager, org.springframework.orm.jpa.EntityManagerFactoryInfo, boolean)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator.createContainerManagedEntityManager(javax.persistence.EntityManager, org.springframework.orm.jpa.EntityManagerFactoryInfo)",
+            "public static javax.persistence.EntityManager createContainerManagedEntityManager(javax.persistence.EntityManager, org.springframework.orm.jpa.EntityManagerFactoryInfo)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator.createContainerManagedEntityManager(javax.persistence.EntityManagerFactory)",
+            "public static javax.persistence.EntityManager createContainerManagedEntityManager(javax.persistence.EntityManagerFactory)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator.createContainerManagedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>)",
+            "public static javax.persistence.EntityManager createContainerManagedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator.createContainerManagedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean)",
+            "public static javax.persistence.EntityManager createContainerManagedEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean)"
+        ],
+        [
+            "default",
+            "org.springframework.orm.jpa.JpaVendorAdapter.java.lang.String getPersistenceProviderRootPackage()",
+            "public default java.lang.String getPersistenceProviderRootPackage()"
+        ],
+        [
+            "java.util.Map<java.lang.String, ?>",
+            "org.springframework.orm.jpa.JpaVendorAdapter.getJpaPropertyMap(javax.persistence.spi.PersistenceUnitInfo)",
+            "public default java.util.Map<java.lang.String, ?> getJpaPropertyMap(javax.persistence.spi.PersistenceUnitInfo)"
+        ],
+        [
+            "java.util.Map<java.lang.String, ?>",
+            "org.springframework.orm.jpa.JpaVendorAdapter.getJpaPropertyMap()",
+            "public default java.util.Map<java.lang.String, ?> getJpaPropertyMap()"
+        ],
+        [
+            "default",
+            "org.springframework.orm.jpa.JpaVendorAdapter.org.springframework.orm.jpa.JpaDialect getJpaDialect()",
+            "public default org.springframework.orm.jpa.JpaDialect getJpaDialect()"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManagerFactory>",
+            "org.springframework.orm.jpa.JpaVendorAdapter.getEntityManagerFactoryInterface()",
+            "public default java.lang.Class<? extends javax.persistence.EntityManagerFactory> getEntityManagerFactoryInterface()"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManager>",
+            "org.springframework.orm.jpa.JpaVendorAdapter.getEntityManagerInterface()",
+            "public default java.lang.Class<? extends javax.persistence.EntityManager> getEntityManagerInterface()"
+        ],
+        [
+            "default",
+            "org.springframework.orm.jpa.JpaVendorAdapter.void postProcessEntityManagerFactory(javax.persistence.EntityManagerFactory)",
+            "public default void postProcessEntityManagerFactory(javax.persistence.EntityManagerFactory)"
+        ],
+        [
+            "default",
+            "org.springframework.orm.jpa.JpaVendorAdapter.void postProcessEntityManager(javax.persistence.EntityManager)",
+            "public default void postProcessEntityManager(javax.persistence.EntityManager)"
+        ],
+        [
+            "org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler(javax.persistence.Query, javax.persistence.EntityManager)",
+            "public org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler(javax.persistence.Query, javax.persistence.EntityManager)"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])",
+            "public java.lang.Object invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) throws java.lang.Throwable"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaSystemException",
+            "org.springframework.orm.jpa.JpaSystemException(java.lang.RuntimeException)",
+            "public org.springframework.orm.jpa.JpaSystemException(java.lang.RuntimeException)"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect()",
+            "public org.springframework.orm.jpa.vendor.HibernateJpaDialect()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect.setPrepareConnection(boolean)",
+            "public void setPrepareConnection(boolean)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect.setJdbcExceptionTranslator(org.springframework.jdbc.support.SQLExceptionTranslator)",
+            "public void setJdbcExceptionTranslator(org.springframework.jdbc.support.SQLExceptionTranslator)"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(javax.persistence.EntityManager, org.springframework.transaction.TransactionDefinition)",
+            "public java.lang.Object beginTransaction(javax.persistence.EntityManager, org.springframework.transaction.TransactionDefinition) throws javax.persistence.PersistenceException, java.sql.SQLException, org.springframework.transaction.TransactionException"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect.prepareTransaction(javax.persistence.EntityManager, boolean, java.lang.String)",
+            "public java.lang.Object prepareTransaction(javax.persistence.EntityManager, boolean, java.lang.String) throws javax.persistence.PersistenceException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect.cleanupTransaction(java.lang.Object)",
+            "public void cleanupTransaction(java.lang.Object)"
+        ],
+        [
+            "org.springframework.jdbc.datasource.ConnectionHandle",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect.getJdbcConnection(javax.persistence.EntityManager, boolean)",
+            "public org.springframework.jdbc.datasource.ConnectionHandle getJdbcConnection(javax.persistence.EntityManager, boolean) throws javax.persistence.PersistenceException, java.sql.SQLException"
+        ],
+        [
+            "org.springframework.dao.DataAccessException",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(java.lang.RuntimeException)",
+            "public org.springframework.dao.DataAccessException translateExceptionIfPossible(java.lang.RuntimeException)"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData(org.hibernate.engine.spi.SessionImplementor, org.hibernate.FlushMode, boolean, java.lang.Integer, boolean)",
+            "public org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData(org.hibernate.engine.spi.SessionImplementor, org.hibernate.FlushMode, boolean, java.lang.Integer, boolean)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect$SessionTransactionData.resetSessionState()",
+            "public void resetSessionState()"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle(org.hibernate.engine.spi.SessionImplementor)",
+            "public org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle(org.hibernate.engine.spi.SessionImplementor)"
+        ],
+        [
+            "java.sql.Connection",
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle.getConnection()",
+            "public java.sql.Connection getConnection()"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect()",
+            "public org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect.setLazyDatabaseTransaction(boolean)",
+            "public void setLazyDatabaseTransaction(boolean)"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect.beginTransaction(javax.persistence.EntityManager, org.springframework.transaction.TransactionDefinition)",
+            "public java.lang.Object beginTransaction(javax.persistence.EntityManager, org.springframework.transaction.TransactionDefinition) throws javax.persistence.PersistenceException, java.sql.SQLException, org.springframework.transaction.TransactionException"
+        ],
+        [
+            "org.springframework.jdbc.datasource.ConnectionHandle",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect.getJdbcConnection(javax.persistence.EntityManager, boolean)",
+            "public org.springframework.jdbc.datasource.ConnectionHandle getJdbcConnection(javax.persistence.EntityManager, boolean) throws javax.persistence.PersistenceException, java.sql.SQLException"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean",
+            "org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean()",
+            "public org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean()"
+        ],
+        [
+            "org.hibernate.SessionFactory",
+            "org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean.getObject()",
+            "public org.hibernate.SessionFactory getObject()"
+        ],
+        [
+            "java.lang.Class<?>",
+            "org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean.getObjectType()",
+            "public java.lang.Class<?> getObjectType()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean.isSingleton()",
+            "public boolean isSingleton()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean.getObject()",
+            "public java.lang.Object getObject() throws java.lang.Exception"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter()",
+            "public org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter.setPrepareConnection(boolean)",
+            "public void setPrepareConnection(boolean)"
+        ],
+        [
+            "javax.persistence.spi.PersistenceProvider",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter.getPersistenceProvider()",
+            "public javax.persistence.spi.PersistenceProvider getPersistenceProvider()"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter.getPersistenceProviderRootPackage()",
+            "public java.lang.String getPersistenceProviderRootPackage()"
+        ],
+        [
+            "java.util.Map<java.lang.String, java.lang.Object>",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter.getJpaPropertyMap(javax.persistence.spi.PersistenceUnitInfo)",
+            "public java.util.Map<java.lang.String, java.lang.Object> getJpaPropertyMap(javax.persistence.spi.PersistenceUnitInfo)"
+        ],
+        [
+            "java.util.Map<java.lang.String, java.lang.Object>",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter.getJpaPropertyMap()",
+            "public java.util.Map<java.lang.String, java.lang.Object> getJpaPropertyMap()"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.HibernateJpaDialect",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter.getJpaDialect()",
+            "public org.springframework.orm.jpa.vendor.HibernateJpaDialect getJpaDialect()"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManagerFactory>",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter.getEntityManagerFactoryInterface()",
+            "public java.lang.Class<? extends javax.persistence.EntityManagerFactory> getEntityManagerFactoryInterface()"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManager>",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter.getEntityManagerInterface()",
+            "public java.lang.Class<? extends javax.persistence.EntityManager> getEntityManagerInterface()"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaDialect",
+            "org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter.getJpaDialect()",
+            "public org.springframework.orm.jpa.JpaDialect getJpaDialect()"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect$EclipseLinkConnectionHandle",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect$EclipseLinkConnectionHandle(javax.persistence.EntityManager)",
+            "public org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect$EclipseLinkConnectionHandle(javax.persistence.EntityManager)"
+        ],
+        [
+            "java.sql.Connection",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect$EclipseLinkConnectionHandle.getConnection()",
+            "public java.sql.Connection getConnection()"
+        ],
+        [
+            "javax.persistence.EntityManagerFactory",
+            "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(javax.persistence.spi.PersistenceUnitInfo, java.util.Map)",
+            "public javax.persistence.EntityManagerFactory createContainerEntityManagerFactory(javax.persistence.spi.PersistenceUnitInfo, java.util.Map)"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter()",
+            "public org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter()"
+        ],
+        [
+            "javax.persistence.spi.PersistenceProvider",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter.getPersistenceProvider()",
+            "public javax.persistence.spi.PersistenceProvider getPersistenceProvider()"
+        ],
+        [
+            "java.util.Map<java.lang.String, java.lang.Object>",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter.getJpaPropertyMap()",
+            "public java.util.Map<java.lang.String, java.lang.Object> getJpaPropertyMap()"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter.getJpaDialect()",
+            "public org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect getJpaDialect()"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManager>",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter.getEntityManagerInterface()",
+            "public java.lang.Class<? extends javax.persistence.EntityManager> getEntityManagerInterface()"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaDialect",
+            "org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter.getJpaDialect()",
+            "public org.springframework.orm.jpa.JpaDialect getJpaDialect()"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter()",
+            "public org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.setDatabase(org.springframework.orm.jpa.vendor.Database)",
+            "public void setDatabase(org.springframework.orm.jpa.vendor.Database)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.setDatabasePlatform(java.lang.String)",
+            "public void setDatabasePlatform(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.setGenerateDdl(boolean)",
+            "public void setGenerateDdl(boolean)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.setShowSql(boolean)",
+            "public void setShowSql(boolean)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.getPersistenceProviderRootPackage()",
+            "public java.lang.String getPersistenceProviderRootPackage()"
+        ],
+        [
+            "java.util.Map<java.lang.String, ?>",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.getJpaPropertyMap(javax.persistence.spi.PersistenceUnitInfo)",
+            "public java.util.Map<java.lang.String, ?> getJpaPropertyMap(javax.persistence.spi.PersistenceUnitInfo)"
+        ],
+        [
+            "java.util.Map<java.lang.String, ?>",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.getJpaPropertyMap()",
+            "public java.util.Map<java.lang.String, ?> getJpaPropertyMap()"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaDialect",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.getJpaDialect()",
+            "public org.springframework.orm.jpa.JpaDialect getJpaDialect()"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManagerFactory>",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.getEntityManagerFactoryInterface()",
+            "public java.lang.Class<? extends javax.persistence.EntityManagerFactory> getEntityManagerFactoryInterface()"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManager>",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.getEntityManagerInterface()",
+            "public java.lang.Class<? extends javax.persistence.EntityManager> getEntityManagerInterface()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.postProcessEntityManagerFactory(javax.persistence.EntityManagerFactory)",
+            "public void postProcessEntityManagerFactory(javax.persistence.EntityManagerFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.vendor.AbstractJpaVendorAdapter.postProcessEntityManager(javax.persistence.EntityManager)",
+            "public void postProcessEntityManager(javax.persistence.EntityManager)"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.Database[]",
+            "org.springframework.orm.jpa.vendor.Database.values()",
+            "public static org.springframework.orm.jpa.vendor.Database[] values()"
+        ],
+        [
+            "org.springframework.orm.jpa.vendor.Database",
+            "org.springframework.orm.jpa.vendor.Database.valueOf(java.lang.String)",
+            "public static org.springframework.orm.jpa.vendor.Database valueOf(java.lang.String)"
+        ],
+        [
+            "java.util.List<java.lang.String>",
+            "org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider$1.getManagedClassNames()",
+            "public java.util.List<java.lang.String> getManagedClassNames()"
+        ],
+        [
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerSynchronization",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerSynchronization(javax.persistence.EntityManager, org.springframework.dao.support.PersistenceExceptionTranslator)",
+            "public org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerSynchronization(javax.persistence.EntityManager, org.springframework.dao.support.PersistenceExceptionTranslator)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerSynchronization.getOrder()",
+            "public int getOrder()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerSynchronization.afterCommit()",
+            "public void afterCommit()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerSynchronization.afterCompletion(int)",
+            "public void afterCompletion(int)"
+        ],
+        [
+            "org.springframework.orm.jpa.LocalEntityManagerFactoryBean",
+            "org.springframework.orm.jpa.LocalEntityManagerFactoryBean()",
+            "public org.springframework.orm.jpa.LocalEntityManagerFactoryBean()"
+        ],
+        [
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils$TransactionScopedEntityManagerSynchronization",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils$TransactionScopedEntityManagerSynchronization(org.springframework.orm.jpa.EntityManagerHolder, javax.persistence.EntityManagerFactory)",
+            "public org.springframework.orm.jpa.EntityManagerFactoryUtils$TransactionScopedEntityManagerSynchronization(org.springframework.orm.jpa.EntityManagerHolder, javax.persistence.EntityManagerFactory)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils$TransactionScopedEntityManagerSynchronization.getOrder()",
+            "public int getOrder()"
+        ],
+        [
+            "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean)",
+            "public org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean)"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])",
+            "public java.lang.Object invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) throws java.lang.Throwable"
+        ],
+        [
+            "org.springframework.orm.jpa.EntityManagerHolder",
+            "org.springframework.orm.jpa.EntityManagerHolder(javax.persistence.EntityManager)",
+            "public org.springframework.orm.jpa.EntityManagerHolder(javax.persistence.EntityManager)"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.EntityManagerHolder.getEntityManager()",
+            "public javax.persistence.EntityManager getEntityManager()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.EntityManagerHolder.clear()",
+            "public void clear()"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaTransactionManager",
+            "org.springframework.orm.jpa.JpaTransactionManager()",
+            "public org.springframework.orm.jpa.JpaTransactionManager()"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaTransactionManager",
+            "org.springframework.orm.jpa.JpaTransactionManager(javax.persistence.EntityManagerFactory)",
+            "public org.springframework.orm.jpa.JpaTransactionManager(javax.persistence.EntityManagerFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager.setEntityManagerFactory(javax.persistence.EntityManagerFactory)",
+            "public void setEntityManagerFactory(javax.persistence.EntityManagerFactory)"
+        ],
+        [
+            "javax.persistence.EntityManagerFactory",
+            "org.springframework.orm.jpa.JpaTransactionManager.getEntityManagerFactory()",
+            "public javax.persistence.EntityManagerFactory getEntityManagerFactory()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager.setPersistenceUnitName(java.lang.String)",
+            "public void setPersistenceUnitName(java.lang.String)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.JpaTransactionManager.getPersistenceUnitName()",
+            "public java.lang.String getPersistenceUnitName()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager.setJpaProperties(java.util.Properties)",
+            "public void setJpaProperties(java.util.Properties)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager.setJpaPropertyMap(java.util.Map<java.lang.String, ?>)",
+            "public void setJpaPropertyMap(java.util.Map<java.lang.String, ?>)"
+        ],
+        [
+            "java.util.Map<java.lang.String, java.lang.Object>",
+            "org.springframework.orm.jpa.JpaTransactionManager.getJpaPropertyMap()",
+            "public java.util.Map<java.lang.String, java.lang.Object> getJpaPropertyMap()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager.setDataSource(javax.sql.DataSource)",
+            "public void setDataSource(javax.sql.DataSource)"
+        ],
+        [
+            "javax.sql.DataSource",
+            "org.springframework.orm.jpa.JpaTransactionManager.getDataSource()",
+            "public javax.sql.DataSource getDataSource()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager.setJpaDialect(org.springframework.orm.jpa.JpaDialect)",
+            "public void setJpaDialect(org.springframework.orm.jpa.JpaDialect)"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaDialect",
+            "org.springframework.orm.jpa.JpaTransactionManager.getJpaDialect()",
+            "public org.springframework.orm.jpa.JpaDialect getJpaDialect()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager.setEntityManagerInitializer(java.util.function.Consumer<javax.persistence.EntityManager>)",
+            "public void setEntityManagerInitializer(java.util.function.Consumer<javax.persistence.EntityManager>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager.setBeanFactory(org.springframework.beans.factory.BeanFactory)",
+            "public void setBeanFactory(org.springframework.beans.factory.BeanFactory) throws org.springframework.beans.BeansException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager.afterPropertiesSet()",
+            "public void afterPropertiesSet()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.JpaTransactionManager.getResourceFactory()",
+            "public java.lang.Object getResourceFactory()"
+        ],
+        [
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor",
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor()",
+            "public org.springframework.orm.jpa.EntityManagerFactoryAccessor()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor.setEntityManagerFactory(javax.persistence.EntityManagerFactory)",
+            "public void setEntityManagerFactory(javax.persistence.EntityManagerFactory)"
+        ],
+        [
+            "javax.persistence.EntityManagerFactory",
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor.getEntityManagerFactory()",
+            "public javax.persistence.EntityManagerFactory getEntityManagerFactory()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor.setPersistenceUnitName(java.lang.String)",
+            "public void setPersistenceUnitName(java.lang.String)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor.getPersistenceUnitName()",
+            "public java.lang.String getPersistenceUnitName()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor.setJpaProperties(java.util.Properties)",
+            "public void setJpaProperties(java.util.Properties)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor.setJpaPropertyMap(java.util.Map<java.lang.String, java.lang.Object>)",
+            "public void setJpaPropertyMap(java.util.Map<java.lang.String, java.lang.Object>)"
+        ],
+        [
+            "java.util.Map<java.lang.String, java.lang.Object>",
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor.getJpaPropertyMap()",
+            "public java.util.Map<java.lang.String, java.lang.Object> getJpaPropertyMap()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.EntityManagerFactoryAccessor.setBeanFactory(org.springframework.beans.factory.BeanFactory)",
+            "public void setBeanFactory(org.springframework.beans.factory.BeanFactory) throws org.springframework.beans.BeansException"
+        ],
+        [
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean()",
+            "public org.springframework.orm.jpa.AbstractEntityManagerFactoryBean()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setPersistenceProviderClass(java.lang.Class<? extends javax.persistence.spi.PersistenceProvider>)",
+            "public void setPersistenceProviderClass(java.lang.Class<? extends javax.persistence.spi.PersistenceProvider>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setPersistenceProvider(javax.persistence.spi.PersistenceProvider)",
+            "public void setPersistenceProvider(javax.persistence.spi.PersistenceProvider)"
+        ],
+        [
+            "javax.persistence.spi.PersistenceProvider",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getPersistenceProvider()",
+            "public javax.persistence.spi.PersistenceProvider getPersistenceProvider()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setPersistenceUnitName(java.lang.String)",
+            "public void setPersistenceUnitName(java.lang.String)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getPersistenceUnitName()",
+            "public java.lang.String getPersistenceUnitName()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setJpaProperties(java.util.Properties)",
+            "public void setJpaProperties(java.util.Properties)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setJpaPropertyMap(java.util.Map<java.lang.String, ?>)",
+            "public void setJpaPropertyMap(java.util.Map<java.lang.String, ?>)"
+        ],
+        [
+            "java.util.Map<java.lang.String, java.lang.Object>",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getJpaPropertyMap()",
+            "public java.util.Map<java.lang.String, java.lang.Object> getJpaPropertyMap()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setEntityManagerFactoryInterface(java.lang.Class<? extends javax.persistence.EntityManagerFactory>)",
+            "public void setEntityManagerFactoryInterface(java.lang.Class<? extends javax.persistence.EntityManagerFactory>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setEntityManagerInterface(java.lang.Class<? extends javax.persistence.EntityManager>)",
+            "public void setEntityManagerInterface(java.lang.Class<? extends javax.persistence.EntityManager>)"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManager>",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getEntityManagerInterface()",
+            "public java.lang.Class<? extends javax.persistence.EntityManager> getEntityManagerInterface()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setJpaDialect(org.springframework.orm.jpa.JpaDialect)",
+            "public void setJpaDialect(org.springframework.orm.jpa.JpaDialect)"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaDialect",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getJpaDialect()",
+            "public org.springframework.orm.jpa.JpaDialect getJpaDialect()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setJpaVendorAdapter(org.springframework.orm.jpa.JpaVendorAdapter)",
+            "public void setJpaVendorAdapter(org.springframework.orm.jpa.JpaVendorAdapter)"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaVendorAdapter",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getJpaVendorAdapter()",
+            "public org.springframework.orm.jpa.JpaVendorAdapter getJpaVendorAdapter()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setEntityManagerInitializer(java.util.function.Consumer<javax.persistence.EntityManager>)",
+            "public void setEntityManagerInitializer(java.util.function.Consumer<javax.persistence.EntityManager>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setBootstrapExecutor(org.springframework.core.task.AsyncTaskExecutor)",
+            "public void setBootstrapExecutor(org.springframework.core.task.AsyncTaskExecutor)"
+        ],
+        [
+            "org.springframework.core.task.AsyncTaskExecutor",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getBootstrapExecutor()",
+            "public org.springframework.core.task.AsyncTaskExecutor getBootstrapExecutor()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setBeanClassLoader(java.lang.ClassLoader)",
+            "public void setBeanClassLoader(java.lang.ClassLoader)"
+        ],
+        [
+            "java.lang.ClassLoader",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getBeanClassLoader()",
+            "public java.lang.ClassLoader getBeanClassLoader()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setBeanFactory(org.springframework.beans.factory.BeanFactory)",
+            "public void setBeanFactory(org.springframework.beans.factory.BeanFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.setBeanName(java.lang.String)",
+            "public void setBeanName(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet()",
+            "public void afterPropertiesSet() throws javax.persistence.PersistenceException"
+        ],
+        [
+            "org.springframework.dao.DataAccessException",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(java.lang.RuntimeException)",
+            "public org.springframework.dao.DataAccessException translateExceptionIfPossible(java.lang.RuntimeException)"
+        ],
+        [
+            "javax.persistence.EntityManagerFactory",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getNativeEntityManagerFactory()",
+            "public javax.persistence.EntityManagerFactory getNativeEntityManagerFactory()"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(java.util.Map<?, ?>)",
+            "public javax.persistence.EntityManager createNativeEntityManager(java.util.Map<?, ?>)"
+        ],
+        [
+            "javax.persistence.spi.PersistenceUnitInfo",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getPersistenceUnitInfo()",
+            "public javax.persistence.spi.PersistenceUnitInfo getPersistenceUnitInfo()"
+        ],
+        [
+            "javax.sql.DataSource",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getDataSource()",
+            "public javax.sql.DataSource getDataSource()"
+        ],
+        [
+            "javax.persistence.EntityManagerFactory",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getObject()",
+            "public javax.persistence.EntityManagerFactory getObject()"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManagerFactory>",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getObjectType()",
+            "public java.lang.Class<? extends javax.persistence.EntityManagerFactory> getObjectType()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.isSingleton()",
+            "public boolean isSingleton()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy()",
+            "public void destroy()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.getObject()",
+            "public java.lang.Object getObject() throws java.lang.Exception"
+        ],
+        [
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean()",
+            "public org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setPersistenceUnitManager(org.springframework.orm.jpa.persistenceunit.PersistenceUnitManager)",
+            "public void setPersistenceUnitManager(org.springframework.orm.jpa.persistenceunit.PersistenceUnitManager)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setPersistenceXmlLocation(java.lang.String)",
+            "public void setPersistenceXmlLocation(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setPersistenceUnitName(java.lang.String)",
+            "public void setPersistenceUnitName(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setPersistenceUnitRootLocation(java.lang.String)",
+            "public void setPersistenceUnitRootLocation(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setPackagesToScan(java.lang.String...)",
+            "public void setPackagesToScan(java.lang.String...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setMappingResources(java.lang.String...)",
+            "public void setMappingResources(java.lang.String...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setSharedCacheMode(javax.persistence.SharedCacheMode)",
+            "public void setSharedCacheMode(javax.persistence.SharedCacheMode)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setValidationMode(javax.persistence.ValidationMode)",
+            "public void setValidationMode(javax.persistence.ValidationMode)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setDataSource(javax.sql.DataSource)",
+            "public void setDataSource(javax.sql.DataSource)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setJtaDataSource(javax.sql.DataSource)",
+            "public void setJtaDataSource(javax.sql.DataSource)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setPersistenceUnitPostProcessors(org.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor...)",
+            "public void setPersistenceUnitPostProcessors(org.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setLoadTimeWeaver(org.springframework.instrument.classloading.LoadTimeWeaver)",
+            "public void setLoadTimeWeaver(org.springframework.instrument.classloading.LoadTimeWeaver)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.setResourceLoader(org.springframework.core.io.ResourceLoader)",
+            "public void setResourceLoader(org.springframework.core.io.ResourceLoader)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet()",
+            "public void afterPropertiesSet() throws javax.persistence.PersistenceException"
+        ],
+        [
+            "javax.persistence.spi.PersistenceUnitInfo",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.getPersistenceUnitInfo()",
+            "public javax.persistence.spi.PersistenceUnitInfo getPersistenceUnitInfo()"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.getPersistenceUnitName()",
+            "public java.lang.String getPersistenceUnitName()"
+        ],
+        [
+            "javax.sql.DataSource",
+            "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.getDataSource()",
+            "public javax.sql.DataSource getDataSource()"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaOptimisticLockingFailureException",
+            "org.springframework.orm.jpa.JpaOptimisticLockingFailureException(javax.persistence.OptimisticLockException)",
+            "public org.springframework.orm.jpa.JpaOptimisticLockingFailureException(javax.persistence.OptimisticLockException)"
+        ],
+        [
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement(org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor, java.lang.reflect.Member, java.lang.reflect.AnnotatedElement, java.beans.PropertyDescriptor)",
+            "public org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$PersistenceElement(org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor, java.lang.reflect.Member, java.lang.reflect.AnnotatedElement, java.beans.PropertyDescriptor)"
+        ],
+        [
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor(javax.persistence.EntityManagerFactory, org.springframework.orm.jpa.EntityManagerHolder)",
+            "public org.springframework.orm.jpa.support.AsyncRequestInterceptor(javax.persistence.EntityManagerFactory, org.springframework.orm.jpa.EntityManagerHolder)"
+        ],
+        [
+            "<T> void",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor.preProcess(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)",
+            "public <T> void preProcess(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor.bindEntityManager()",
+            "public void bindEntityManager()"
+        ],
+        [
+            "<T> void",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor.postProcess(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>, java.lang.Object)",
+            "public <T> void postProcess(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>, java.lang.Object)"
+        ],
+        [
+            "<T> java.lang.Object",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor.handleTimeout(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)",
+            "public <T> java.lang.Object handleTimeout(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)"
+        ],
+        [
+            "<T> java.lang.Object",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor.handleError(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>, java.lang.Throwable)",
+            "public <T> java.lang.Object handleError(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>, java.lang.Throwable)"
+        ],
+        [
+            "<T> void",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor.afterCompletion(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)",
+            "public <T> void afterCompletion(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>) throws java.lang.Exception"
+        ],
+        [
+            "<T> boolean",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor.handleTimeout(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>)",
+            "public <T> boolean handleTimeout(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>)"
+        ],
+        [
+            "<T> boolean",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor.handleError(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>, java.lang.Throwable)",
+            "public <T> boolean handleError(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>, java.lang.Throwable)"
+        ],
+        [
+            "<T> void",
+            "org.springframework.orm.jpa.support.AsyncRequestInterceptor.afterCompletion(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>)",
+            "public <T> void afterCompletion(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>)"
+        ],
+        [
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter",
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter()",
+            "public org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter.setEntityManagerFactoryBeanName(java.lang.String)",
+            "public void setEntityManagerFactoryBeanName(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter.setPersistenceUnitName(java.lang.String)",
+            "public void setPersistenceUnitName(java.lang.String)"
+        ],
+        [
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor()",
+            "public org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.setJndiTemplate(java.lang.Object)",
+            "public void setJndiTemplate(java.lang.Object)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.setJndiEnvironment(java.util.Properties)",
+            "public void setJndiEnvironment(java.util.Properties)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.setResourceRef(boolean)",
+            "public void setResourceRef(boolean)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.setPersistenceUnits(java.util.Map<java.lang.String, java.lang.String>)",
+            "public void setPersistenceUnits(java.util.Map<java.lang.String, java.lang.String>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.setPersistenceContexts(java.util.Map<java.lang.String, java.lang.String>)",
+            "public void setPersistenceContexts(java.util.Map<java.lang.String, java.lang.String>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.setExtendedPersistenceContexts(java.util.Map<java.lang.String, java.lang.String>)",
+            "public void setExtendedPersistenceContexts(java.util.Map<java.lang.String, java.lang.String>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.setDefaultPersistenceUnitName(java.lang.String)",
+            "public void setDefaultPersistenceUnitName(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.setOrder(int)",
+            "public void setOrder(int)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.getOrder()",
+            "public int getOrder()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.setBeanFactory(org.springframework.beans.factory.BeanFactory)",
+            "public void setBeanFactory(org.springframework.beans.factory.BeanFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(org.springframework.beans.factory.support.RootBeanDefinition, java.lang.Class<?>, java.lang.String)",
+            "public void postProcessMergedBeanDefinition(org.springframework.beans.factory.support.RootBeanDefinition, java.lang.Class<?>, java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.resetBeanDefinition(java.lang.String)",
+            "public void resetBeanDefinition(java.lang.String)"
+        ],
+        [
+            "org.springframework.beans.PropertyValues",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessProperties(org.springframework.beans.PropertyValues, java.lang.Object, java.lang.String)",
+            "public org.springframework.beans.PropertyValues postProcessProperties(org.springframework.beans.PropertyValues, java.lang.Object, java.lang.String)"
+        ],
+        [
+            "org.springframework.beans.PropertyValues",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessPropertyValues(org.springframework.beans.PropertyValues, java.beans.PropertyDescriptor[], java.lang.Object, java.lang.String)",
+            "public org.springframework.beans.PropertyValues postProcessPropertyValues(org.springframework.beans.PropertyValues, java.beans.PropertyDescriptor[], java.lang.Object, java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessBeforeDestruction(java.lang.Object, java.lang.String)",
+            "public void postProcessBeforeDestruction(java.lang.Object, java.lang.String)"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.requiresDestruction(java.lang.Object)",
+            "public boolean requiresDestruction(java.lang.Object)"
+        ],
+        [
+            "<T> T",
+            "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor$LocatorDelegate.lookup(java.lang.String, java.lang.Class<T>)",
+            "public <T> T lookup(java.lang.String, java.lang.Class<T>) throws java.lang.Exception"
+        ],
+        [
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor",
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor()",
+            "public org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor.preHandle(org.springframework.web.context.request.WebRequest)",
+            "public void preHandle(org.springframework.web.context.request.WebRequest) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor.postHandle(org.springframework.web.context.request.WebRequest, org.springframework.ui.ModelMap)",
+            "public void postHandle(org.springframework.web.context.request.WebRequest, org.springframework.ui.ModelMap)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor.afterCompletion(org.springframework.web.context.request.WebRequest, java.lang.Exception)",
+            "public void afterCompletion(org.springframework.web.context.request.WebRequest, java.lang.Exception) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor.afterConcurrentHandlingStarted(org.springframework.web.context.request.WebRequest)",
+            "public void afterConcurrentHandlingStarted(org.springframework.web.context.request.WebRequest)"
+        ],
+        [
+            "org.springframework.orm.jpa.support.SharedEntityManagerBean",
+            "org.springframework.orm.jpa.support.SharedEntityManagerBean()",
+            "public org.springframework.orm.jpa.support.SharedEntityManagerBean()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.SharedEntityManagerBean.setEntityManagerInterface(java.lang.Class<? extends javax.persistence.EntityManager>)",
+            "public void setEntityManagerInterface(java.lang.Class<? extends javax.persistence.EntityManager>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.SharedEntityManagerBean.setSynchronizedWithTransaction(boolean)",
+            "public void setSynchronizedWithTransaction(boolean)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.support.SharedEntityManagerBean.afterPropertiesSet()",
+            "public final void afterPropertiesSet()"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.support.SharedEntityManagerBean.getObject()",
+            "public javax.persistence.EntityManager getObject()"
+        ],
+        [
+            "java.lang.Class<? extends javax.persistence.EntityManager>",
+            "org.springframework.orm.jpa.support.SharedEntityManagerBean.getObjectType()",
+            "public java.lang.Class<? extends javax.persistence.EntityManager> getObjectType()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.support.SharedEntityManagerBean.isSingleton()",
+            "public boolean isSingleton()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.support.SharedEntityManagerBean.getObject()",
+            "public java.lang.Object getObject() throws java.lang.Exception"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionDefinition",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionDefinition(org.springframework.transaction.TransactionDefinition, int, boolean)",
+            "public org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionDefinition(org.springframework.transaction.TransactionDefinition, int, boolean)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionDefinition.getTimeout()",
+            "public int getTimeout()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionDefinition.isLocalResource()",
+            "public boolean isLocalResource()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])",
+            "public java.lang.Object invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) throws java.lang.Throwable"
+        ],
+        [
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils$TransactionalEntityManagerSynchronization",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils$TransactionalEntityManagerSynchronization(org.springframework.orm.jpa.EntityManagerHolder, javax.persistence.EntityManagerFactory, java.lang.Object, boolean)",
+            "public org.springframework.orm.jpa.EntityManagerFactoryUtils$TransactionalEntityManagerSynchronization(org.springframework.orm.jpa.EntityManagerHolder, javax.persistence.EntityManagerFactory, java.lang.Object, boolean)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils$TransactionalEntityManagerSynchronization.getOrder()",
+            "public int getOrder()"
+        ],
+        [
+            "org.springframework.orm.jpa.DefaultJpaDialect",
+            "org.springframework.orm.jpa.DefaultJpaDialect()",
+            "public org.springframework.orm.jpa.DefaultJpaDialect()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.DefaultJpaDialect.beginTransaction(javax.persistence.EntityManager, org.springframework.transaction.TransactionDefinition)",
+            "public java.lang.Object beginTransaction(javax.persistence.EntityManager, org.springframework.transaction.TransactionDefinition) throws javax.persistence.PersistenceException, java.sql.SQLException, org.springframework.transaction.TransactionException"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.DefaultJpaDialect.prepareTransaction(javax.persistence.EntityManager, boolean, java.lang.String)",
+            "public java.lang.Object prepareTransaction(javax.persistence.EntityManager, boolean, java.lang.String) throws javax.persistence.PersistenceException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.DefaultJpaDialect.cleanupTransaction(java.lang.Object)",
+            "public void cleanupTransaction(java.lang.Object)"
+        ],
+        [
+            "org.springframework.jdbc.datasource.ConnectionHandle",
+            "org.springframework.orm.jpa.DefaultJpaDialect.getJdbcConnection(javax.persistence.EntityManager, boolean)",
+            "public org.springframework.jdbc.datasource.ConnectionHandle getJdbcConnection(javax.persistence.EntityManager, boolean) throws javax.persistence.PersistenceException, java.sql.SQLException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.DefaultJpaDialect.releaseJdbcConnection(org.springframework.jdbc.datasource.ConnectionHandle, javax.persistence.EntityManager)",
+            "public void releaseJdbcConnection(org.springframework.jdbc.datasource.ConnectionHandle, javax.persistence.EntityManager) throws javax.persistence.PersistenceException, java.sql.SQLException"
+        ],
+        [
+            "org.springframework.dao.DataAccessException",
+            "org.springframework.orm.jpa.DefaultJpaDialect.translateExceptionIfPossible(java.lang.RuntimeException)",
+            "public org.springframework.dao.DataAccessException translateExceptionIfPossible(java.lang.RuntimeException)"
+        ],
+        [
+            "org.springframework.orm.jpa.persistenceunit.ClassFileTransformerAdapter",
+            "org.springframework.orm.jpa.persistenceunit.ClassFileTransformerAdapter(javax.persistence.spi.ClassTransformer)",
+            "public org.springframework.orm.jpa.persistenceunit.ClassFileTransformerAdapter(javax.persistence.spi.ClassTransformer)"
+        ],
+        [
+            "byte[]",
+            "org.springframework.orm.jpa.persistenceunit.ClassFileTransformerAdapter.transform(java.lang.ClassLoader, java.lang.String, java.lang.Class<?>, java.security.ProtectionDomain, byte[])",
+            "public byte[] transform(java.lang.ClassLoader, java.lang.String, java.lang.Class<?>, java.security.ProtectionDomain, byte[])"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.persistenceunit.ClassFileTransformerAdapter.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo()",
+            "public org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setPersistenceUnitName(java.lang.String)",
+            "public void setPersistenceUnitName(java.lang.String)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getPersistenceUnitName()",
+            "public java.lang.String getPersistenceUnitName()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setPersistenceProviderClassName(java.lang.String)",
+            "public void setPersistenceProviderClassName(java.lang.String)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getPersistenceProviderClassName()",
+            "public java.lang.String getPersistenceProviderClassName()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setTransactionType(javax.persistence.spi.PersistenceUnitTransactionType)",
+            "public void setTransactionType(javax.persistence.spi.PersistenceUnitTransactionType)"
+        ],
+        [
+            "javax.persistence.spi.PersistenceUnitTransactionType",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getTransactionType()",
+            "public javax.persistence.spi.PersistenceUnitTransactionType getTransactionType()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setJtaDataSource(javax.sql.DataSource)",
+            "public void setJtaDataSource(javax.sql.DataSource)"
+        ],
+        [
+            "javax.sql.DataSource",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getJtaDataSource()",
+            "public javax.sql.DataSource getJtaDataSource()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setNonJtaDataSource(javax.sql.DataSource)",
+            "public void setNonJtaDataSource(javax.sql.DataSource)"
+        ],
+        [
+            "javax.sql.DataSource",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getNonJtaDataSource()",
+            "public javax.sql.DataSource getNonJtaDataSource()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.addMappingFileName(java.lang.String)",
+            "public void addMappingFileName(java.lang.String)"
+        ],
+        [
+            "java.util.List<java.lang.String>",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getMappingFileNames()",
+            "public java.util.List<java.lang.String> getMappingFileNames()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.addJarFileUrl(java.net.URL)",
+            "public void addJarFileUrl(java.net.URL)"
+        ],
+        [
+            "java.util.List<java.net.URL>",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getJarFileUrls()",
+            "public java.util.List<java.net.URL> getJarFileUrls()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setPersistenceUnitRootUrl(java.net.URL)",
+            "public void setPersistenceUnitRootUrl(java.net.URL)"
+        ],
+        [
+            "java.net.URL",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getPersistenceUnitRootUrl()",
+            "public java.net.URL getPersistenceUnitRootUrl()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.addManagedClassName(java.lang.String)",
+            "public void addManagedClassName(java.lang.String)"
+        ],
+        [
+            "java.util.List<java.lang.String>",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getManagedClassNames()",
+            "public java.util.List<java.lang.String> getManagedClassNames()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.addManagedPackage(java.lang.String)",
+            "public void addManagedPackage(java.lang.String)"
+        ],
+        [
+            "java.util.List<java.lang.String>",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getManagedPackages()",
+            "public java.util.List<java.lang.String> getManagedPackages()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setExcludeUnlistedClasses(boolean)",
+            "public void setExcludeUnlistedClasses(boolean)"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.excludeUnlistedClasses()",
+            "public boolean excludeUnlistedClasses()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setSharedCacheMode(javax.persistence.SharedCacheMode)",
+            "public void setSharedCacheMode(javax.persistence.SharedCacheMode)"
+        ],
+        [
+            "javax.persistence.SharedCacheMode",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getSharedCacheMode()",
+            "public javax.persistence.SharedCacheMode getSharedCacheMode()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setValidationMode(javax.persistence.ValidationMode)",
+            "public void setValidationMode(javax.persistence.ValidationMode)"
+        ],
+        [
+            "javax.persistence.ValidationMode",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getValidationMode()",
+            "public javax.persistence.ValidationMode getValidationMode()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.addProperty(java.lang.String, java.lang.String)",
+            "public void addProperty(java.lang.String, java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setProperties(java.util.Properties)",
+            "public void setProperties(java.util.Properties)"
+        ],
+        [
+            "java.util.Properties",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getProperties()",
+            "public java.util.Properties getProperties()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setPersistenceXMLSchemaVersion(java.lang.String)",
+            "public void setPersistenceXMLSchemaVersion(java.lang.String)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getPersistenceXMLSchemaVersion()",
+            "public java.lang.String getPersistenceXMLSchemaVersion()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.setPersistenceProviderPackageName(java.lang.String)",
+            "public void setPersistenceProviderPackageName(java.lang.String)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getPersistenceProviderPackageName()",
+            "public java.lang.String getPersistenceProviderPackageName()"
+        ],
+        [
+            "java.lang.ClassLoader",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getClassLoader()",
+            "public java.lang.ClassLoader getClassLoader()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.addTransformer(javax.persistence.spi.ClassTransformer)",
+            "public void addTransformer(javax.persistence.spi.ClassTransformer)"
+        ],
+        [
+            "java.lang.ClassLoader",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.getNewTempClassLoader()",
+            "public java.lang.ClassLoader getNewTempClassLoader()"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.jpa.persistenceunit.MutablePersistenceUnitInfo.toString()",
+            "public java.lang.String toString()"
+        ],
+        [
+            "org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader",
+            "org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader(org.springframework.core.io.support.ResourcePatternResolver, org.springframework.jdbc.datasource.lookup.DataSourceLookup)",
+            "public org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader(org.springframework.core.io.support.ResourcePatternResolver, org.springframework.jdbc.datasource.lookup.DataSourceLookup)"
+        ],
+        [
+            "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[]",
+            "org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader.readPersistenceUnitInfos(java.lang.String)",
+            "public org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[] readPersistenceUnitInfos(java.lang.String)"
+        ],
+        [
+            "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[]",
+            "org.springframework.orm.jpa.persistenceunit.PersistenceUnitReader.readPersistenceUnitInfos(java.lang.String[])",
+            "public org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo[] readPersistenceUnitInfos(java.lang.String[])"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.init(org.springframework.instrument.classloading.LoadTimeWeaver)",
+            "public void init(org.springframework.instrument.classloading.LoadTimeWeaver)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.init(java.lang.ClassLoader)",
+            "public void init(java.lang.ClassLoader)"
+        ],
+        [
+            "java.lang.ClassLoader",
+            "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.getClassLoader()",
+            "public java.lang.ClassLoader getClassLoader()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer(javax.persistence.spi.ClassTransformer)",
+            "public void addTransformer(javax.persistence.spi.ClassTransformer)"
+        ],
+        [
+            "java.lang.ClassLoader",
+            "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.getNewTempClassLoader()",
+            "public java.lang.ClassLoader getNewTempClassLoader()"
+        ],
+        [
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager()",
+            "public org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setPersistenceXmlLocation(java.lang.String)",
+            "public void setPersistenceXmlLocation(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setPersistenceXmlLocations(java.lang.String...)",
+            "public void setPersistenceXmlLocations(java.lang.String...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setDefaultPersistenceUnitRootLocation(java.lang.String)",
+            "public void setDefaultPersistenceUnitRootLocation(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setDefaultPersistenceUnitName(java.lang.String)",
+            "public void setDefaultPersistenceUnitName(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setPackagesToScan(java.lang.String...)",
+            "public void setPackagesToScan(java.lang.String...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setMappingResources(java.lang.String...)",
+            "public void setMappingResources(java.lang.String...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setSharedCacheMode(javax.persistence.SharedCacheMode)",
+            "public void setSharedCacheMode(javax.persistence.SharedCacheMode)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setValidationMode(javax.persistence.ValidationMode)",
+            "public void setValidationMode(javax.persistence.ValidationMode)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setDataSources(java.util.Map<java.lang.String, javax.sql.DataSource>)",
+            "public void setDataSources(java.util.Map<java.lang.String, javax.sql.DataSource>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setDataSourceLookup(org.springframework.jdbc.datasource.lookup.DataSourceLookup)",
+            "public void setDataSourceLookup(org.springframework.jdbc.datasource.lookup.DataSourceLookup)"
+        ],
+        [
+            "org.springframework.jdbc.datasource.lookup.DataSourceLookup",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.getDataSourceLookup()",
+            "public org.springframework.jdbc.datasource.lookup.DataSourceLookup getDataSourceLookup()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setDefaultDataSource(javax.sql.DataSource)",
+            "public void setDefaultDataSource(javax.sql.DataSource)"
+        ],
+        [
+            "javax.sql.DataSource",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.getDefaultDataSource()",
+            "public javax.sql.DataSource getDefaultDataSource()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setDefaultJtaDataSource(javax.sql.DataSource)",
+            "public void setDefaultJtaDataSource(javax.sql.DataSource)"
+        ],
+        [
+            "javax.sql.DataSource",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.getDefaultJtaDataSource()",
+            "public javax.sql.DataSource getDefaultJtaDataSource()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setPersistenceUnitPostProcessors(org.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor...)",
+            "public void setPersistenceUnitPostProcessors(org.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor...)"
+        ],
+        [
+            "org.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor[]",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.getPersistenceUnitPostProcessors()",
+            "public org.springframework.orm.jpa.persistenceunit.PersistenceUnitPostProcessor[] getPersistenceUnitPostProcessors()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setLoadTimeWeaver(org.springframework.instrument.classloading.LoadTimeWeaver)",
+            "public void setLoadTimeWeaver(org.springframework.instrument.classloading.LoadTimeWeaver)"
+        ],
+        [
+            "org.springframework.instrument.classloading.LoadTimeWeaver",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.getLoadTimeWeaver()",
+            "public org.springframework.instrument.classloading.LoadTimeWeaver getLoadTimeWeaver()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.setResourceLoader(org.springframework.core.io.ResourceLoader)",
+            "public void setResourceLoader(org.springframework.core.io.ResourceLoader)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.afterPropertiesSet()",
+            "public void afterPropertiesSet()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.preparePersistenceUnitInfos()",
+            "public void preparePersistenceUnitInfos()"
+        ],
+        [
+            "javax.persistence.spi.PersistenceUnitInfo",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.obtainDefaultPersistenceUnitInfo()",
+            "public javax.persistence.spi.PersistenceUnitInfo obtainDefaultPersistenceUnitInfo()"
+        ],
+        [
+            "javax.persistence.spi.PersistenceUnitInfo",
+            "org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager.obtainPersistenceUnitInfo(java.lang.String)",
+            "public javax.persistence.spi.PersistenceUnitInfo obtainPersistenceUnitInfo(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.setEntityManagerHolder(org.springframework.orm.jpa.EntityManagerHolder, boolean)",
+            "public void setEntityManagerHolder(org.springframework.orm.jpa.EntityManagerHolder, boolean)"
+        ],
+        [
+            "org.springframework.orm.jpa.EntityManagerHolder",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.getEntityManagerHolder()",
+            "public org.springframework.orm.jpa.EntityManagerHolder getEntityManagerHolder()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.hasEntityManagerHolder()",
+            "public boolean hasEntityManagerHolder()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.isNewEntityManagerHolder()",
+            "public boolean isNewEntityManagerHolder()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.hasTransaction()",
+            "public boolean hasTransaction()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.setTransactionData(java.lang.Object)",
+            "public void setTransactionData(java.lang.Object)"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.getTransactionData()",
+            "public java.lang.Object getTransactionData()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.setRollbackOnly()",
+            "public void setRollbackOnly()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.isRollbackOnly()",
+            "public boolean isRollbackOnly()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.flush()",
+            "public void flush()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.createSavepoint()",
+            "public java.lang.Object createSavepoint() throws org.springframework.transaction.TransactionException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.rollbackToSavepoint(java.lang.Object)",
+            "public void rollbackToSavepoint(java.lang.Object) throws org.springframework.transaction.TransactionException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.JpaTransactionManager$JpaTransactionObject.releaseSavepoint(java.lang.Object)",
+            "public void releaseSavepoint(java.lang.Object) throws org.springframework.transaction.TransactionException"
+        ],
+        [
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils()",
+            "public org.springframework.orm.jpa.EntityManagerFactoryUtils()"
+        ],
+        [
+            "javax.persistence.EntityManagerFactory",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils.findEntityManagerFactory(org.springframework.beans.factory.ListableBeanFactory, java.lang.String)",
+            "public static javax.persistence.EntityManagerFactory findEntityManagerFactory(org.springframework.beans.factory.ListableBeanFactory, java.lang.String) throws org.springframework.beans.factory.NoSuchBeanDefinitionException"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils.getTransactionalEntityManager(javax.persistence.EntityManagerFactory)",
+            "public static javax.persistence.EntityManager getTransactionalEntityManager(javax.persistence.EntityManagerFactory) throws org.springframework.dao.DataAccessResourceFailureException"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils.getTransactionalEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>)",
+            "public static javax.persistence.EntityManager getTransactionalEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>) throws org.springframework.dao.DataAccessResourceFailureException"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils.doGetTransactionalEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>)",
+            "public static javax.persistence.EntityManager doGetTransactionalEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>) throws javax.persistence.PersistenceException"
+        ],
+        [
+            "javax.persistence.EntityManager",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils.doGetTransactionalEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean)",
+            "public static javax.persistence.EntityManager doGetTransactionalEntityManager(javax.persistence.EntityManagerFactory, java.util.Map<?, ?>, boolean) throws javax.persistence.PersistenceException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils.applyTransactionTimeout(javax.persistence.Query, javax.persistence.EntityManagerFactory)",
+            "public static void applyTransactionTimeout(javax.persistence.Query, javax.persistence.EntityManagerFactory)"
+        ],
+        [
+            "org.springframework.dao.DataAccessException",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(java.lang.RuntimeException)",
+            "public static org.springframework.dao.DataAccessException convertJpaAccessExceptionIfPossible(java.lang.RuntimeException)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.jpa.EntityManagerFactoryUtils.closeEntityManager(javax.persistence.EntityManager)",
+            "public static void closeEntityManager(javax.persistence.EntityManager)"
+        ],
+        [
+            "org.springframework.orm.jpa.JpaObjectRetrievalFailureException",
+            "org.springframework.orm.jpa.JpaObjectRetrievalFailureException(javax.persistence.EntityNotFoundException)",
+            "public org.springframework.orm.jpa.JpaObjectRetrievalFailureException(javax.persistence.EntityNotFoundException)"
+        ],
+        [
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler(org.springframework.orm.jpa.AbstractEntityManagerFactoryBean)",
+            "public org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler(org.springframework.orm.jpa.AbstractEntityManagerFactoryBean)"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])",
+            "public java.lang.Object invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) throws java.lang.Throwable"
+        ],
+        [
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$SerializedEntityManagerFactoryBeanReference",
+            "org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$SerializedEntityManagerFactoryBeanReference(org.springframework.beans.factory.BeanFactory, java.lang.String)",
+            "public org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$SerializedEntityManagerFactoryBeanReference(org.springframework.beans.factory.BeanFactory, java.lang.String)"
+        ],
+        [
+            "org.springframework.orm.ObjectRetrievalFailureException",
+            "org.springframework.orm.ObjectRetrievalFailureException(java.lang.String, java.lang.Throwable)",
+            "public org.springframework.orm.ObjectRetrievalFailureException(java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "org.springframework.orm.ObjectRetrievalFailureException",
+            "org.springframework.orm.ObjectRetrievalFailureException(java.lang.Class<?>, java.lang.Object)",
+            "public org.springframework.orm.ObjectRetrievalFailureException(java.lang.Class<?>, java.lang.Object)"
+        ],
+        [
+            "org.springframework.orm.ObjectRetrievalFailureException",
+            "org.springframework.orm.ObjectRetrievalFailureException(java.lang.Class<?>, java.lang.Object, java.lang.String, java.lang.Throwable)",
+            "public org.springframework.orm.ObjectRetrievalFailureException(java.lang.Class<?>, java.lang.Object, java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "org.springframework.orm.ObjectRetrievalFailureException",
+            "org.springframework.orm.ObjectRetrievalFailureException(java.lang.String, java.lang.Object)",
+            "public org.springframework.orm.ObjectRetrievalFailureException(java.lang.String, java.lang.Object)"
+        ],
+        [
+            "org.springframework.orm.ObjectRetrievalFailureException",
+            "org.springframework.orm.ObjectRetrievalFailureException(java.lang.String, java.lang.Object, java.lang.String, java.lang.Throwable)",
+            "public org.springframework.orm.ObjectRetrievalFailureException(java.lang.String, java.lang.Object, java.lang.String, java.lang.Throwable)"
+        ],
+        [
+            "java.lang.Class<?>",
+            "org.springframework.orm.ObjectRetrievalFailureException.getPersistentClass()",
+            "public java.lang.Class<?> getPersistentClass()"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.ObjectRetrievalFailureException.getPersistentClassName()",
+            "public java.lang.String getPersistentClassName()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.ObjectRetrievalFailureException.getIdentifier()",
+            "public java.lang.Object getIdentifier()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateOptimisticLockingFailureException",
+            "org.springframework.orm.hibernate5.HibernateOptimisticLockingFailureException(org.hibernate.StaleObjectStateException)",
+            "public org.springframework.orm.hibernate5.HibernateOptimisticLockingFailureException(org.hibernate.StaleObjectStateException)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateOptimisticLockingFailureException",
+            "org.springframework.orm.hibernate5.HibernateOptimisticLockingFailureException(org.hibernate.StaleStateException)",
+            "public org.springframework.orm.hibernate5.HibernateOptimisticLockingFailureException(org.hibernate.StaleStateException)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateOptimisticLockingFailureException",
+            "org.springframework.orm.hibernate5.HibernateOptimisticLockingFailureException(org.hibernate.dialect.lock.OptimisticEntityLockException)",
+            "public org.springframework.orm.hibernate5.HibernateOptimisticLockingFailureException(org.hibernate.dialect.lock.OptimisticEntityLockException)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SpringBeanContainer",
+            "org.springframework.orm.hibernate5.SpringBeanContainer(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)",
+            "public org.springframework.orm.hibernate5.SpringBeanContainer(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)"
+        ],
+        [
+            "<B> org.hibernate.resource.beans.container.spi.ContainedBean<B>",
+            "org.springframework.orm.hibernate5.SpringBeanContainer.getBean(java.lang.Class<B>, org.hibernate.resource.beans.container.spi.BeanContainer$LifecycleOptions, org.hibernate.resource.beans.spi.BeanInstanceProducer)",
+            "public <B> org.hibernate.resource.beans.container.spi.ContainedBean<B> getBean(java.lang.Class<B>, org.hibernate.resource.beans.container.spi.BeanContainer$LifecycleOptions, org.hibernate.resource.beans.spi.BeanInstanceProducer)"
+        ],
+        [
+            "<B> org.hibernate.resource.beans.container.spi.ContainedBean<B>",
+            "org.springframework.orm.hibernate5.SpringBeanContainer.getBean(java.lang.String, java.lang.Class<B>, org.hibernate.resource.beans.container.spi.BeanContainer$LifecycleOptions, org.hibernate.resource.beans.spi.BeanInstanceProducer)",
+            "public <B> org.hibernate.resource.beans.container.spi.ContainedBean<B> getBean(java.lang.String, java.lang.Class<B>, org.hibernate.resource.beans.container.spi.BeanContainer$LifecycleOptions, org.hibernate.resource.beans.spi.BeanInstanceProducer)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringBeanContainer.stop()",
+            "public void stop()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SpringJtaSessionContext",
+            "org.springframework.orm.hibernate5.SpringJtaSessionContext(org.hibernate.engine.spi.SessionFactoryImplementor)",
+            "public org.springframework.orm.hibernate5.SpringJtaSessionContext(org.hibernate.engine.spi.SessionFactoryImplementor)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateTransactionManager",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager()",
+            "public org.springframework.orm.hibernate5.HibernateTransactionManager()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateTransactionManager",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager(org.hibernate.SessionFactory)",
+            "public org.springframework.orm.hibernate5.HibernateTransactionManager(org.hibernate.SessionFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setSessionFactory(org.hibernate.SessionFactory)",
+            "public void setSessionFactory(org.hibernate.SessionFactory)"
+        ],
+        [
+            "org.hibernate.SessionFactory",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.getSessionFactory()",
+            "public org.hibernate.SessionFactory getSessionFactory()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setDataSource(javax.sql.DataSource)",
+            "public void setDataSource(javax.sql.DataSource)"
+        ],
+        [
+            "javax.sql.DataSource",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.getDataSource()",
+            "public javax.sql.DataSource getDataSource()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setAutodetectDataSource(boolean)",
+            "public void setAutodetectDataSource(boolean)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setPrepareConnection(boolean)",
+            "public void setPrepareConnection(boolean)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setAllowResultAccessAfterCompletion(boolean)",
+            "public void setAllowResultAccessAfterCompletion(boolean)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setHibernateManagedSession(boolean)",
+            "public void setHibernateManagedSession(boolean)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setSessionInitializer(java.util.function.Consumer<org.hibernate.Session>)",
+            "public void setSessionInitializer(java.util.function.Consumer<org.hibernate.Session>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setEntityInterceptorBeanName(java.lang.String)",
+            "public void setEntityInterceptorBeanName(java.lang.String)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setEntityInterceptor(org.hibernate.Interceptor)",
+            "public void setEntityInterceptor(org.hibernate.Interceptor)"
+        ],
+        [
+            "org.hibernate.Interceptor",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.getEntityInterceptor()",
+            "public org.hibernate.Interceptor getEntityInterceptor() throws java.lang.IllegalStateException, org.springframework.beans.BeansException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.setBeanFactory(org.springframework.beans.factory.BeanFactory)",
+            "public void setBeanFactory(org.springframework.beans.factory.BeanFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.afterPropertiesSet()",
+            "public void afterPropertiesSet()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager.getResourceFactory()",
+            "public java.lang.Object getResourceFactory()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateObjectRetrievalFailureException",
+            "org.springframework.orm.hibernate5.HibernateObjectRetrievalFailureException(org.hibernate.UnresolvableObjectException)",
+            "public org.springframework.orm.hibernate5.HibernateObjectRetrievalFailureException(org.hibernate.UnresolvableObjectException)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateObjectRetrievalFailureException",
+            "org.springframework.orm.hibernate5.HibernateObjectRetrievalFailureException(org.hibernate.WrongClassException)",
+            "public org.springframework.orm.hibernate5.HibernateObjectRetrievalFailureException(org.hibernate.WrongClassException)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SessionFactoryUtils",
+            "org.springframework.orm.hibernate5.SessionFactoryUtils()",
+            "public org.springframework.orm.hibernate5.SessionFactoryUtils()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SessionFactoryUtils.closeSession(org.hibernate.Session)",
+            "public static void closeSession(org.hibernate.Session)"
+        ],
+        [
+            "javax.sql.DataSource",
+            "org.springframework.orm.hibernate5.SessionFactoryUtils.getDataSource(org.hibernate.SessionFactory)",
+            "public static javax.sql.DataSource getDataSource(org.hibernate.SessionFactory)"
+        ],
+        [
+            "org.springframework.dao.DataAccessException",
+            "org.springframework.orm.hibernate5.SessionFactoryUtils.convertHibernateAccessException(org.hibernate.HibernateException)",
+            "public static org.springframework.dao.DataAccessException convertHibernateAccessException(org.hibernate.HibernateException)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateQueryException",
+            "org.springframework.orm.hibernate5.HibernateQueryException(org.hibernate.QueryException)",
+            "public org.springframework.orm.hibernate5.HibernateQueryException(org.hibernate.QueryException)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.hibernate5.HibernateQueryException.getQueryString()",
+            "public java.lang.String getQueryString()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SessionHolder",
+            "org.springframework.orm.hibernate5.SessionHolder(org.hibernate.Session)",
+            "public org.springframework.orm.hibernate5.SessionHolder(org.hibernate.Session)"
+        ],
+        [
+            "org.hibernate.Session",
+            "org.springframework.orm.hibernate5.SessionHolder.getSession()",
+            "public org.hibernate.Session getSession()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SessionHolder.setTransaction(org.hibernate.Transaction)",
+            "public void setTransaction(org.hibernate.Transaction)"
+        ],
+        [
+            "org.hibernate.Transaction",
+            "org.springframework.orm.hibernate5.SessionHolder.getTransaction()",
+            "public org.hibernate.Transaction getTransaction()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SessionHolder.setPreviousFlushMode(org.hibernate.FlushMode)",
+            "public void setPreviousFlushMode(org.hibernate.FlushMode)"
+        ],
+        [
+            "org.hibernate.FlushMode",
+            "org.springframework.orm.hibernate5.SessionHolder.getPreviousFlushMode()",
+            "public org.hibernate.FlushMode getPreviousFlushMode()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SessionHolder.clear()",
+            "public void clear()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateExceptionTranslator",
+            "org.springframework.orm.hibernate5.HibernateExceptionTranslator()",
+            "public org.springframework.orm.hibernate5.HibernateExceptionTranslator()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateExceptionTranslator.setJdbcExceptionTranslator(org.springframework.jdbc.support.SQLExceptionTranslator)",
+            "public void setJdbcExceptionTranslator(org.springframework.jdbc.support.SQLExceptionTranslator)"
+        ],
+        [
+            "org.springframework.dao.DataAccessException",
+            "org.springframework.orm.hibernate5.HibernateExceptionTranslator.translateExceptionIfPossible(java.lang.RuntimeException)",
+            "public org.springframework.dao.DataAccessException translateExceptionIfPossible(java.lang.RuntimeException)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewInterceptor",
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewInterceptor()",
+            "public org.springframework.orm.hibernate5.support.OpenSessionInViewInterceptor()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewInterceptor.setSessionFactory(org.hibernate.SessionFactory)",
+            "public void setSessionFactory(org.hibernate.SessionFactory)"
+        ],
+        [
+            "org.hibernate.SessionFactory",
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewInterceptor.getSessionFactory()",
+            "public org.hibernate.SessionFactory getSessionFactory()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewInterceptor.preHandle(org.springframework.web.context.request.WebRequest)",
+            "public void preHandle(org.springframework.web.context.request.WebRequest) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewInterceptor.postHandle(org.springframework.web.context.request.WebRequest, org.springframework.ui.ModelMap)",
+            "public void postHandle(org.springframework.web.context.request.WebRequest, org.springframework.ui.ModelMap)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewInterceptor.afterCompletion(org.springframework.web.context.request.WebRequest, java.lang.Exception)",
+            "public void afterCompletion(org.springframework.web.context.request.WebRequest, java.lang.Exception) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewInterceptor.afterConcurrentHandlingStarted(org.springframework.web.context.request.WebRequest)",
+            "public void afterConcurrentHandlingStarted(org.springframework.web.context.request.WebRequest)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor(org.hibernate.SessionFactory, org.springframework.orm.hibernate5.SessionHolder)",
+            "public org.springframework.orm.hibernate5.support.AsyncRequestInterceptor(org.hibernate.SessionFactory, org.springframework.orm.hibernate5.SessionHolder)"
+        ],
+        [
+            "<T> void",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor.preProcess(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)",
+            "public <T> void preProcess(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor.bindSession()",
+            "public void bindSession()"
+        ],
+        [
+            "<T> void",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor.postProcess(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>, java.lang.Object)",
+            "public <T> void postProcess(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>, java.lang.Object)"
+        ],
+        [
+            "<T> java.lang.Object",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor.handleTimeout(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)",
+            "public <T> java.lang.Object handleTimeout(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)"
+        ],
+        [
+            "<T> java.lang.Object",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor.handleError(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>, java.lang.Throwable)",
+            "public <T> java.lang.Object handleError(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>, java.lang.Throwable)"
+        ],
+        [
+            "<T> void",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor.afterCompletion(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>)",
+            "public <T> void afterCompletion(org.springframework.web.context.request.NativeWebRequest, java.util.concurrent.Callable<T>) throws java.lang.Exception"
+        ],
+        [
+            "<T> boolean",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor.handleTimeout(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>)",
+            "public <T> boolean handleTimeout(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>)"
+        ],
+        [
+            "<T> boolean",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor.handleError(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>, java.lang.Throwable)",
+            "public <T> boolean handleError(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>, java.lang.Throwable)"
+        ],
+        [
+            "<T> void",
+            "org.springframework.orm.hibernate5.support.AsyncRequestInterceptor.afterCompletion(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>)",
+            "public <T> void afterCompletion(org.springframework.web.context.request.NativeWebRequest, org.springframework.web.context.request.async.DeferredResult<T>)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewFilter",
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewFilter()",
+            "public org.springframework.orm.hibernate5.support.OpenSessionInViewFilter()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.OpenSessionInViewFilter.setSessionFactoryBeanName(java.lang.String)",
+            "public void setSessionFactoryBeanName(java.lang.String)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.support.HibernateDaoSupport",
+            "org.springframework.orm.hibernate5.support.HibernateDaoSupport()",
+            "public org.springframework.orm.hibernate5.support.HibernateDaoSupport()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.HibernateDaoSupport.setSessionFactory(org.hibernate.SessionFactory)",
+            "public final void setSessionFactory(org.hibernate.SessionFactory)"
+        ],
+        [
+            "org.hibernate.SessionFactory",
+            "org.springframework.orm.hibernate5.support.HibernateDaoSupport.getSessionFactory()",
+            "public final org.hibernate.SessionFactory getSessionFactory()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.HibernateDaoSupport.setHibernateTemplate(org.springframework.orm.hibernate5.HibernateTemplate)",
+            "public final void setHibernateTemplate(org.springframework.orm.hibernate5.HibernateTemplate)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateTemplate",
+            "org.springframework.orm.hibernate5.support.HibernateDaoSupport.getHibernateTemplate()",
+            "public final org.springframework.orm.hibernate5.HibernateTemplate getHibernateTemplate()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.support.OpenSessionInterceptor",
+            "org.springframework.orm.hibernate5.support.OpenSessionInterceptor()",
+            "public org.springframework.orm.hibernate5.support.OpenSessionInterceptor()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.OpenSessionInterceptor.setSessionFactory(org.hibernate.SessionFactory)",
+            "public void setSessionFactory(org.hibernate.SessionFactory)"
+        ],
+        [
+            "org.hibernate.SessionFactory",
+            "org.springframework.orm.hibernate5.support.OpenSessionInterceptor.getSessionFactory()",
+            "public org.hibernate.SessionFactory getSessionFactory()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.support.OpenSessionInterceptor.afterPropertiesSet()",
+            "public void afterPropertiesSet()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.support.OpenSessionInterceptor.invoke(org.aopalliance.intercept.MethodInvocation)",
+            "public java.lang.Object invoke(org.aopalliance.intercept.MethodInvocation) throws java.lang.Throwable"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder(javax.sql.DataSource)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder(javax.sql.DataSource)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder(javax.sql.DataSource, java.lang.ClassLoader)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder(javax.sql.DataSource, java.lang.ClassLoader)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder(javax.sql.DataSource, org.springframework.core.io.ResourceLoader)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder(javax.sql.DataSource, org.springframework.core.io.ResourceLoader)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder(javax.sql.DataSource, org.springframework.core.io.ResourceLoader, org.hibernate.boot.MetadataSources)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder(javax.sql.DataSource, org.springframework.core.io.ResourceLoader, org.hibernate.boot.MetadataSources)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.setJtaTransactionManager(java.lang.Object)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder setJtaTransactionManager(java.lang.Object)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.setBeanContainer(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder setBeanContainer(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.setCacheRegionFactory(org.hibernate.cache.spi.RegionFactory)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder setCacheRegionFactory(org.hibernate.cache.spi.RegionFactory)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.setMultiTenantConnectionProvider(org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder setMultiTenantConnectionProvider(org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.setCurrentTenantIdentifierResolver(org.hibernate.context.spi.CurrentTenantIdentifierResolver)",
+            "public void setCurrentTenantIdentifierResolver(org.hibernate.context.spi.CurrentTenantIdentifierResolver)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.setEntityTypeFilters(org.springframework.core.type.filter.TypeFilter...)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder setEntityTypeFilters(org.springframework.core.type.filter.TypeFilter...)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.addAnnotatedClasses(java.lang.Class<?>...)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder addAnnotatedClasses(java.lang.Class<?>...)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.addPackages(java.lang.String...)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder addPackages(java.lang.String...)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.scanPackages(java.lang.String...)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder scanPackages(java.lang.String...) throws org.hibernate.HibernateException"
+        ],
+        [
+            "org.hibernate.SessionFactory",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder.buildSessionFactory(org.springframework.core.task.AsyncTaskExecutor)",
+            "public org.hibernate.SessionFactory buildSessionFactory(org.springframework.core.task.AsyncTaskExecutor)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateJdbcException",
+            "org.springframework.orm.hibernate5.HibernateJdbcException(org.hibernate.JDBCException)",
+            "public org.springframework.orm.hibernate5.HibernateJdbcException(org.hibernate.JDBCException)"
+        ],
+        [
+            "java.sql.SQLException",
+            "org.springframework.orm.hibernate5.HibernateJdbcException.getSQLException()",
+            "public java.sql.SQLException getSQLException()"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.hibernate5.HibernateJdbcException.getSql()",
+            "public java.lang.String getSql()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateTemplate",
+            "org.springframework.orm.hibernate5.HibernateTemplate()",
+            "public org.springframework.orm.hibernate5.HibernateTemplate()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateTemplate",
+            "org.springframework.orm.hibernate5.HibernateTemplate(org.hibernate.SessionFactory)",
+            "public org.springframework.orm.hibernate5.HibernateTemplate(org.hibernate.SessionFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.setSessionFactory(org.hibernate.SessionFactory)",
+            "public void setSessionFactory(org.hibernate.SessionFactory)"
+        ],
+        [
+            "org.hibernate.SessionFactory",
+            "org.springframework.orm.hibernate5.HibernateTemplate.getSessionFactory()",
+            "public org.hibernate.SessionFactory getSessionFactory()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.setFilterNames(java.lang.String...)",
+            "public void setFilterNames(java.lang.String...)"
+        ],
+        [
+            "java.lang.String[]",
+            "org.springframework.orm.hibernate5.HibernateTemplate.getFilterNames()",
+            "public java.lang.String[] getFilterNames()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.setExposeNativeSession(boolean)",
+            "public void setExposeNativeSession(boolean)"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTemplate.isExposeNativeSession()",
+            "public boolean isExposeNativeSession()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.setCheckWriteOperations(boolean)",
+            "public void setCheckWriteOperations(boolean)"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTemplate.isCheckWriteOperations()",
+            "public boolean isCheckWriteOperations()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.setCacheQueries(boolean)",
+            "public void setCacheQueries(boolean)"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTemplate.isCacheQueries()",
+            "public boolean isCacheQueries()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.setQueryCacheRegion(java.lang.String)",
+            "public void setQueryCacheRegion(java.lang.String)"
+        ],
+        [
+            "java.lang.String",
+            "org.springframework.orm.hibernate5.HibernateTemplate.getQueryCacheRegion()",
+            "public java.lang.String getQueryCacheRegion()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.setFetchSize(int)",
+            "public void setFetchSize(int)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.hibernate5.HibernateTemplate.getFetchSize()",
+            "public int getFetchSize()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.setMaxResults(int)",
+            "public void setMaxResults(int)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.hibernate5.HibernateTemplate.getMaxResults()",
+            "public int getMaxResults()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.afterPropertiesSet()",
+            "public void afterPropertiesSet()"
+        ],
+        [
+            "<T> T",
+            "org.springframework.orm.hibernate5.HibernateTemplate.execute(org.springframework.orm.hibernate5.HibernateCallback<T>)",
+            "public <T> T execute(org.springframework.orm.hibernate5.HibernateCallback<T>) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> T",
+            "org.springframework.orm.hibernate5.HibernateTemplate.executeWithNativeSession(org.springframework.orm.hibernate5.HibernateCallback<T>)",
+            "public <T> T executeWithNativeSession(org.springframework.orm.hibernate5.HibernateCallback<T>)"
+        ],
+        [
+            "<T> T",
+            "org.springframework.orm.hibernate5.HibernateTemplate.get(java.lang.Class<T>, java.io.Serializable)",
+            "public <T> T get(java.lang.Class<T>, java.io.Serializable) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> T",
+            "org.springframework.orm.hibernate5.HibernateTemplate.get(java.lang.Class<T>, java.io.Serializable, org.hibernate.LockMode)",
+            "public <T> T get(java.lang.Class<T>, java.io.Serializable, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.HibernateTemplate.get(java.lang.String, java.io.Serializable)",
+            "public java.lang.Object get(java.lang.String, java.io.Serializable) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.HibernateTemplate.get(java.lang.String, java.io.Serializable, org.hibernate.LockMode)",
+            "public java.lang.Object get(java.lang.String, java.io.Serializable, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> T",
+            "org.springframework.orm.hibernate5.HibernateTemplate.load(java.lang.Class<T>, java.io.Serializable)",
+            "public <T> T load(java.lang.Class<T>, java.io.Serializable) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> T",
+            "org.springframework.orm.hibernate5.HibernateTemplate.load(java.lang.Class<T>, java.io.Serializable, org.hibernate.LockMode)",
+            "public <T> T load(java.lang.Class<T>, java.io.Serializable, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.HibernateTemplate.load(java.lang.String, java.io.Serializable)",
+            "public java.lang.Object load(java.lang.String, java.io.Serializable) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.HibernateTemplate.load(java.lang.String, java.io.Serializable, org.hibernate.LockMode)",
+            "public java.lang.Object load(java.lang.String, java.io.Serializable, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> java.util.List<T>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.loadAll(java.lang.Class<T>)",
+            "public <T> java.util.List<T> loadAll(java.lang.Class<T>) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.load(java.lang.Object, java.io.Serializable)",
+            "public void load(java.lang.Object, java.io.Serializable) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.refresh(java.lang.Object)",
+            "public void refresh(java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.refresh(java.lang.Object, org.hibernate.LockMode)",
+            "public void refresh(java.lang.Object, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTemplate.contains(java.lang.Object)",
+            "public boolean contains(java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.evict(java.lang.Object)",
+            "public void evict(java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.initialize(java.lang.Object)",
+            "public void initialize(java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "org.hibernate.Filter",
+            "org.springframework.orm.hibernate5.HibernateTemplate.enableFilter(java.lang.String)",
+            "public org.hibernate.Filter enableFilter(java.lang.String) throws java.lang.IllegalStateException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.lock(java.lang.Object, org.hibernate.LockMode)",
+            "public void lock(java.lang.Object, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.lock(java.lang.String, java.lang.Object, org.hibernate.LockMode)",
+            "public void lock(java.lang.String, java.lang.Object, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.io.Serializable",
+            "org.springframework.orm.hibernate5.HibernateTemplate.save(java.lang.Object)",
+            "public java.io.Serializable save(java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.io.Serializable",
+            "org.springframework.orm.hibernate5.HibernateTemplate.save(java.lang.String, java.lang.Object)",
+            "public java.io.Serializable save(java.lang.String, java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.update(java.lang.Object)",
+            "public void update(java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.update(java.lang.Object, org.hibernate.LockMode)",
+            "public void update(java.lang.Object, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.update(java.lang.String, java.lang.Object)",
+            "public void update(java.lang.String, java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.update(java.lang.String, java.lang.Object, org.hibernate.LockMode)",
+            "public void update(java.lang.String, java.lang.Object, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.saveOrUpdate(java.lang.Object)",
+            "public void saveOrUpdate(java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.saveOrUpdate(java.lang.String, java.lang.Object)",
+            "public void saveOrUpdate(java.lang.String, java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.replicate(java.lang.Object, org.hibernate.ReplicationMode)",
+            "public void replicate(java.lang.Object, org.hibernate.ReplicationMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.replicate(java.lang.String, java.lang.Object, org.hibernate.ReplicationMode)",
+            "public void replicate(java.lang.String, java.lang.Object, org.hibernate.ReplicationMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.persist(java.lang.Object)",
+            "public void persist(java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.persist(java.lang.String, java.lang.Object)",
+            "public void persist(java.lang.String, java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> T",
+            "org.springframework.orm.hibernate5.HibernateTemplate.merge(T)",
+            "public <T> T merge(T) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> T",
+            "org.springframework.orm.hibernate5.HibernateTemplate.merge(java.lang.String, T)",
+            "public <T> T merge(java.lang.String, T) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.delete(java.lang.Object)",
+            "public void delete(java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.delete(java.lang.Object, org.hibernate.LockMode)",
+            "public void delete(java.lang.Object, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.delete(java.lang.String, java.lang.Object)",
+            "public void delete(java.lang.String, java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.delete(java.lang.String, java.lang.Object, org.hibernate.LockMode)",
+            "public void delete(java.lang.String, java.lang.Object, org.hibernate.LockMode) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.deleteAll(java.util.Collection<?>)",
+            "public void deleteAll(java.util.Collection<?>) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.flush()",
+            "public void flush() throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.clear()",
+            "public void clear() throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByCriteria(org.hibernate.criterion.DetachedCriteria)",
+            "public java.util.List<?> findByCriteria(org.hibernate.criterion.DetachedCriteria) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByCriteria(org.hibernate.criterion.DetachedCriteria, int, int)",
+            "public java.util.List<?> findByCriteria(org.hibernate.criterion.DetachedCriteria, int, int) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> java.util.List<T>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByExample(T)",
+            "public <T> java.util.List<T> findByExample(T) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> java.util.List<T>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByExample(java.lang.String, T)",
+            "public <T> java.util.List<T> findByExample(java.lang.String, T) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> java.util.List<T>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByExample(T, int, int)",
+            "public <T> java.util.List<T> findByExample(T, int, int) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "<T> java.util.List<T>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByExample(java.lang.String, T, int, int)",
+            "public <T> java.util.List<T> findByExample(java.lang.String, T, int, int) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.find(java.lang.String, java.lang.Object...)",
+            "public java.util.List<?> find(java.lang.String, java.lang.Object...) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByNamedParam(java.lang.String, java.lang.String, java.lang.Object)",
+            "public java.util.List<?> findByNamedParam(java.lang.String, java.lang.String, java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByNamedParam(java.lang.String, java.lang.String[], java.lang.Object[])",
+            "public java.util.List<?> findByNamedParam(java.lang.String, java.lang.String[], java.lang.Object[]) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByValueBean(java.lang.String, java.lang.Object)",
+            "public java.util.List<?> findByValueBean(java.lang.String, java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByNamedQuery(java.lang.String, java.lang.Object...)",
+            "public java.util.List<?> findByNamedQuery(java.lang.String, java.lang.Object...) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByNamedQueryAndNamedParam(java.lang.String, java.lang.String, java.lang.Object)",
+            "public java.util.List<?> findByNamedQueryAndNamedParam(java.lang.String, java.lang.String, java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByNamedQueryAndNamedParam(java.lang.String, java.lang.String[], java.lang.Object[])",
+            "public java.util.List<?> findByNamedQueryAndNamedParam(java.lang.String, java.lang.String[], java.lang.Object[]) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.List<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.findByNamedQueryAndValueBean(java.lang.String, java.lang.Object)",
+            "public java.util.List<?> findByNamedQueryAndValueBean(java.lang.String, java.lang.Object) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "java.util.Iterator<?>",
+            "org.springframework.orm.hibernate5.HibernateTemplate.iterate(java.lang.String, java.lang.Object...)",
+            "public java.util.Iterator<?> iterate(java.lang.String, java.lang.Object...) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTemplate.closeIterator(java.util.Iterator<?>)",
+            "public void closeIterator(java.util.Iterator<?>) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "int",
+            "org.springframework.orm.hibernate5.HibernateTemplate.bulkUpdate(java.lang.String, java.lang.Object...)",
+            "public int bulkUpdate(java.lang.String, java.lang.Object...) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SpringFlushSynchronization",
+            "org.springframework.orm.hibernate5.SpringFlushSynchronization(org.hibernate.Session)",
+            "public org.springframework.orm.hibernate5.SpringFlushSynchronization(org.hibernate.Session)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringFlushSynchronization.flush()",
+            "public void flush()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.SpringFlushSynchronization.equals(java.lang.Object)",
+            "public boolean equals(java.lang.Object)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.hibernate5.SpringFlushSynchronization.hashCode()",
+            "public int hashCode()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SpringBeanContainer$SpringContainedBean",
+            "org.springframework.orm.hibernate5.SpringBeanContainer$SpringContainedBean(B)",
+            "public org.springframework.orm.hibernate5.SpringBeanContainer$SpringContainedBean(B)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SpringBeanContainer$SpringContainedBean",
+            "org.springframework.orm.hibernate5.SpringBeanContainer$SpringContainedBean(B, java.util.function.Consumer<B>)",
+            "public org.springframework.orm.hibernate5.SpringBeanContainer$SpringContainedBean(B, java.util.function.Consumer<B>)"
+        ],
+        [
+            "B",
+            "org.springframework.orm.hibernate5.SpringBeanContainer$SpringContainedBean.getBeanInstance()",
+            "public B getBeanInstance()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringBeanContainer$SpringContainedBean.destroyIfNecessary()",
+            "public void destroyIfNecessary()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean()",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBean()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setDataSource(javax.sql.DataSource)",
+            "public void setDataSource(javax.sql.DataSource)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setConfigLocation(org.springframework.core.io.Resource)",
+            "public void setConfigLocation(org.springframework.core.io.Resource)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setConfigLocations(org.springframework.core.io.Resource...)",
+            "public void setConfigLocations(org.springframework.core.io.Resource...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setMappingResources(java.lang.String...)",
+            "public void setMappingResources(java.lang.String...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setMappingLocations(org.springframework.core.io.Resource...)",
+            "public void setMappingLocations(org.springframework.core.io.Resource...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setCacheableMappingLocations(org.springframework.core.io.Resource...)",
+            "public void setCacheableMappingLocations(org.springframework.core.io.Resource...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setMappingJarLocations(org.springframework.core.io.Resource...)",
+            "public void setMappingJarLocations(org.springframework.core.io.Resource...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setMappingDirectoryLocations(org.springframework.core.io.Resource...)",
+            "public void setMappingDirectoryLocations(org.springframework.core.io.Resource...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setEntityInterceptor(org.hibernate.Interceptor)",
+            "public void setEntityInterceptor(org.hibernate.Interceptor)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setImplicitNamingStrategy(org.hibernate.boot.model.naming.ImplicitNamingStrategy)",
+            "public void setImplicitNamingStrategy(org.hibernate.boot.model.naming.ImplicitNamingStrategy)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setPhysicalNamingStrategy(org.hibernate.boot.model.naming.PhysicalNamingStrategy)",
+            "public void setPhysicalNamingStrategy(org.hibernate.boot.model.naming.PhysicalNamingStrategy)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setJtaTransactionManager(java.lang.Object)",
+            "public void setJtaTransactionManager(java.lang.Object)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setCacheRegionFactory(org.hibernate.cache.spi.RegionFactory)",
+            "public void setCacheRegionFactory(org.hibernate.cache.spi.RegionFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setMultiTenantConnectionProvider(org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider)",
+            "public void setMultiTenantConnectionProvider(org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setCurrentTenantIdentifierResolver(org.hibernate.context.spi.CurrentTenantIdentifierResolver)",
+            "public void setCurrentTenantIdentifierResolver(org.hibernate.context.spi.CurrentTenantIdentifierResolver)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setHibernateProperties(java.util.Properties)",
+            "public void setHibernateProperties(java.util.Properties)"
+        ],
+        [
+            "java.util.Properties",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.getHibernateProperties()",
+            "public java.util.Properties getHibernateProperties()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setEntityTypeFilters(org.springframework.core.type.filter.TypeFilter...)",
+            "public void setEntityTypeFilters(org.springframework.core.type.filter.TypeFilter...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setAnnotatedClasses(java.lang.Class<?>...)",
+            "public void setAnnotatedClasses(java.lang.Class<?>...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setAnnotatedPackages(java.lang.String...)",
+            "public void setAnnotatedPackages(java.lang.String...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setPackagesToScan(java.lang.String...)",
+            "public void setPackagesToScan(java.lang.String...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setBootstrapExecutor(org.springframework.core.task.AsyncTaskExecutor)",
+            "public void setBootstrapExecutor(org.springframework.core.task.AsyncTaskExecutor)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setHibernateIntegrators(org.hibernate.integrator.spi.Integrator...)",
+            "public void setHibernateIntegrators(org.hibernate.integrator.spi.Integrator...)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setMetadataSources(org.hibernate.boot.MetadataSources)",
+            "public void setMetadataSources(org.hibernate.boot.MetadataSources)"
+        ],
+        [
+            "org.hibernate.boot.MetadataSources",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.getMetadataSources()",
+            "public org.hibernate.boot.MetadataSources getMetadataSources()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setResourceLoader(org.springframework.core.io.ResourceLoader)",
+            "public void setResourceLoader(org.springframework.core.io.ResourceLoader)"
+        ],
+        [
+            "org.springframework.core.io.ResourceLoader",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.getResourceLoader()",
+            "public org.springframework.core.io.ResourceLoader getResourceLoader()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.setBeanFactory(org.springframework.beans.factory.BeanFactory)",
+            "public void setBeanFactory(org.springframework.beans.factory.BeanFactory)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet()",
+            "public void afterPropertiesSet() throws java.io.IOException"
+        ],
+        [
+            "org.hibernate.cfg.Configuration",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.getConfiguration()",
+            "public final org.hibernate.cfg.Configuration getConfiguration()"
+        ],
+        [
+            "org.hibernate.SessionFactory",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.getObject()",
+            "public org.hibernate.SessionFactory getObject()"
+        ],
+        [
+            "java.lang.Class<?>",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.getObjectType()",
+            "public java.lang.Class<?> getObjectType()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.isSingleton()",
+            "public boolean isSingleton()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.destroy()",
+            "public void destroy()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBean.getObject()",
+            "public java.lang.Object getObject() throws java.lang.Exception"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateSystemException",
+            "org.springframework.orm.hibernate5.HibernateSystemException(org.hibernate.HibernateException)",
+            "public org.springframework.orm.hibernate5.HibernateSystemException(org.hibernate.HibernateException)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.ConfigurableJtaPlatform",
+            "org.springframework.orm.hibernate5.ConfigurableJtaPlatform(javax.transaction.TransactionManager, javax.transaction.UserTransaction, javax.transaction.TransactionSynchronizationRegistry)",
+            "public org.springframework.orm.hibernate5.ConfigurableJtaPlatform(javax.transaction.TransactionManager, javax.transaction.UserTransaction, javax.transaction.TransactionSynchronizationRegistry)"
+        ],
+        [
+            "javax.transaction.TransactionManager",
+            "org.springframework.orm.hibernate5.ConfigurableJtaPlatform.retrieveTransactionManager()",
+            "public javax.transaction.TransactionManager retrieveTransactionManager()"
+        ],
+        [
+            "javax.transaction.UserTransaction",
+            "org.springframework.orm.hibernate5.ConfigurableJtaPlatform.retrieveUserTransaction()",
+            "public javax.transaction.UserTransaction retrieveUserTransaction()"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.ConfigurableJtaPlatform.getTransactionIdentifier(javax.transaction.Transaction)",
+            "public java.lang.Object getTransactionIdentifier(javax.transaction.Transaction)"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.ConfigurableJtaPlatform.canRegisterSynchronization()",
+            "public boolean canRegisterSynchronization()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.ConfigurableJtaPlatform.registerSynchronization(javax.transaction.Synchronization)",
+            "public void registerSynchronization(javax.transaction.Synchronization)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.hibernate5.ConfigurableJtaPlatform.getCurrentStatus()",
+            "public int getCurrentStatus() throws javax.transaction.SystemException"
+        ],
+        [
+            "org.springframework.orm.hibernate5.HibernateTemplate$CloseSuppressingInvocationHandler",
+            "org.springframework.orm.hibernate5.HibernateTemplate$CloseSuppressingInvocationHandler(org.springframework.orm.hibernate5.HibernateTemplate, org.hibernate.Session)",
+            "public org.springframework.orm.hibernate5.HibernateTemplate$CloseSuppressingInvocationHandler(org.springframework.orm.hibernate5.HibernateTemplate, org.hibernate.Session)"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.HibernateTemplate$CloseSuppressingInvocationHandler.invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])",
+            "public java.lang.Object invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) throws java.lang.Throwable"
+        ],
+        [
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder$BootstrapSessionFactoryInvocationHandler",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder$BootstrapSessionFactoryInvocationHandler(org.springframework.orm.hibernate5.LocalSessionFactoryBuilder, org.springframework.core.task.AsyncTaskExecutor)",
+            "public org.springframework.orm.hibernate5.LocalSessionFactoryBuilder$BootstrapSessionFactoryInvocationHandler(org.springframework.orm.hibernate5.LocalSessionFactoryBuilder, org.springframework.core.task.AsyncTaskExecutor)"
+        ],
+        [
+            "java.lang.Object",
+            "org.springframework.orm.hibernate5.LocalSessionFactoryBuilder$BootstrapSessionFactoryInvocationHandler.invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])",
+            "public java.lang.Object invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[]) throws java.lang.Throwable"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.setSession(org.hibernate.Session)",
+            "public void setSession(org.hibernate.Session)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.setExistingSession(org.hibernate.Session)",
+            "public void setExistingSession(org.hibernate.Session)"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.setSessionHolder(org.springframework.orm.hibernate5.SessionHolder)",
+            "public void setSessionHolder(org.springframework.orm.hibernate5.SessionHolder)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SessionHolder",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.getSessionHolder()",
+            "public org.springframework.orm.hibernate5.SessionHolder getSessionHolder()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.hasSessionHolder()",
+            "public boolean hasSessionHolder()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.isNewSessionHolder()",
+            "public boolean isNewSessionHolder()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.isNewSession()",
+            "public boolean isNewSession()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.connectionPrepared()",
+            "public void connectionPrepared()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.needsConnectionReset()",
+            "public boolean needsConnectionReset()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.setPreviousHoldability(java.lang.Integer)",
+            "public void setPreviousHoldability(java.lang.Integer)"
+        ],
+        [
+            "java.lang.Integer",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.getPreviousHoldability()",
+            "public java.lang.Integer getPreviousHoldability()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.hasSpringManagedTransaction()",
+            "public boolean hasSpringManagedTransaction()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.hasHibernateManagedTransaction()",
+            "public boolean hasHibernateManagedTransaction()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.setRollbackOnly()",
+            "public void setRollbackOnly()"
+        ],
+        [
+            "boolean",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.isRollbackOnly()",
+            "public boolean isRollbackOnly()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.HibernateTransactionManager$HibernateTransactionObject.flush()",
+            "public void flush()"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SpringSessionContext",
+            "org.springframework.orm.hibernate5.SpringSessionContext(org.hibernate.engine.spi.SessionFactoryImplementor)",
+            "public org.springframework.orm.hibernate5.SpringSessionContext(org.hibernate.engine.spi.SessionFactoryImplementor)"
+        ],
+        [
+            "org.hibernate.Session",
+            "org.springframework.orm.hibernate5.SpringSessionContext.currentSession()",
+            "public org.hibernate.Session currentSession() throws org.hibernate.HibernateException"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization(org.springframework.orm.hibernate5.SessionHolder, org.hibernate.SessionFactory)",
+            "public org.springframework.orm.hibernate5.SpringSessionSynchronization(org.springframework.orm.hibernate5.SessionHolder, org.hibernate.SessionFactory)"
+        ],
+        [
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization(org.springframework.orm.hibernate5.SessionHolder, org.hibernate.SessionFactory, boolean)",
+            "public org.springframework.orm.hibernate5.SpringSessionSynchronization(org.springframework.orm.hibernate5.SessionHolder, org.hibernate.SessionFactory, boolean)"
+        ],
+        [
+            "int",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization.getOrder()",
+            "public int getOrder()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization.suspend()",
+            "public void suspend()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization.resume()",
+            "public void resume()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization.flush()",
+            "public void flush()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization.beforeCommit(boolean)",
+            "public void beforeCommit(boolean) throws org.springframework.dao.DataAccessException"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization.beforeCompletion()",
+            "public void beforeCompletion()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization.afterCommit()",
+            "public void afterCommit()"
+        ],
+        [
+            "void",
+            "org.springframework.orm.hibernate5.SpringSessionSynchronization.afterCompletion(int)",
+            "public void afterCompletion(int)"
+        ]
+    ]
+}
